@@ -13,6 +13,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      build_id: ${{ steps.package.outputs.build_id }}
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-python@v6
@@ -23,7 +25,11 @@ jobs:
         with:
           node-version: '24'
       - run: python -m pip install -r requirements.txt
-      - run: python scripts/build.py
+      - name: Build the rulebook
+        id: package
+        run: |
+          python scripts/build.py
+          python -c "import json; print('build_id=' + json.load(open('dist/build.json'))['build'])" >> "$GITHUB_OUTPUT"
       - run: node --test tests/*.test.mjs
       - run: python scripts/verify.py
       - uses: actions/configure-pages@v5
@@ -40,3 +46,9 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+      - uses: actions/checkout@v6
+      - name: Verify the public release
+        env:
+          SITE_URL: ${{ steps.deployment.outputs.page_url }}
+          EXPECTED_BUILD: ${{ needs.build.outputs.build_id }}
+        run: python scripts/verify_deployed.py "$SITE_URL" "$EXPECTED_BUILD"
