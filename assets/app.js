@@ -1,0 +1,60 @@
+import{prepareIndex,search,queryTerms,hit,excerpt}from'./search.js';
+const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
+const escapeHtml=s=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function marked(text,terms){return text.split(/([А-Яа-яЁёA-Za-z0-9]+)/g).map(t=>hit(t,terms)?'<mark>'+escapeHtml(t)+'</mark>':escapeHtml(t)).join('');}
+const dialog=$('.chapter-dialog');let opener;
+$$('[data-open-chapters]').forEach(b=>b.addEventListener('click',()=>{opener=b;dialog.showModal();$('.dialog-close',dialog).focus();}));
+$('.dialog-close')?.addEventListener('click',()=>dialog.close());
+dialog?.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});
+dialog?.addEventListener('close',()=>opener?.focus());
+document.addEventListener('keydown',e=>{if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='k'){e.preventDefault();$('.top-search input')?.focus();}});
+const queryInput=$('#rule-query');
+if(queryInput){
+  let docsPromise=null,timer,seq=0;
+  const load=()=>docsPromise||(docsPromise=fetch('assets/search-index.json').then(r=>{if(!r.ok)throw new Error('index');return r.json();}).then(prepareIndex).catch(e=>{docsPromise=null;throw e;}));
+  async function run(){const runId=++seq,q=queryInput.value.trim(),terms=queryTerms(q);const info=$('#search-info'),target=$('#search-content');
+    const locationUrl=new URL(location.href);q?locationUrl.searchParams.set('q',q):locationUrl.searchParams.delete('q');history.replaceState(null,'',locationUrl);
+    if(!q){target.removeAttribute('aria-busy');info.textContent='Ищем по тексту, таблицам и обозначениям.';target.innerHTML='<p>Попробуйте название правила, игровой термин или сокращение.</p><div class="search-suggestions">'+['Тест брони','гранаты','ББ','ремонт','паника'].map(x=>'<a class="button secondary" href="search.html?q='+encodeURIComponent(x)+'">'+escapeHtml(x)+'</a>').join('')+'</div>';return;}
+    info.textContent='Ищем…';target.setAttribute('aria-busy','true');
+    try{
+      const docs=await load();if(runId!==seq)return;const results=search(docs,q);
+      info.textContent=results.length?'Найдено разделов: '+results.length+(results.some(x=>x.fuzzy)?' · включая близкие совпадения':''):'По запросу «'+q+'» ничего не найдено';
+      target.innerHTML=results.length?'<ol class="search-results">'+results.slice(0,50).map(r=>'<li class="search-result"><div class="search-path">'+String(r.number).padStart(2,'0')+' · '+escapeHtml(r.chapter)+'</div><h2><a href="'+r.url.split('#')[0]+'?highlight='+encodeURIComponent(q)+'#'+r.url.split('#')[1]+'">'+marked(r.title,terms)+'</a></h2><p>'+marked(excerpt(r.text,terms),terms)+'</p></li>').join('')+'</ol>':'<p>Попробуйте более короткий запрос или другое название. Например: «броня», «Д12», «ББ», «прыжок».</p><a href="index.html">Открыть оглавление</a>';
+    }catch(e){if(runId!==seq)return;info.textContent='Не удалось загрузить поиск';target.innerHTML='<p>Проверьте соединение или дождитесь сохранения офлайн-версии.</p><button class="button secondary" id="retry-search">Повторить</button>';$('#retry-search').addEventListener('click',run);}
+    finally{if(runId===seq)target.removeAttribute('aria-busy');}
+  }
+  queryInput.value=new URLSearchParams(location.search).get('q')||'';
+  $('.search-form').addEventListener('submit',e=>{e.preventDefault();clearTimeout(timer);run();});queryInput.addEventListener('input',()=>{clearTimeout(timer);timer=setTimeout(run,140);});run();
+}
+const highlighted=new URLSearchParams(location.search).get('highlight');
+if(highlighted){
+  const terms=queryTerms(highlighted);const walker=document.createTreeWalker($('.article')||document.createElement('div'),NodeFilter.SHOW_TEXT);const nodes=[];let node;
+  while(node=walker.nextNode())if(node.parentElement&&!['SCRIPT','STYLE','MARK'].includes(node.parentElement.tagName)&&node.textContent.trim())nodes.push(node);
+  for(const n of nodes){const value=n.textContent;const html=marked(value,terms);if(html.includes('<mark>')){const span=document.createElement('span');span.innerHTML=html;n.replaceWith(...span.childNodes);}}
+}
+const sections=$$('.rule-section');
+if(sections.length){
+  const observer=new IntersectionObserver(entries=>{const visible=entries.filter(e=>e.isIntersecting);if(!visible.length)return;const id=visible[0].target.id;$$('.local-toc a').forEach(a=>{const active=a.hash==='#'+id;a.classList.toggle('active',active);if(active)a.setAttribute('aria-current','location');else a.removeAttribute('aria-current');});},{rootMargin:'-145px 0px -55% 0px'});sections.forEach(s=>observer.observe(s));
+}
+let registration,hadController=!!navigator.serviceWorker?.controller,reloading=false;
+function offlineText(text){$$('[data-offline]').forEach(el=>el.textContent=text);}
+function failure(){offlineText('Офлайн-версия пока не сохранена');$$('[data-retry]').forEach(b=>b.hidden=false);}
+async function setupOffline(){
+  if(!('serviceWorker'in navigator)){offlineText('Для чтения без сети скачайте PDF');return;}
+  // A saved release is available even while the browser waits for an update network request.
+  navigator.serviceWorker.controller?.postMessage({type:'STATUS'});
+  try{
+    registration=await navigator.serviceWorker.register('sw.js',{updateViaCache:'none'});
+    function waiting(){if(registration.waiting&&navigator.serviceWorker.controller)$('.update-banner').hidden=false;}
+    waiting();registration.addEventListener('updatefound',()=>{const worker=registration.installing;worker?.addEventListener('statechange',()=>{if(worker.state==='installed'){waiting();if(!navigator.serviceWorker.controller)navigator.serviceWorker.ready.then(r=>r.active?.postMessage({type:'STATUS'}));}if(worker.state==='redundant'&&!navigator.serviceWorker.controller)failure();});});
+    const ready=await navigator.serviceWorker.ready;ready.active?.postMessage({type:'STATUS'});
+    registration.update().catch(()=>{});
+  }catch{if(!navigator.serviceWorker.controller)failure();}
+}
+navigator.serviceWorker?.addEventListener('message',e=>{if(e.data?.type==='OFFLINE_STATUS'&&e.data.ready){offlineText('Доступно без интернета · '+e.data.version);$$('[data-retry]').forEach(b=>b.hidden=true);}});
+navigator.serviceWorker?.addEventListener('controllerchange',()=>{if(hadController&&!reloading){reloading=true;location.reload();}else{hadController=true;navigator.serviceWorker.controller?.postMessage({type:'STATUS'});}});
+$$('[data-retry]').forEach(b=>b.addEventListener('click',()=>{offlineText('Сохранение для чтения без интернета…');b.hidden=true;setupOffline();}));
+$('[data-update]')?.addEventListener('click',()=>{if(registration?.waiting){$('[data-update]').disabled=true;registration.waiting.postMessage({type:'ACTIVATE'});}});
+$('[data-dismiss]')?.addEventListener('click',()=>$('.update-banner').hidden=true);
+window.addEventListener('online',()=>registration?.update().catch(()=>{}));
+setupOffline();

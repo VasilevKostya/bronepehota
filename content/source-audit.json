@@ -1,0 +1,657 @@
+{
+  "omitted": [
+    {
+      "source": 44,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 46,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 58,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 81,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 99,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 101,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 110,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 136,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 144,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 168,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 178,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 191,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 204,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 206,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 221,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 228,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 251,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 253,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 267,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 278,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 287,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 297,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 308,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 325,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 338,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 354,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 362,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 375,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 390,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 393,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 405,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 421,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 438,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 457,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 469,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 486,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 499,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 515,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 529,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 539,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 562,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 572,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 585,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 595,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 601,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 603,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 618,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 631,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 640,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 654,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 664,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 683,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 697,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 699,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 710,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 723,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 737,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 748,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 758,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 773,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 787,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 804,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 806,
+      "reason": "page number, running chapter label or graphic punctuation"
+    },
+    {
+      "source": 815,
+      "reason": "page number, running chapter label or graphic punctuation"
+    }
+  ],
+  "corrections": [
+    {
+      "source": 60,
+      "before": "Кроме армий, для игры вам понадобится набор кубиков (6-ти, 12-ти и 20- ти гранных), а также линейка дляизмерения дальности передвижений и дистанции стрельбы.",
+      "after": "Кроме армий, для игры вам понадобится набор кубиков (6-ти, 12-ти и 20- ти гранных), а также линейка для измерения дальности передвижений и дистанции стрельбы."
+    },
+    {
+      "source": 63,
+      "before": "В каждой боевой машине должен находиться пилот. Без пилота машина не может ни стрелять, ни передвигаться. За исключением тез боевых машин, которые управляются встроенным искусственным интеллектом (ИИ).",
+      "after": "В каждой боевой машине должен находиться пилот. Без пилота машина не может ни стрелять, ни передвигаться. За исключением тех боевых машин, которые управляются встроенным искусственным интеллектом (ИИ)."
+    },
+    {
+      "source": 95,
+      "before": "Данное обозначение означает, что вам необходимо дважды пробросить 12-гранный кубик, и к каждому  из выпавших значений прибавить значение 3. Результаты бросков не суммируются между собой.",
+      "after": "Данное обозначение означает, что вам необходимо дважды пробросить 12-гранный кубик, и к каждому из выпавших значений прибавить значение 3. Результаты бросков не суммируются между собой."
+    },
+    {
+      "source": 152,
+      "before": "Орудия - изображение вооружия, которым оснащена данная боевая",
+      "after": "Орудия - изображение вооружения, которым оснащена данная боевая"
+    },
+    {
+      "source": 175,
+      "before": "Из   своих   пехотинцев вы выбираете одного, который, на ваш взгляд, наиболее подходит для управления лёгкой машиной, снимаете его с подставки и устанавливаете на площадку управления боевой машиной. Подставку воина отложите в сторону. Тем же способом поставьте пилотов на все остальные лёгкие машины в своей армии.",
+      "after": "Из своих пехотинцев вы выбираете одного, который, на ваш взгляд, наиболее подходит для управления лёгкой машиной, снимаете его с подставки и устанавливаете на площадку управления боевой машиной. Подставку воина отложите в сторону. Тем же способом поставьте пилотов на все остальные лёгкие машины в своей армии."
+    },
+    {
+      "source": 182,
+      "before": "На начало игры игрок может выбрать: будет ли он сажать в технику бойца, из какого-либо отряда, подходящего по армейскому рангу, или же техникой будет управлять отдельный пилот. При этом отдельный независимы от отряда пилот имеет следующие характеристики: (сделать армлист).",
+      "after": "На начало игры игрок может выбрать: будет ли он сажать в технику бойца, из какого-либо отряда, подходящего по армейскому рангу, или же техникой будет управлять отдельный пилот. При этом отдельный независимый от отряда пилот имеет следующие характеристики: (сделать армлист)."
+    },
+    {
+      "source": 186,
+      "before": "Выбрав среди своих бойцов одного, которому предстоит управлять тяжёлой машиной, Вы ставите его фигурку на Техлист этой машины, а в кабину помещаете специальную фигурку пилота. По фигурке на Армлисте всеигроки будут знать, кто управляет машиной в данный момент. Таким же способом обеспечьте пилотами остальные свои тяжёлые машины.",
+      "after": "Выбрав среди своих бойцов одного, которому предстоит управлять тяжёлой машиной, Вы ставите его фигурку на Техлист этой машины, а в кабину помещаете специальную фигурку пилота. По фигурке на Армлисте все игроки будут знать, кто управляет машиной в данный момент. Таким же способом обеспечьте пилотами остальные свои тяжёлые машины."
+    },
+    {
+      "source": 295,
+      "before": "-Спрыгиваение. Игрок замеряет высоту площадки в шагах(округление в бОльшую сторону), тратит 1 шаг на прыжок и бросает 1 D6 за каждый шаг высоты. При выпадении хотя бы одной «1» боец считается убитым.",
+      "after": "-Спрыгивание. Игрок замеряет высоту площадки в шагах(округление в большую сторону), тратит 1 шаг на прыжок и бросает 1 D6 за каждый шаг высоты. При выпадении хотя бы одной «1» боец считается убитым."
+    },
+    {
+      "source": 323,
+      "before": "Передвижение машинна 1 очко Скорости",
+      "after": "Передвижение машин на 1 очко Скорости"
+    },
+    {
+      "source": 373,
+      "before": "Машина без пилота, как и нейтральное орудие, является помехой для передвижения и стрельбы, ей можно объявить рукопашный бой(но не обязательно) и выбрать целью для выстрела.                   26",
+      "after": "Машина без пилота, как и нейтральное орудие, является помехой для передвижения и стрельбы, ей можно объявить рукопашный бой(но не обязательно) и выбрать целью для выстрела."
+    },
+    {
+      "source": 487,
+      "before": "Результатлюбоговыстрелаопределяетсяброскамикубиковв следующей последовательности:",
+      "after": "Результат любого выстрела определяется бросками кубиков в следующей последовательности:"
+    },
+    {
+      "source": 488,
+      "before": "Измерьте в шагах расстояние до цели, округлив результат в бОльшую сторону. (измерение происходит от миниатюры до миниатюры)",
+      "after": "Измерьте в шагах расстояние до цели, округлив результат в большую сторону. (измерение происходит от миниатюры до миниатюры)"
+    },
+    {
+      "source": 490,
+      "before": "Сравнитеполученнуюприцельнуюдальностьвыстрелас расстоянием до цели:",
+      "after": "Сравните полученную прицельную дальность выстрела с расстоянием до цели:"
+    },
+    {
+      "source": 536,
+      "before": "Артиллерийским расчётом считается пехотинец, который касается орудия и может взаимодействовать с ним, если ему позволяет его  Армейский  ранг.  Например,  в  графе",
+      "after": "Артиллерийским расчётом считается пехотинец, который касается орудия и может взаимодействовать с ним, если ему позволяет его Армейский ранг. Например, в графе"
+    },
+    {
+      "source": 544,
+      "before": "пехотинец,  стреляющий  из  орудия,  может  сделать  столько",
+      "after": "пехотинец, стреляющий из орудия, может сделать столько"
+    },
+    {
+      "source": 606,
+      "before": "пехотинецкоснулсяпехотинца,боевоймашиныилиорудия противника(контакт подставками тоже считается)",
+      "after": "пехотинец коснулся пехотинца, боевой машины или орудия противника(контакт подставками тоже считается)"
+    },
+    {
+      "source": 660,
+      "before": "Сначалаигрок совершает маневр каждой из атакующих фигурок, но не объявляет ближнего боя до тех пор, пока не подведет последнююфигурку, которая и объявляет ближний бой.",
+      "after": "Сначала игрок совершает маневр каждой из атакующих фигурок, но не объявляет ближнего боя до тех пор, пока не подведет последнюю фигурку, которая и объявляет ближний бой."
+    },
+    {
+      "source": 740,
+      "before": "Прыжок выполняется в любом направлении, независимо от того, в какую сторону пехотинец обращён лицом. Выполняется прыжок только прямо – изменять направление полёта во время прыжка пехотинец не может. Расстояниепрыжка (в шагах) не должно превышать числа, указанного в армлисте рядом с символом «Пр».",
+      "after": "Прыжок выполняется в любом направлении, независимо от того, в какую сторону пехотинец обращён лицом. Выполняется прыжок только прямо – изменять направление полёта во время прыжка пехотинец не может. Расстояние прыжка (в шагах) не должно превышать числа, указанного в армлисте рядом с символом «Пр»."
+    },
+    {
+      "source": 808,
+      "before": "При гибели половины отряда(округляется в большую сторону), пехотинцы должны пройти тест на ПАНИКУ, для этого бросьте кубик Д6 за каждого война отряда, при выпадении на кубике значения большего, чем его Армейский ранг («А»), то пехотинец находится в состоянии ПАНИКИ.",
+      "after": "При гибели половины отряда(округляется в большую сторону), пехотинцы должны пройти тест на ПАНИКУ, для этого бросьте кубик Д6 за каждого воина отряда, при выпадении на кубике значения большего, чем его Армейский ранг («А»), то пехотинец находится в состоянии ПАНИКИ."
+    }
+  ],
+  "figures": [
+    {
+      "file": "image4.png",
+      "source": 52
+    },
+    {
+      "file": "image6.png",
+      "source": 85
+    },
+    {
+      "file": "image7.png",
+      "source": 105
+    },
+    {
+      "file": "image8.jpeg",
+      "source": 107
+    },
+    {
+      "file": "image9.png",
+      "source": 141
+    },
+    {
+      "file": "image10.png",
+      "source": 176
+    },
+    {
+      "file": "image12.png",
+      "source": 186
+    },
+    {
+      "file": "image14.png",
+      "source": 187
+    },
+    {
+      "file": "image15.png",
+      "source": 202
+    },
+    {
+      "file": "image16.png",
+      "source": 226
+    },
+    {
+      "file": "image18.png",
+      "source": 261
+    },
+    {
+      "file": "image20.png",
+      "source": 276
+    },
+    {
+      "file": "image26.jpeg",
+      "source": 281
+    },
+    {
+      "file": "image28.png",
+      "source": 284
+    },
+    {
+      "file": "image30.jpeg",
+      "source": 290
+    },
+    {
+      "file": "image32.jpeg",
+      "source": 302
+    },
+    {
+      "file": "image34.jpeg",
+      "source": 331
+    },
+    {
+      "file": "image35.png",
+      "source": 347
+    },
+    {
+      "file": "image37.png",
+      "source": 356
+    },
+    {
+      "file": "image39.jpeg",
+      "source": 359
+    },
+    {
+      "file": "image40.png",
+      "source": 393
+    },
+    {
+      "file": "image44.jpeg",
+      "source": 416
+    },
+    {
+      "file": "image45.jpeg",
+      "source": 430
+    },
+    {
+      "file": "image46.jpeg",
+      "source": 463
+    },
+    {
+      "file": "image47.jpeg",
+      "source": 465
+    },
+    {
+      "file": "image48.jpeg",
+      "source": 472
+    },
+    {
+      "file": "image49.jpeg",
+      "source": 494
+    },
+    {
+      "file": "image50.jpeg",
+      "source": 518
+    },
+    {
+      "file": "image51.jpeg",
+      "source": 533
+    },
+    {
+      "file": "image53.jpeg",
+      "source": 536
+    },
+    {
+      "file": "image54.jpeg",
+      "source": 536
+    },
+    {
+      "file": "image55.png",
+      "source": 536
+    },
+    {
+      "file": "image61.jpeg",
+      "source": 569
+    },
+    {
+      "file": "image62.png",
+      "source": 589
+    },
+    {
+      "file": "image63.jpeg",
+      "source": 598
+    },
+    {
+      "file": "image65.jpeg",
+      "source": 600
+    },
+    {
+      "file": "image67.jpeg",
+      "source": 610
+    },
+    {
+      "file": "image68.jpeg",
+      "source": 610
+    },
+    {
+      "file": "image69.jpeg",
+      "source": 621
+    },
+    {
+      "file": "image71.jpeg",
+      "source": 633
+    },
+    {
+      "file": "image72.jpeg",
+      "source": 635
+    },
+    {
+      "file": "image73.jpeg",
+      "source": 645
+    },
+    {
+      "file": "image75.jpeg",
+      "source": 648
+    },
+    {
+      "file": "image77.jpeg",
+      "source": 659
+    },
+    {
+      "file": "image79.jpeg",
+      "source": 690
+    },
+    {
+      "file": "image80.jpeg",
+      "source": 690
+    },
+    {
+      "file": "image82.jpeg",
+      "source": 715
+    },
+    {
+      "file": "image84.jpeg",
+      "source": 735
+    },
+    {
+      "file": "image86.png",
+      "source": 744
+    },
+    {
+      "file": "image87.jpeg",
+      "source": 751
+    },
+    {
+      "file": "image89.jpeg",
+      "source": 755
+    },
+    {
+      "file": "image91.jpeg",
+      "source": 763
+    },
+    {
+      "file": "image93.jpeg",
+      "source": 779
+    }
+  ],
+  "source_sha256": "3733d4490ae2a988df37051ac174533b3e09bf80eb0063d8ac8bb9746c634595",
+  "layout_edits": [
+    {
+      "sources": [
+        385,
+        386
+      ],
+      "reason": "Объединение двух частей предложения о мощности орудий через перенос страницы."
+    }
+  ],
+  "heading_preservation": [
+    340,
+    775
+  ],
+  "chapters": [
+    {
+      "source": 31,
+      "id": "opisanie"
+    },
+    {
+      "source": 47,
+      "id": "podgotovka"
+    },
+    {
+      "source": 102,
+      "id": "boevye-edinitsy"
+    },
+    {
+      "source": 207,
+      "id": "igrovoy-protsess"
+    },
+    {
+      "source": 254,
+      "id": "dvizhenie"
+    },
+    {
+      "source": 376,
+      "id": "povrezhdeniya"
+    },
+    {
+      "source": 440,
+      "id": "strelba"
+    },
+    {
+      "source": 604,
+      "id": "blizhniy-boy"
+    },
+    {
+      "source": 700,
+      "id": "svoystva"
+    },
+    {
+      "source": 807,
+      "id": "panika"
+    }
+  ],
+  "excluded_media": [
+    {
+      "file": "image1.png",
+      "reason": "Повторяющаяся подложка, оформление обложки или вспомогательная стрелка; не самостоятельный игровой рисунок."
+    },
+    {
+      "file": "image2.png",
+      "reason": "Повторяющаяся подложка, оформление обложки или вспомогательная стрелка; не самостоятельный игровой рисунок."
+    },
+    {
+      "file": "image21.png",
+      "reason": "Повторяющаяся подложка, оформление обложки или вспомогательная стрелка; не самостоятельный игровой рисунок."
+    },
+    {
+      "file": "image22.png",
+      "reason": "Повторяющаяся подложка, оформление обложки или вспомогательная стрелка; не самостоятельный игровой рисунок."
+    },
+    {
+      "file": "image3.png",
+      "reason": "Повторяющаяся подложка, оформление обложки или вспомогательная стрелка; не самостоятельный игровой рисунок."
+    },
+    {
+      "file": "image41.png",
+      "reason": "Повторяющаяся подложка, оформление обложки или вспомогательная стрелка; не самостоятельный игровой рисунок."
+    },
+    {
+      "file": "image56.png",
+      "reason": "Повторяющаяся подложка, оформление обложки или вспомогательная стрелка; не самостоятельный игровой рисунок."
+    }
+  ]
+}

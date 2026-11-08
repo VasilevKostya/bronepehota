@@ -1,0 +1,484 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-08T05:22:48.381Z",
+  "title": "Бронепехота — Полевой справочник",
+  "extensions": {
+    "colorMeta": {
+      "forest": {
+        "role": "primary",
+        "displayName": "Лесной зелёный",
+        "tonalRamp": [
+          "oklch(15% 0.0372 160.26)",
+          "oklch(26.4% 0.0372 160.26)",
+          "oklch(37.9% 0.0372 160.26)",
+          "oklch(49.3% 0.0372 160.26)",
+          "oklch(60.7% 0.0372 160.26)",
+          "oklch(72.1% 0.0372 160.26)",
+          "oklch(83.6% 0.0372 160.26)",
+          "oklch(95% 0.0372 160.26)"
+        ]
+      },
+      "forest-dark": {
+        "role": "primary",
+        "displayName": "Глубокий лесной",
+        "tonalRamp": [
+          "oklch(15% 0.0344 161.82)",
+          "oklch(26.4% 0.0344 161.82)",
+          "oklch(37.9% 0.0344 161.82)",
+          "oklch(49.3% 0.0344 161.82)",
+          "oklch(60.7% 0.0344 161.82)",
+          "oklch(72.1% 0.0344 161.82)",
+          "oklch(83.6% 0.0344 161.82)",
+          "oklch(95% 0.0344 161.82)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Тёплая бумага",
+        "tonalRamp": [
+          "oklch(15% 0.0121 96.42)",
+          "oklch(26.4% 0.0121 96.42)",
+          "oklch(37.9% 0.0121 96.42)",
+          "oklch(49.3% 0.0121 96.42)",
+          "oklch(60.7% 0.0121 96.42)",
+          "oklch(72.1% 0.0121 96.42)",
+          "oklch(83.6% 0.0121 96.42)",
+          "oklch(95% 0.0121 96.42)"
+        ]
+      },
+      "sidebar": {
+        "role": "neutral",
+        "displayName": "Светлая олива",
+        "tonalRamp": [
+          "oklch(15% 0.0187 113.35)",
+          "oklch(26.4% 0.0187 113.35)",
+          "oklch(37.9% 0.0187 113.35)",
+          "oklch(49.3% 0.0187 113.35)",
+          "oklch(60.7% 0.0187 113.35)",
+          "oklch(72.1% 0.0187 113.35)",
+          "oklch(83.6% 0.0187 113.35)",
+          "oklch(95% 0.0187 113.35)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Угольный текст",
+        "tonalRamp": [
+          "oklch(15% 0.0134 154.39)",
+          "oklch(26.4% 0.0134 154.39)",
+          "oklch(37.9% 0.0134 154.39)",
+          "oklch(49.3% 0.0134 154.39)",
+          "oklch(60.7% 0.0134 154.39)",
+          "oklch(72.1% 0.0134 154.39)",
+          "oklch(83.6% 0.0134 154.39)",
+          "oklch(95% 0.0134 154.39)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Серо-оливковый текст",
+        "tonalRamp": [
+          "oklch(15% 0.0236 129.02)",
+          "oklch(26.4% 0.0236 129.02)",
+          "oklch(37.9% 0.0236 129.02)",
+          "oklch(49.3% 0.0236 129.02)",
+          "oklch(60.7% 0.0236 129.02)",
+          "oklch(72.1% 0.0236 129.02)",
+          "oklch(83.6% 0.0236 129.02)",
+          "oklch(95% 0.0236 129.02)"
+        ]
+      },
+      "olive": {
+        "role": "primary",
+        "displayName": "Приглушённая олива",
+        "tonalRamp": [
+          "oklch(15% 0.0781 126.47)",
+          "oklch(26.4% 0.0781 126.47)",
+          "oklch(37.9% 0.0781 126.47)",
+          "oklch(49.3% 0.0781 126.47)",
+          "oklch(60.7% 0.0781 126.47)",
+          "oklch(72.1% 0.0781 126.47)",
+          "oklch(83.6% 0.0781 126.47)",
+          "oklch(95% 0.0781 126.47)"
+        ]
+      },
+      "olive-hover": {
+        "role": "primary",
+        "displayName": "Олива при наведении",
+        "tonalRamp": [
+          "oklch(15% 0.0729 127.46)",
+          "oklch(26.4% 0.0729 127.46)",
+          "oklch(37.9% 0.0729 127.46)",
+          "oklch(49.3% 0.0729 127.46)",
+          "oklch(60.7% 0.0729 127.46)",
+          "oklch(72.1% 0.0729 127.46)",
+          "oklch(83.6% 0.0729 127.46)",
+          "oklch(95% 0.0729 127.46)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Оливковая линия",
+        "tonalRamp": [
+          "oklch(15% 0.0266 116.67)",
+          "oklch(26.4% 0.0266 116.67)",
+          "oklch(37.9% 0.0266 116.67)",
+          "oklch(49.3% 0.0266 116.67)",
+          "oklch(60.7% 0.0266 116.67)",
+          "oklch(72.1% 0.0266 116.67)",
+          "oklch(83.6% 0.0266 116.67)",
+          "oklch(95% 0.0266 116.67)"
+        ]
+      },
+      "table": {
+        "role": "neutral",
+        "displayName": "Оливковая шапка таблицы",
+        "tonalRamp": [
+          "oklch(15% 0.0272 116.14)",
+          "oklch(26.4% 0.0272 116.14)",
+          "oklch(37.9% 0.0272 116.14)",
+          "oklch(49.3% 0.0272 116.14)",
+          "oklch(60.7% 0.0272 116.14)",
+          "oklch(72.1% 0.0272 116.14)",
+          "oklch(83.6% 0.0272 116.14)",
+          "oklch(95% 0.0272 116.14)"
+        ]
+      },
+      "table-body": {
+        "role": "neutral",
+        "displayName": "Светлая строка",
+        "tonalRamp": [
+          "oklch(15% 0.0080 98.88)",
+          "oklch(26.4% 0.0080 98.88)",
+          "oklch(37.9% 0.0080 98.88)",
+          "oklch(49.3% 0.0080 98.88)",
+          "oklch(60.7% 0.0080 98.88)",
+          "oklch(72.1% 0.0080 98.88)",
+          "oklch(83.6% 0.0080 98.88)",
+          "oklch(95% 0.0080 98.88)"
+        ]
+      },
+      "table-alternate": {
+        "role": "neutral",
+        "displayName": "Тонированная строка",
+        "tonalRamp": [
+          "oklch(15% 0.0119 106.62)",
+          "oklch(26.4% 0.0119 106.62)",
+          "oklch(37.9% 0.0119 106.62)",
+          "oklch(49.3% 0.0119 106.62)",
+          "oklch(60.7% 0.0119 106.62)",
+          "oklch(72.1% 0.0119 106.62)",
+          "oklch(83.6% 0.0119 106.62)",
+          "oklch(95% 0.0119 106.62)"
+        ]
+      },
+      "note": {
+        "role": "secondary",
+        "displayName": "Светлая охра",
+        "tonalRamp": [
+          "oklch(15% 0.0362 87.79)",
+          "oklch(26.4% 0.0362 87.79)",
+          "oklch(37.9% 0.0362 87.79)",
+          "oklch(49.3% 0.0362 87.79)",
+          "oklch(60.7% 0.0362 87.79)",
+          "oklch(72.1% 0.0362 87.79)",
+          "oklch(83.6% 0.0362 87.79)",
+          "oklch(95% 0.0362 87.79)"
+        ]
+      },
+      "note-line": {
+        "role": "secondary",
+        "displayName": "Охристая рамка",
+        "tonalRamp": [
+          "oklch(15% 0.1182 78.77)",
+          "oklch(26.4% 0.1182 78.77)",
+          "oklch(37.9% 0.1182 78.77)",
+          "oklch(49.3% 0.1182 78.77)",
+          "oklch(60.7% 0.1182 78.77)",
+          "oklch(72.1% 0.1182 78.77)",
+          "oklch(83.6% 0.1182 78.77)",
+          "oklch(95% 0.1182 78.77)"
+        ]
+      },
+      "note-ink": {
+        "role": "secondary",
+        "displayName": "Тёмная охра",
+        "tonalRamp": [
+          "oklch(15% 0.0703 74.96)",
+          "oklch(26.4% 0.0703 74.96)",
+          "oklch(37.9% 0.0703 74.96)",
+          "oklch(49.3% 0.0703 74.96)",
+          "oklch(60.7% 0.0703 74.96)",
+          "oklch(72.1% 0.0703 74.96)",
+          "oklch(83.6% 0.0703 74.96)",
+          "oklch(95% 0.0703 74.96)"
+        ]
+      },
+      "focus": {
+        "role": "secondary",
+        "displayName": "Охристый фокус",
+        "tonalRamp": [
+          "oklch(15% 0.1104 69.09)",
+          "oklch(26.4% 0.1104 69.09)",
+          "oklch(37.9% 0.1104 69.09)",
+          "oklch(49.3% 0.1104 69.09)",
+          "oklch(60.7% 0.1104 69.09)",
+          "oklch(72.1% 0.1104 69.09)",
+          "oklch(83.6% 0.1104 69.09)",
+          "oklch(95% 0.1104 69.09)"
+        ]
+      },
+      "highlight": {
+        "role": "secondary",
+        "displayName": "Подсветка найденного",
+        "tonalRamp": [
+          "oklch(15% 0.0969 102.37)",
+          "oklch(26.4% 0.0969 102.37)",
+          "oklch(37.9% 0.0969 102.37)",
+          "oklch(49.3% 0.0969 102.37)",
+          "oklch(60.7% 0.0969 102.37)",
+          "oklch(72.1% 0.0969 102.37)",
+          "oklch(83.6% 0.0969 102.37)",
+          "oklch(95% 0.0969 102.37)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "Белый",
+        "tonalRamp": [
+          "oklch(15% 0.0000 0.00)",
+          "oklch(26.4% 0.0000 0.00)",
+          "oklch(37.9% 0.0000 0.00)",
+          "oklch(49.3% 0.0000 0.00)",
+          "oklch(60.7% 0.0000 0.00)",
+          "oklch(72.1% 0.0000 0.00)",
+          "oklch(83.6% 0.0000 0.00)",
+          "oklch(95% 0.0000 0.00)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Словесный знак",
+        "purpose": "PT Sans Narrow Bold только для названия проекта; адаптивные размеры описаны в DESIGN.md."
+      },
+      "headline": {
+        "displayName": "Название главы",
+        "purpose": "Первый уровень заголовка страницы правил."
+      },
+      "title": {
+        "displayName": "Раздел",
+        "purpose": "h2 с сохранением исходной иерархии."
+      },
+      "subtitle": {
+        "displayName": "Подраздел",
+        "purpose": "h3, включая «Тест брони Д12»."
+      },
+      "body": {
+        "displayName": "Текст правил",
+        "purpose": "Основная проза, ограниченная 72ch."
+      },
+      "body-mobile": {
+        "displayName": "Текст узкого телефона",
+        "purpose": "Основная проза при max-width:480px."
+      },
+      "label": {
+        "displayName": "Отметка главы",
+        "purpose": "Подтверждённая отметка «ГЛАВА 06»."
+      },
+      "button": {
+        "displayName": "Действие",
+        "purpose": "Подписи основных и вторичных кнопок."
+      },
+      "table": {
+        "displayName": "Таблица",
+        "purpose": "Табличный текст с tabular-nums."
+      },
+      "caption": {
+        "displayName": "Подпись рисунка",
+        "purpose": "Ненавязчивый контекст исходной иллюстрации."
+      },
+      "pdf-body": {
+        "displayName": "Текст PDF",
+        "purpose": "Встроенная PT Sans для A4."
+      }
+    },
+    "shadows": [
+      {
+        "name": "update-banner",
+        "value": "0 8px 24px #13261830",
+        "purpose": "Только предложение обновить редакцию над содержимым."
+      },
+      {
+        "name": "dark-surface-focus",
+        "value": "0 0 0 2px var(--forest-dark)",
+        "purpose": "Тёмная подложка бумажного клавиатурного контура."
+      }
+    ],
+    "motion": [
+      {
+        "name": "button-background-duration",
+        "value": "180ms",
+        "purpose": "Короткий переход фона основной и вторичной кнопки."
+      },
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.2,.8,.2,1)",
+        "purpose": "Единственная кривая перехода кнопок."
+      },
+      {
+        "name": "anchor-scroll",
+        "value": "smooth",
+        "purpose": "Переход к разделу при обычной настройке движения."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "scroll-behavior:auto; animation:none; transition:none",
+        "purpose": "Действует при prefers-reduced-motion:reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-phone-max",
+        "value": "480px"
+      },
+      {
+        "name": "mobile-layout-max",
+        "value": "900px"
+      },
+      {
+        "name": "single-reading-column-max",
+        "value": "1200px"
+      },
+      {
+        "name": "wide-layout-min",
+        "value": "1700px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Основная кнопка",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Оливковое основное действие: скачать правила в PDF.",
+      "html": "<button class=\"ds-button\"><svg class=\"ds-icon\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M224,144v64a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V144a8,8,0,0,1,16,0v56H208V144a8,8,0,0,1,16,0Zm-101.66,5.66a8,8,0,0,0,11.32,0l40-40a8,8,0,0,0-11.32-11.32L136,124.69V32a8,8,0,0,0-16,0v92.69L93.66,98.34a8,8,0,0,0-11.32,11.32Z\"/></svg>Скачать PDF</button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:44px;padding:10px 18px;border:1px solid transparent;border-radius:var(--radius,4px);text-decoration:none;font-family:'PT Sans',sans-serif;font-size:16px;line-height:1.55;font-weight:700;cursor:pointer;transition:background .18s var(--ease,cubic-bezier(.2,.8,.2,1))}.ds-button:disabled{cursor:wait;opacity:.65}.ds-button{background:var(--olive,#5d713e);color:#fff}.ds-button:hover{background:var(--olive-hover,#4b5e30);color:#fff}.ds-button:focus-visible{outline:3px solid var(--focus,#925c0a);outline-offset:4px}.ds-icon{width:22px;height:22px;flex:0 0 22px;vertical-align:middle}@media(prefers-reduced-motion:reduce){.ds-button{transition:none}}"
+    },
+    {
+      "name": "Вторичная кнопка",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Спокойное дополнительное действие и пример поискового запроса.",
+      "html": "<button class=\"ds-button\">Тест брони Д12</button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:44px;padding:10px 18px;border:1px solid transparent;border-radius:var(--radius,4px);text-decoration:none;font-family:'PT Sans',sans-serif;font-size:16px;line-height:1.55;font-weight:700;cursor:pointer;transition:background .18s var(--ease,cubic-bezier(.2,.8,.2,1))}.ds-button:disabled{cursor:wait;opacity:.65}.ds-button{background:transparent;color:var(--forest,#30483b);border-color:var(--line,#b8bca9)}.ds-button:hover{background:var(--sidebar,#e9ebdd)}.ds-button:focus-visible{outline:3px solid var(--focus,#925c0a);outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-button{transition:none}}"
+    },
+    {
+      "name": "Поиск в шапке",
+      "kind": "input",
+      "refersTo": "input-search",
+      "description": "Светлое поле поиска на лесной поверхности с кнопкой и подсказкой клавиатуры.",
+      "html": "<form class=\"ds-search-surface\" role=\"search\"><div class=\"ds-search\"><button type=\"submit\" aria-label=\"Найти правило\"><svg class=\"ds-icon\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z\"/></svg></button><input type=\"search\" placeholder=\"Найти правило…\" aria-label=\"Поиск по правилам\"><kbd aria-hidden=\"true\">Ctrl K</kbd></div></form>",
+      "css": ".ds-search-surface{padding:16px;background:var(--forest,#30483b)}.ds-search{position:relative;max-width:440px;color:var(--ink,#252c27)}.ds-search input{box-sizing:border-box;width:100%;height:46px;border:1px solid #c4c8b7;border-radius:var(--radius,4px);padding:10px 68px 10px 42px;background:var(--paper,#f5f3ea);color:var(--ink,#252c27);font-family:'PT Sans',sans-serif;font-size:16px;caret-color:var(--forest,#30483b)}.ds-search input::placeholder{color:#606554;opacity:1}.ds-search button{position:absolute;left:4px;top:3px;width:38px;height:40px;border:0;background:transparent;color:var(--muted,#596052);display:grid;place-items:center;cursor:pointer}.ds-search kbd{position:absolute;right:10px;top:11px;font:12px \"PT Sans\",sans-serif;color:#535b4d;border:1px solid #a9af9a;border-radius:3px;padding:2px 4px}.ds-search :focus-visible{outline:3px solid var(--paper,#f5f3ea);outline-offset:4px;box-shadow:0 0 0 2px var(--forest-dark,#21372c)}.ds-icon{width:22px;height:22px;flex:0 0 22px;vertical-align:middle}"
+    },
+    {
+      "name": "Навигация глав",
+      "kind": "nav",
+      "refersTo": "chapter-nav-active",
+      "description": "Нумерованные строки; активная глава имеет лесную заливку и светлое жирное начертание.",
+      "html": "<nav class=\"ds-chapters\" aria-label=\"Главы правил\"><a href=\"#movement\"><span>05</span>Передвижение</a><a href=\"#damage\" aria-current=\"page\"><span>06</span>Учёт повреждений и тесты</a><a href=\"#shooting\"><span>07</span>Стрельба</a></nav>",
+      "css": ".ds-chapters{background:var(--sidebar,#e9ebdd);padding:18px 0;font-family:'PT Sans',sans-serif;}.ds-chapters a{display:flex;align-items:center;gap:14px;margin:0 8px;padding:16px 14px;min-height:56px;box-sizing:border-box;text-decoration:none;color:var(--ink,#252c27);font-size:16px;line-height:1.3;border-bottom:1px solid #cdd0bf}.ds-chapters a span{font-variant-numeric:tabular-nums;font-size:15px;min-width:22px}.ds-chapters a:hover{background:#dfe3d1}.ds-chapters a[aria-current=page]{background:var(--forest,#30483b);color:#fff;font-weight:700;border-color:var(--forest,#30483b);border-radius:var(--radius,4px);margin-top:-1px}.ds-chapters a:focus-visible{outline:3px solid var(--focus,#925c0a);outline-offset:4px}"
+    },
+    {
+      "name": "Локальное оглавление",
+      "kind": "nav",
+      "refersTo": "local-toc-active",
+      "description": "Оливковая текущая позиция с лесным маркером и отступом вложенного пункта.",
+      "html": "<nav class=\"ds-toc\" aria-label=\"В этой главе\"><p>В ЭТОЙ ГЛАВЕ</p><a href=\"#damage\">Учёт повреждений</a><a class=\"ds-toc-sub\" href=\"#d12\" aria-current=\"location\">Тест брони Д12</a><a class=\"ds-toc-sub\" href=\"#d6\">Тест выживания Д6</a></nav>",
+      "css": ".ds-toc{padding-left:16px;border-left:1px solid var(--line,#b8bca9);font-family:'PT Sans',sans-serif;font-size:15px;line-height:1.35}.ds-toc p{font-size:13px;color:var(--muted,#596052);margin:0 0 12px}.ds-toc a{display:block;padding:10px 9px;color:var(--ink,#252c27);text-decoration:none;border-radius:3px;margin:2px 0;border-left:3px solid transparent}.ds-toc a.ds-toc-sub{padding-left:18px;font-size:14px}.ds-toc a:hover{background:var(--sidebar,#e9ebdd)}.ds-toc a[aria-current=location]{background:var(--table,#d9ddc9);border-left-color:var(--forest,#30483b);font-weight:700}.ds-toc a:focus-visible{outline:3px solid var(--focus,#925c0a);outline-offset:4px}"
+    },
+    {
+      "name": "Отметка главы",
+      "kind": "chip",
+      "refersTo": "chapter-label",
+      "description": "Неинтерактивная компактная отметка главы из выбранного визуального эталона.",
+      "html": "<span class=\"ds-chapter-label\">ГЛАВА 06</span>",
+      "css": ".ds-chapter-label{display:inline-block;font-family:'PT Sans',sans-serif;font-size:13px;line-height:1.55;font-weight:700;letter-spacing:.05em;border-radius:3px;background:var(--table,#d9ddc9);color:var(--ink,#252c27);padding:4px 9px}"
+    },
+    {
+      "name": "Редакционное примечание",
+      "kind": "card",
+      "refersTo": "editor-note",
+      "description": "Семантический охристый блок, отделяющий неоднозначность исходника от игровых правил.",
+      "html": "<aside class=\"ds-note\"><strong><svg class=\"ds-icon\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M236.8,188.09,149.35,36.22h0a24.76,24.76,0,0,0-42.7,0L19.2,188.09a23.51,23.51,0,0,0,0,23.72A24.35,24.35,0,0,0,40.55,224h174.9a24.35,24.35,0,0,0,21.33-12.19A23.51,23.51,0,0,0,236.8,188.09ZM222.93,203.8a8.5,8.5,0,0,1-7.48,4.2H40.55a8.5,8.5,0,0,1-7.48-4.2,7.59,7.59,0,0,1,0-7.72L120.52,44.21a8.75,8.75,0,0,1,15,0l87.45,151.87A7.59,7.59,0,0,1,222.93,203.8ZM120,144V104a8,8,0,0,1,16,0v40a8,8,0,0,1-16,0Zm20,36a12,12,0,1,1-12-12A12,12,0,0,1,140,180Z\"/></svg>Требует уточнения</strong><p>Здесь уничтоженная техника убирается с поля. В разделе «Ремонт» она остаётся как ландшафт; раздел «Транспортировка» также допускает её буксировку. Требуется единая трактовка.</p></aside>",
+      "css": ".ds-note{padding:18px 20px;background:var(--note,#f9eed4);border:1px solid var(--note-line,#b08025);border-radius:var(--radius,4px);color:var(--note-ink,#5c4014);font-family:'PT Sans',sans-serif;font-size:16px;line-height:1.45}.ds-note strong{display:flex;align-items:center;gap:10px;font-size:18px;margin-bottom:8px}.ds-note p{margin:0}.ds-icon{width:22px;height:22px;flex:0 0 22px;vertical-align:middle}"
+    },
+    {
+      "name": "Таблица правила",
+      "kind": "custom",
+      "refersTo": "table-heading",
+      "description": "Действующая таблица из шестой главы: читаемая сетка и прокручиваемая область.",
+      "html": "<div class=\"ds-table-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"Результат теста брони Д12\"><table class=\"ds-table\"><caption>Результат теста брони Д12</caption><thead><tr><th scope=\"col\">Результат броска</th><th scope=\"col\">Что происходит</th></tr></thead><tbody><tr><td>Д12 ≤ броня</td><td>Пилот не пострадал</td></tr><tr><td>Д12 &gt; броня</td><td>Тест выживания Д6</td></tr></tbody></table></div>",
+      "css": ".ds-table-wrap{overflow:auto;max-width:100%;scrollbar-color:var(--olive,#5d713e) var(--sidebar,#e9ebdd)}.ds-table{border-collapse:collapse;width:100%;font-family:'PT Sans',sans-serif;font-size:16px;line-height:1.4;color:var(--ink,#252c27);font-variant-numeric:tabular-nums}.ds-table caption{text-align:left;font-weight:700;margin-bottom:10px;font-size:16px}.ds-table th,.ds-table td{border:1px solid #a7ad97;padding:10px 14px;text-align:left;vertical-align:top}.ds-table th{background:var(--table,#d9ddc9);font-weight:700}.ds-table td{background:#faf9f3}.ds-table tr:nth-child(even) td{background:#f0f0e7}.ds-table-wrap:focus-visible{outline:3px solid var(--focus,#925c0a);outline-offset:4px}.ds-table-wrap:focus-visible{outline-offset:2px}"
+    },
+    {
+      "name": "Контекст главы на телефоне",
+      "kind": "nav",
+      "description": "Ссылка над целевым подразделом возвращает к началу главы; показана для мобильного прямого перехода.",
+      "html": "<a class=\"ds-context\" href=\"#chapter\"><svg class=\"ds-icon\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M224,128a8,8,0,0,1-8,8H59.31l58.35,58.34a8,8,0,0,1-11.32,11.32l-72-72a8,8,0,0,1,0-11.32l72-72a8,8,0,0,1,11.32,11.32L59.31,120H216A8,8,0,0,1,224,128Z\"/></svg><span>06 · Учёт повреждений и тесты</span></a>",
+      "css": ".ds-context{display:flex;align-items:center;gap:8px;min-height:44px;font-family:'PT Sans',sans-serif;font-size:14px;line-height:1.5;font-weight:700;color:var(--forest,#30483b);text-decoration:none;text-underline-offset:4px}.ds-context:hover{color:var(--forest-dark,#21372c);text-decoration:underline;text-decoration-thickness:2px}.ds-context:focus-visible{outline:3px solid var(--focus,#925c0a);outline-offset:4px}.ds-icon{width:22px;height:22px;flex:0 0 22px;vertical-align:middle}"
+    },
+    {
+      "name": "Предложение обновить редакцию",
+      "kind": "custom",
+      "description": "Лесной баннер над содержимым с подтверждением и откладыванием новой офлайн-редакции.",
+      "html": "<div class=\"ds-update\" role=\"status\"><span>Доступна новая редакция. Обновить сохранённые правила?</span><button>Обновить</button><button aria-label=\"Отложить обновление\">Позже</button></div>",
+      "css": ".ds-update{background:var(--forest,#30483b);color:#fff;border:1px solid #8e9b80;box-shadow:0 8px 24px #13261830;border-radius:4px;padding:16px 20px;display:flex;flex-wrap:wrap;align-items:center;gap:16px;font-family:'PT Sans',sans-serif;font-size:16px;line-height:1.55}.ds-update button{background:var(--paper,#f5f3ea);color:var(--forest,#30483b);border:0;padding:8px 14px;font-family:'PT Sans',sans-serif;font-size:16px;line-height:1.55;font-weight:700;min-height:44px;cursor:pointer}.ds-update button:disabled{opacity:.65;cursor:wait}.ds-update button:focus-visible{outline:3px solid var(--paper,#f5f3ea);outline-offset:4px;box-shadow:0 0 0 2px var(--forest-dark,#21372c)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Полевой справочник",
+    "overview": "Основа стиля — спокойный военно-технический справочник: светлая бумажная область чтения, тёмно-зелёная шапка, приглушённая оливковая навигация, уверенная рубленая типографика. Характер создают цвета, порядок и точная иерархия. Игровые правила остаются главным содержимым.\n\nСистема предназначена для поиска во время партии и длительного чтения. Функциональные элементы различимы, игровые обозначения хорошо читаются, таблицы можно быстро просмотреть. Оформление PDF продолжает ту же визуальную систему с учётом печати.",
+    "keyCharacteristics": [
+      "Светлая тёплая область чтения и тёмная лесная шапка.",
+      "Оливковые второстепенные поверхности и заметная текущая позиция в правилах.",
+      "Чёткая кириллица, компактные заголовки, удобная строка прозы.",
+      "Плоские таблицы с тонкой сеткой и ясными игровыми обозначениями.",
+      "Спокойные охристые редакционные примечания.",
+      "Структурная адаптация навигации под телефон."
+    ],
+    "rules": [
+      {
+        "name": "The Meaningful Color Rule",
+        "body": "Зелёный обозначает навигацию и действие, охра — редакционное уточнение. Активное состояние дополнительно обозначается начертанием, маркером или подписью.",
+        "section": "colors"
+      },
+      {
+        "name": "The Source Hierarchy Rule",
+        "body": "Заголовки, формулы и игровые обозначения сохраняют смысл и уровни исходника; типографическая унификация не меняет механику.",
+        "section": "typography"
+      },
+      {
+        "name": "The Reading First Rule",
+        "body": "Декоративный эффект не должен мешать чтению или откладывать показ правила. Анимация ограничена изменением фона кнопки и плавной прокруткой; уменьшенное движение отключает переходы и плавную прокрутку.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** сохранять светлую область чтения, лесную шапку и приглушённые оливковые поверхности выбранного «Полевого справочника».",
+      "**Do** применять локальную PT Sans для правил и PT Sans Narrow Bold для словесного знака.",
+      "**Do** сохранять полный исходный текст, читаемые таблицы, пропорции иллюстраций и контекст главы при прямом переходе с телефона.",
+      "**Do** отделять редакционные примечания заголовком «Требует уточнения» и охристым оформлением одинаково на сайте и в PDF.",
+      "**Do** проверять состояния клавиатуры, поиска и офлайн-редакции на фактических компонентах.",
+      "**Do** фиксировать визуальные изменения в этом брендбуке и sidecar в том же наборе изменений; композицию экрана также обновлять в docs/design."
+    ],
+    "donts": [
+      "**Don't** подменять выбранное направление «Северным атласом» или другим вариантом без нового решения пользователя.",
+      "**Don't** переносить в интерфейс презентационный фон, подписи устройств, название концепта или растровые погрешности эталона.",
+      "**Don't** уменьшать текст или убирать исходные абзацы ради совпадения с высотой демонстрационного макета.",
+      "**Don't** превращать справочную страницу в декоративную игровую панель или выдавать содержание макета за источник правил.",
+      "**Don't** распространять тени баннера на плоские навигационные и читательские поверхности.",
+      "**Don't** называть проверку двух размеров экрана всеобщей проверкой доступности или считать локальную сборку опубликованным сайтом."
+    ]
+  }
+}
