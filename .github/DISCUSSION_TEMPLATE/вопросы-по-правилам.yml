@@ -1,0 +1,31 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Задайте вопрос по правилам «Бронепехоты» — Уральской версии.
+        Перед созданием темы проверьте поиск на сайте и существующие обсуждения.
+        Обсуждение и отмеченный ответ не меняют правила: изменения утверждает владелец проекта и публикует в новой редакции сайта и PDF.
+  - type: input
+    id: rules-version
+    attributes:
+      label: Версия правил
+      description: Укажите редакцию, по которой вы играете. Номер есть в шапке сайта и на обложке PDF.
+      placeholder: Например, Уральская версия 0.2
+    validations:
+      required: true
+  - type: input
+    id: rule-link
+    attributes:
+      label: Ссылка на пункт правил
+      description: Откройте нужный пункт на сайте и скопируйте его прямую ссылку через заголовок. Для вопроса о нескольких пунктах перечислите остальные в описании.
+      placeholder: https://vasilevkostya.github.io/bronepehota/pravila-...
+    validations:
+      required: true
+  - type: textarea
+    id: game-situation
+    attributes:
+      label: Игровая ситуация и вопрос
+      description: Какие подразделения участвуют, что произошло и какой момент требует разъяснения? Можно приложить схему или фотографию поля.
+      placeholder: Опишите ситуацию, варианты толкования и ваш вопрос.
+    validations:
+      required: true
