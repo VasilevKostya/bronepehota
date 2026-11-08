@@ -58,6 +58,9 @@ def plain(b):
     return b.get('text',b.get('caption',''))
 def build(skip_pdf=False):
     DIST.mkdir(exist_ok=True)
+    # Generated PDFs from earlier editions must not enter the new offline release.
+    for previous_pdf in DIST.glob('bronepehota-ural-*.pdf'):
+        if previous_pdf.name != PDF:previous_pdf.unlink()
     shutil.copytree(ROOT/'assets',DIST/'assets',dirs_exist_ok=True)
     index=[]
     for pos,c in enumerate(CHAPTERS):
@@ -86,7 +89,8 @@ def build(skip_pdf=False):
     (DIST/'armies.html').write_text(frame('Армлисты',armies,'armies'),encoding='utf-8')
     search='<div class="search-page"><div class="breadcrumbs"><a href="index.html">Правила</a><span>/</span>Поиск</div><h1>Поиск по правилам</h1><form class="search-form" role="search"><input type="search" name="q" id="rule-query" aria-label="Что найти в правилах" placeholder="Например, броня или гранаты" autocomplete="off"><button class="button" type="submit">Найти</button></form><p class="search-info" id="search-info" role="status">Ищем по тексту, таблицам и обозначениям.</p><div id="search-content"></div></div>'
     (DIST/'search.html').write_text(frame('Поиск',search),encoding='utf-8')
-    changes='<div class="home"><div class="breadcrumbs"><a href="index.html">Правила</a><span>/</span>Редакция</div><h1>Редакция и изменения</h1><h2>'+EDITION+'</h2><p>'+RELEASE['date']+'</p><ul>'+''.join('<li>'+esc(x)+'</li>' for x in RELEASE['changes'])+'</ul><p>Механика и формулировки перенесены из предоставленной фанатской редакции. Места, требующие решения, выделены примечаниями «Требует уточнения».</p><h2>Редакционные исправления</h2><p>Восстановлены пробелы в склеенных словах, объединены разорванные переносом страницы предложения, исправлены очевидные опечатки. Смысл игровых правил сохранён.</p><h2>Чтение без интернета</h2><p>При первом открытии сайт сохраняет все главы, иллюстрации, поиск и PDF. Дождитесь статуса «Доступно без интернета». Сохранение относится к этому браузеру и устройству. Если очистить данные сайта, материалы потребуется загрузить заново.</p><p>При появлении нового выпуска сайт предложит обновление. До его принятия остаётся доступна сохранённая редакция.</p></div>'
+    history=''.join('<h2>'+esc(RELEASE['edition']+' '+r['version'])+'</h2><p>'+esc(r['date'])+'</p><ul>'+''.join('<li>'+esc(x)+'</li>' for x in r['changes'])+'</ul>' for r in RELEASE.get('history',[]))
+    changes='<div class="home"><div class="breadcrumbs"><a href="index.html">Правила</a><span>/</span>Редакция</div><h1>Редакция и изменения</h1><h2>'+EDITION+'</h2><p>'+RELEASE['date']+'</p><ul>'+''.join('<li>'+esc(x)+'</li>' for x in RELEASE['changes'])+'</ul><p>Основа правил — предоставленная фанатская редакция. Согласованные изменения механики перечислены в истории выпусков. Нерешённые вопросы выделены примечаниями «Требует уточнения».</p>'+history+'<h2>Редакционные исправления</h2><p>При первоначальном переносе восстановлены пробелы в склеенных словах, объединены разорванные переносом страницы предложения и исправлены очевидные опечатки. Изменения игровой механики фиксируются отдельно для каждой редакции.</p><h2>Чтение без интернета</h2><p>При первом открытии сайт сохраняет все главы, иллюстрации, поиск и PDF. Дождитесь статуса «Доступно без интернета». Сохранение относится к этому браузеру и устройству. Если очистить данные сайта, материалы потребуется загрузить заново.</p><p>При появлении нового выпуска сайт предложит обновление. До его принятия остаётся доступна сохранённая редакция.</p></div>'
     (DIST/'changes.html').write_text(frame('Редакция и изменения',changes),encoding='utf-8')
     (DIST/'404.html').write_text(frame('Страница не найдена','<div class="empty-page"><h1>Страница не найдена</h1><p>Возможно, ссылка изменилась. Откройте оглавление или воспользуйтесь поиском.</p><a class="button" href="index.html">К правилам</a></div>'),encoding='utf-8')
     (DIST/'.nojekyll').write_text('',encoding='utf-8')
