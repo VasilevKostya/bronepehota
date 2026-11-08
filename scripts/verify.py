@@ -22,6 +22,7 @@ for name,doc in docs.items():
         if not img.get('alt'):errors.append(f'Missing alternative text: {name}')
 manifest=json.loads((dist/'precache.json').read_text(encoding='utf-8'))
 for path in manifest['files']:
+    if any(part.startswith('.') for part in Path(path).parts):errors.append(f'Non-public file in offline manifest: {path}')
     if hashlib.sha256((dist/path).read_bytes()).hexdigest()!=manifest['hashes'][path]:errors.append(f'Hash mismatch: {path}')
 index=json.loads((dist/'assets/search-index.json').read_text(encoding='utf-8'))
 assert len(index)==sum(len(c['sections']) for c in chapters)

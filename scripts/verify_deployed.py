@@ -28,7 +28,10 @@ def verify(base, expected):
         parsed = urlsplit(path)
         if parsed.scheme or parsed.netloc or path.startswith("/") or ".." in parsed.path.split("/"):
             raise ValueError("Unexpected asset path: " + path)
-        data = read(urljoin(base, path))
+        try:
+            data = read(urljoin(base, path))
+        except Exception as error:
+            raise ValueError(f'Published asset unavailable: {path}: {error}') from error
         if hashlib.sha256(data).hexdigest() != manifest["hashes"][path]:
             raise ValueError("Published asset differs: " + path)
         return path

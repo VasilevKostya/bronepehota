@@ -94,7 +94,8 @@ def build(skip_pdf=False):
         from make_pdf import make_pdf
         make_pdf(CHAPTERS,RELEASE,DIST/PDF)
     # Every release is an atomic, complete offline set, including the PDF.
-    files=sorted(p for p in DIST.rglob('*') if p.is_file() and p.name not in ('sw.js','build.json','precache.json'))
+    files=sorted(p for p in DIST.rglob('*') if p.is_file() and p.name not in ('sw.js','build.json','precache.json')
+                 and not any(part.startswith('.') for part in p.relative_to(DIST).parts))
     digest=hashlib.sha256()
     for p in files:digest.update(p.relative_to(DIST).as_posix().encode());digest.update(p.read_bytes())
     build_id=digest.hexdigest()[:16];manifest=[p.relative_to(DIST).as_posix() for p in files]
