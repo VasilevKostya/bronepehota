@@ -2,7 +2,7 @@
 
 Полевой справочник правил для телефона и компьютера. Первая редакция — **0.1**, 8 ноября 2026 года.
 
-Плановый публичный адрес: **https://vasilevkostya.github.io/bronepehota/**. Статус публикации фиксируется в PRODUCT.md.
+Сайт: **https://vasilevkostya.github.io/bronepehota/**. Первая публикация — 8 ноября 2026 года. Статус и ограничения проверки фиксируются в PRODUCT.md.
 
 ## Что входит
 
@@ -47,6 +47,6 @@ node scripts/serve.mjs --host 127.0.0.1 --port 4173
 
 ## Публикация
 
-Для репозитория `VasilevKostya/bronepehota` установите **Settings → Pages → Source: GitHub Actions**. Workflow `.github/workflows/pages.yml` собирает PDF и сайт, выполняет проверки и публикует `dist/` при изменениях ветки `main`. Для ручного запуска доступен `workflow_dispatch`. Источник публикации — GitHub Actions, ветка с готовым HTML не требуется.
+Для репозитория `VasilevKostya/bronepehota` установите **Settings → Pages → Source: GitHub Actions**. Workflow `.github/workflows/pages.yml` собирает PDF и сайт, выполняет проверки и публикует `dist/` при изменениях ветки `main`. После развёртывания `scripts/verify_deployed.py` проверяет публичный адрес, service worker и SHA-256 всех 94 ресурсов из манифеста редакции, включая PDF. При несовпадении версии или файла workflow завершается ошибкой. Для ручного запуска доступен `workflow_dispatch`. Источник публикации — GitHub Actions, ветка с готовым HTML не требуется.
 
 Все ссылки относительные и работают внутри `/bronepehota/`. Токены и секреты в проекте не нужны: публикация использует стандартный `GITHUB_TOKEN` рабочего процесса.
