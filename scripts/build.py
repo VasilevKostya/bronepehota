@@ -21,7 +21,7 @@ def inline(text):
     return link_pattern.sub(lambda m:f'<a href="{LINKS[m.group()]}">{m.group()}</a>',esc(text))
 def nav(current=None):
     return '<nav class="chapter-nav" aria-label="Главы правил"><ol>'+''.join(f'<li><a href="{url(c)}"'+(' aria-current="page"' if current==c['id'] else '')+f'><span class="number">{c["number"]:02}</span><span>{esc(c["title"])}</span></a></li>' for c in CHAPTERS)+'</ol></nav>'
-def status():return f'<span class="offline-label" role="status">{icon("download-simple")}<span data-offline>Сохранение для чтения без интернета…</span></span>'
+def status():return f'<div class="offline-control"><button type="button" class="offline-label" data-refresh-offline disabled title="Проверить и загрузить обновления с сайта">{icon("download-simple")}<span data-offline>Сохранение для чтения без интернета…</span></button><span class="offline-feedback" data-offline-feedback role="status"></span></div>'
 def frame(title,content,current=None,toc=''):
     body=f'''<a class="skip" href="#main">Перейти к содержанию</a>
 <header class="topbar"><a class="brand" href="index.html" aria-label="Бронепехота — главная"><strong>БРОНЕПЕХОТА</strong><span>{EDITION}</span></a>
