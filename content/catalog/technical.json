@@ -1,0 +1,2027 @@
+{
+  "schema_version": 1,
+  "units": [
+    {
+      "source_id": "IM-V-d7d4f6e98b65",
+      "source_path": "Империя/ТАНЧЕГИ/Anqui.png",
+      "source_sha256": "f67a1536e2439e0a9ef65921e5fd124a57343c2457e23ff12302987f567566ca",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "ANQUI",
+      "cost": 60,
+      "rank": 1,
+      "rate": 2,
+      "type": "cavalry",
+      "type_label": "Лёгкая кавалерия",
+      "ammo": 14,
+      "weapons": [
+        {
+          "name": "Лук и стрелы",
+          "range": "Д12+2",
+          "power": "Д6+4",
+          "ammo": null,
+          "note": ""
+        },
+        {
+          "name": "Лёгкое холодное оружие",
+          "range": null,
+          "power": null,
+          "ammo": null,
+          "note": "",
+          "melee": "Д6"
+        },
+        {
+          "name": "Штурмовой бластер",
+          "range": "2Д6−1",
+          "power": "2Д6+1",
+          "ammo": null,
+          "note": ""
+        },
+        {
+          "name": "Древковое оружие",
+          "range": null,
+          "power": null,
+          "ammo": null,
+          "note": "",
+          "melee": "4"
+        }
+      ],
+      "segments": [
+        [
+          12,
+          9,
+          6,
+          "green"
+        ],
+        [
+          8,
+          5,
+          5,
+          "yellow"
+        ],
+        [
+          4,
+          0,
+          3,
+          "red"
+        ]
+      ],
+      "notes": [
+        "Максимум прочности без щита: 10. Щит: +2."
+      ]
+    },
+    {
+      "source_id": "IM-V-cfaf7aa15214",
+      "source_path": "Империя/ТАНЧЕГИ/Ayotochi.png",
+      "source_sha256": "d64518d843de11519f1acea5bf9b49f611732483b4ec32f16f26462b2b13a782",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "AYOTOCHI",
+      "cost": 60,
+      "rank": 1,
+      "rate": 2,
+      "type": "cavalry",
+      "type_label": "Тяжёлая кавалерия",
+      "ammo": 14,
+      "weapons": [
+        {
+          "name": "Лук и стрелы",
+          "range": "Д12+2",
+          "power": "Д6+4",
+          "ammo": null,
+          "note": ""
+        },
+        {
+          "name": "Лёгкое холодное оружие",
+          "range": null,
+          "power": null,
+          "ammo": null,
+          "note": "",
+          "melee": "Д6"
+        },
+        {
+          "name": "Штурмовой бластер",
+          "range": "2Д6−1",
+          "power": "2Д6+1",
+          "ammo": null,
+          "note": ""
+        },
+        {
+          "name": "Древковое оружие",
+          "range": null,
+          "power": null,
+          "ammo": null,
+          "note": "",
+          "melee": "4"
+        }
+      ],
+      "segments": [
+        [
+          14,
+          9,
+          4,
+          "green"
+        ],
+        [
+          8,
+          5,
+          3,
+          "yellow"
+        ],
+        [
+          4,
+          0,
+          2,
+          "red"
+        ]
+      ],
+      "notes": [
+        "Максимум прочности без щита: 12. Щит: +2."
+      ]
+    },
+    {
+      "source_id": "IM-V-3acb3a0d4e18",
+      "source_path": "Империя/ТАНЧЕГИ/Вайлд Бир(ТЕСТ).png",
+      "source_sha256": "aa7472af1866556a8053584c4b95d98f9f0d2bc9e87a918437e9bdb9d67a3c13",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "WILD BEAR",
+      "cost": 455,
+      "rank": 3,
+      "rate": 2,
+      "type": "vehicle",
+      "type_label": "Тяжёлая боевая машина",
+      "weapons": [
+        {
+          "name": "Верхнее орудие · левое",
+          "range": "Д12",
+          "power": "2Д20",
+          "ammo": 1,
+          "note": "Взрыв: 2 шага — 1Д20."
+        },
+        {
+          "name": "Верхнее орудие · правое",
+          "range": "Д12",
+          "power": "2Д20",
+          "ammo": 1,
+          "note": "Взрыв: 2 шага — 1Д20."
+        },
+        {
+          "name": "Левое орудие",
+          "range": "Д12",
+          "power": "3Д12",
+          "ammo": 5,
+          "note": ""
+        },
+        {
+          "name": "Правое орудие",
+          "range": "Д12",
+          "power": "3Д12",
+          "ammo": 5,
+          "note": ""
+        }
+      ],
+      "segments": [
+        [
+          15,
+          10,
+          3,
+          "green"
+        ],
+        [
+          9,
+          5,
+          2,
+          "yellow"
+        ],
+        [
+          4,
+          0,
+          1,
+          "red"
+        ]
+      ]
+    },
+    {
+      "source_id": "IM-V-59dac01e1b22",
+      "source_path": "Империя/ТАНЧЕГИ/Девастатор(ТЕСТ).png",
+      "source_sha256": "0ba8fc9a2db3afcb2eb13a5d785a9ea9d3b0130248dee9eea8d6c37509cc92bf",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "DEVASTATOR",
+      "cost": 455,
+      "rank": 3,
+      "rate": 2,
+      "type": "vehicle",
+      "type_label": "Тяжёлая боевая машина",
+      "weapons": [
+        {
+          "name": "Верхнее орудие · левое",
+          "range": "Д12",
+          "power": "2Д20",
+          "ammo": 1,
+          "note": "Взрыв: 2 шага — 1Д20."
+        },
+        {
+          "name": "Верхнее орудие · правое",
+          "range": "Д12",
+          "power": "2Д20",
+          "ammo": 1,
+          "note": "Взрыв: 2 шага — 1Д20."
+        },
+        {
+          "name": "Левое орудие",
+          "range": "Д12",
+          "power": "2Д12",
+          "ammo": 5,
+          "note": ""
+        },
+        {
+          "name": "Правое орудие",
+          "range": "Д20",
+          "power": "2Д20",
+          "ammo": 4,
+          "note": ""
+        }
+      ],
+      "segments": [
+        [
+          16,
+          9,
+          2,
+          "green"
+        ],
+        [
+          8,
+          0,
+          1,
+          "red"
+        ]
+      ]
+    },
+    {
+      "source_id": "IM-V-bc10db0ca010",
+      "source_path": "Империя/ТАНЧЕГИ/Демолишер(ТЕСТ).png",
+      "source_sha256": "1be8a77974bac035dfa817652e030b58677fa25af490bd5d48e1ad24c52dfaa0",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "DEMOLISHER",
+      "cost": 400,
+      "rank": 3,
+      "rate": 2,
+      "type": "vehicle",
+      "type_label": "Тяжёлая боевая машина",
+      "weapons": [
+        {
+          "name": "Верхнее орудие · левое",
+          "range": "Д12",
+          "power": "2Д20",
+          "ammo": 1,
+          "note": "Взрыв: 2 шага — 1Д20."
+        },
+        {
+          "name": "Верхнее орудие · правое",
+          "range": "Д12",
+          "power": "2Д20",
+          "ammo": 1,
+          "note": "Взрыв: 2 шага — 1Д20."
+        },
+        {
+          "name": "Левое орудие",
+          "range": "Д12",
+          "power": "3Д12",
+          "ammo": 5,
+          "note": ""
+        },
+        {
+          "name": "Правое орудие",
+          "range": null,
+          "power": null,
+          "ammo": null,
+          "note": "",
+          "melee": "2"
+        },
+        {
+          "name": "Нижнее орудие",
+          "range": null,
+          "power": null,
+          "ammo": null,
+          "note": "",
+          "melee": "3"
+        }
+      ],
+      "segments": [
+        [
+          16,
+          8,
+          2,
+          "green"
+        ],
+        [
+          7,
+          0,
+          1,
+          "red"
+        ]
+      ]
+    },
+    {
+      "source_id": "IM-V-91a294cb417c",
+      "source_path": "Империя/ТАНЧЕГИ/Локуст(ТЕСТ).png",
+      "source_sha256": "dd991c72831d4aa9a480cafa307cb0ed9a92f80151586d1dd6ed4e795db1f73a",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "LOCUST",
+      "cost": 255,
+      "rank": 3,
+      "rate": 2,
+      "type": "vehicle",
+      "type_label": "Тяжёлая боевая машина",
+      "weapons": [
+        {
+          "name": "Левое орудие",
+          "range": "Д12",
+          "power": "2Д12",
+          "ammo": 5,
+          "note": ""
+        },
+        {
+          "name": "Правое орудие",
+          "range": "Д12",
+          "power": "2Д12",
+          "ammo": 5,
+          "note": ""
+        }
+      ],
+      "segments": [
+        [
+          12,
+          9,
+          5,
+          "green"
+        ],
+        [
+          8,
+          5,
+          4,
+          "yellow"
+        ],
+        [
+          4,
+          0,
+          3,
+          "red"
+        ]
+      ]
+    },
+    {
+      "source_id": "IM-V-71eb5ae0766e",
+      "source_path": "Империя/ТАНЧЕГИ/Локуст-М(ТЕСТ).png",
+      "source_sha256": "58ab5cbf4fb1c745db5bb0839645b4a65b208a972865c3d88472afa266dcc354",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "LOCUST-M",
+      "cost": 235,
+      "rank": 3,
+      "rate": 2,
+      "type": "vehicle",
+      "type_label": "Тяжёлая боевая машина",
+      "weapons": [
+        {
+          "name": "Левое орудие",
+          "range": "Д12",
+          "power": "2Д12",
+          "ammo": 5,
+          "note": ""
+        },
+        {
+          "name": "Правое орудие",
+          "range": "Д12",
+          "power": "Д20",
+          "ammo": 4,
+          "note": ""
+        }
+      ],
+      "segments": [
+        [
+          12,
+          9,
+          5,
+          "green"
+        ],
+        [
+          8,
+          5,
+          4,
+          "yellow"
+        ],
+        [
+          4,
+          0,
+          3,
+          "red"
+        ]
+      ]
+    },
+    {
+      "source_id": "IM-V-83bb7d62a1d7",
+      "source_path": "Империя/ТАНЧЕГИ/Мэд Бул(ТЕСТ).png",
+      "source_sha256": "812e008955e172215d9b0e699cb8181ed93306ef8e6e69d2387a13b2b68d3127",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "MAD BULL",
+      "cost": 340,
+      "rank": 3,
+      "rate": 2,
+      "type": "vehicle",
+      "type_label": "Тяжёлая боевая машина",
+      "weapons": [
+        {
+          "name": "Верхнее орудие · левое",
+          "range": "Д12",
+          "power": "Д20",
+          "ammo": 3,
+          "note": ""
+        },
+        {
+          "name": "Верхнее орудие · правое",
+          "range": "Д12",
+          "power": "Д20",
+          "ammo": 3,
+          "note": ""
+        },
+        {
+          "name": "Левое орудие",
+          "range": "Д12",
+          "power": "Д20+3",
+          "ammo": 4,
+          "note": ""
+        },
+        {
+          "name": "Правое орудие",
+          "range": "Д6+2",
+          "power": "2Д20",
+          "ammo": 4,
+          "note": ""
+        },
+        {
+          "name": "Нижнее орудие",
+          "range": null,
+          "power": null,
+          "ammo": null,
+          "note": "",
+          "melee": "2"
+        }
+      ],
+      "segments": [
+        [
+          15,
+          10,
+          3,
+          "green"
+        ],
+        [
+          9,
+          5,
+          2,
+          "yellow"
+        ],
+        [
+          4,
+          0,
+          1,
+          "red"
+        ]
+      ]
+    },
+    {
+      "source_id": "IM-V-8a5a01c33593",
+      "source_path": "Империя/ТАНЧЕГИ/Раптор(ТЕСТ).png",
+      "source_sha256": "45a126d4aa729a2ec896f83fdf50ab3640679c9bd682860dd435c8e342ba9c97",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "RAPTOR",
+      "cost": 190,
+      "rank": 2,
+      "rate": 1,
+      "type": "vehicle",
+      "type_label": "Лёгкая боевая машина",
+      "weapons": [
+        {
+          "name": "Левое орудие",
+          "range": "Д12",
+          "power": "Д20",
+          "ammo": 3,
+          "note": ""
+        },
+        {
+          "name": "Правое орудие",
+          "range": "Д12",
+          "power": "Д20",
+          "ammo": 3,
+          "note": ""
+        }
+      ],
+      "segments": [
+        [
+          9,
+          7,
+          4,
+          "green"
+        ],
+        [
+          6,
+          4,
+          3,
+          "yellow"
+        ],
+        [
+          3,
+          0,
+          2,
+          "red"
+        ]
+      ]
+    },
+    {
+      "source_id": "IM-V-adf02ed9ecf4",
+      "source_path": "Империя/ТАНЧЕГИ/Рэйвинг Бист(ТЕСТ).png",
+      "source_sha256": "4586a0c3615a009fb57dfef8c26902a143f6e57966e2cf2fcb5ea2253fca411b",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "RAVING BEAST",
+      "cost": 450,
+      "rank": 3,
+      "rate": 2,
+      "type": "vehicle",
+      "type_label": "Тяжёлая боевая машина",
+      "weapons": [
+        {
+          "name": "Верхнее орудие · левое",
+          "range": "Д12",
+          "power": "2Д20",
+          "ammo": 1,
+          "note": "Взрыв: 2 шага — 1Д20."
+        },
+        {
+          "name": "Верхнее орудие · правое",
+          "range": "Д12",
+          "power": "2Д20",
+          "ammo": 1,
+          "note": "Взрыв: 2 шага — 1Д20."
+        },
+        {
+          "name": "Левое орудие",
+          "range": "Д12",
+          "power": "Д20+3",
+          "ammo": 4,
+          "note": ""
+        },
+        {
+          "name": "Правое орудие",
+          "range": "Д6+2",
+          "power": "2Д20",
+          "ammo": 4,
+          "note": ""
+        }
+      ],
+      "segments": [
+        [
+          15,
+          10,
+          3,
+          "green"
+        ],
+        [
+          9,
+          5,
+          2,
+          "yellow"
+        ],
+        [
+          4,
+          0,
+          1,
+          "red"
+        ]
+      ]
+    },
+    {
+      "source_id": "IM-V-28cf5c62b6b3",
+      "source_path": "Империя/ТАНЧЕГИ/Спайдер(ТЕСТ).png",
+      "source_sha256": "a862fafadd6eea778ed0969cf7813e0e9cd8dd2b20e42ec2a942c41fc0160940",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "SPIDER",
+      "cost": 240,
+      "rank": 3,
+      "rate": 2,
+      "type": "vehicle",
+      "type_label": "Тяжёлая боевая машина",
+      "weapons": [
+        {
+          "name": "Верхнее орудие · левое",
+          "range": "Д12",
+          "power": "2Д20",
+          "ammo": 4,
+          "note": ""
+        },
+        {
+          "name": "Верхнее орудие · правое",
+          "range": "Д12",
+          "power": "2Д20",
+          "ammo": 4,
+          "note": ""
+        },
+        {
+          "name": "Нижнее орудие",
+          "range": "Д12",
+          "power": "2Д6",
+          "ammo": 6,
+          "note": ""
+        }
+      ],
+      "segments": [
+        [
+          12,
+          9,
+          5,
+          "green"
+        ],
+        [
+          8,
+          5,
+          4,
+          "yellow"
+        ],
+        [
+          4,
+          0,
+          3,
+          "red"
+        ]
+      ]
+    },
+    {
+      "source_id": "IM-V-c5b686766026",
+      "source_path": "Империя/ТАНЧЕГИ/Супер Локуст(ТЕСТ).png",
+      "source_sha256": "a27888c7e2fd233151640d37d044335fdf1788ff5d2762ef21df128293def51d",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "SUPER LOCUST",
+      "cost": 220,
+      "rank": 3,
+      "rate": 2,
+      "type": "vehicle",
+      "type_label": "Тяжёлая боевая машина",
+      "weapons": [
+        {
+          "name": "Левое орудие",
+          "range": "Д12",
+          "power": "Д20",
+          "ammo": 4,
+          "note": ""
+        },
+        {
+          "name": "Правое орудие",
+          "range": "Д12",
+          "power": "Д20",
+          "ammo": 4,
+          "note": ""
+        }
+      ],
+      "segments": [
+        [
+          12,
+          9,
+          5,
+          "green"
+        ],
+        [
+          8,
+          5,
+          4,
+          "yellow"
+        ],
+        [
+          4,
+          0,
+          3,
+          "red"
+        ]
+      ]
+    },
+    {
+      "source_id": "IM-V-1d6186c29f5c",
+      "source_path": "Империя/ТАНЧЕГИ/Т-600(ТЕСТ).jpg",
+      "source_sha256": "cdf750e3dee82b34373dcf195d3cf00058694ac72f4b93efac4a85e66b250e83",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "Т-600",
+      "cost": 250,
+      "rank": 3,
+      "rate": 2,
+      "type": "vehicle",
+      "type_label": "Тяжёлая боевая машина",
+      "weapons": [
+        {
+          "name": "Пулемёт «Вулкан»",
+          "range": "Д12",
+          "power": "3Д12",
+          "ammo": 5,
+          "note": ""
+        },
+        {
+          "name": "Пулемёт",
+          "range": "Д12",
+          "power": "2Д6",
+          "ammo": 6,
+          "note": ""
+        },
+        {
+          "name": "Бронеотвал",
+          "range": null,
+          "power": null,
+          "ammo": null,
+          "note": "",
+          "melee": "3"
+        }
+      ],
+      "segments": [
+        [
+          15,
+          10,
+          4,
+          "green"
+        ],
+        [
+          9,
+          5,
+          3,
+          "yellow"
+        ],
+        [
+          4,
+          0,
+          2,
+          "red"
+        ]
+      ]
+    },
+    {
+      "source_id": "IM-V-7c68a43785dc",
+      "source_path": "Империя/ТАНЧЕГИ/Хантер(ТЕСТ) (1).jpg",
+      "source_sha256": "4ff7acb9bb824d7218e471b7192d2f20c795596f016fe9d13ade509dff673f6d",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "HUNTER",
+      "cost": 200,
+      "rank": 2,
+      "rate": 1,
+      "type": "vehicle",
+      "type_label": "Лёгкая боевая машина",
+      "weapons": [
+        {
+          "name": "Орудие",
+          "range": "Д12",
+          "power": "Д20",
+          "ammo": 4,
+          "note": ""
+        }
+      ],
+      "segments": [
+        [
+          9,
+          7,
+          6,
+          "green"
+        ],
+        [
+          6,
+          4,
+          5,
+          "yellow"
+        ],
+        [
+          3,
+          0,
+          4,
+          "red"
+        ]
+      ]
+    },
+    {
+      "source_id": "IM-V-bc6ad0cd69d0",
+      "source_path": "Империя/ТАНЧЕГИ/Хеликс(ТЕСТ).png",
+      "source_sha256": "182731229eb483a3170639abc6ce45a0b6a45837e9737ba4450085bffa08f200",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "HELIX",
+      "cost": 220,
+      "rank": 3,
+      "rate": 2,
+      "type": "vehicle",
+      "type_label": "Тяжёлая боевая машина",
+      "weapons": [
+        {
+          "name": "Верхнее орудие · левое",
+          "range": "Д12",
+          "power": "Д20",
+          "ammo": 3,
+          "note": ""
+        },
+        {
+          "name": "Верхнее орудие · правое",
+          "range": "Д12",
+          "power": "Д20",
+          "ammo": 3,
+          "note": ""
+        }
+      ],
+      "segments": [
+        [
+          12,
+          9,
+          4,
+          "green"
+        ],
+        [
+          8,
+          5,
+          3,
+          "yellow"
+        ],
+        [
+          4,
+          0,
+          2,
+          "red"
+        ]
+      ]
+    },
+    {
+      "source_id": "IM-V-bd4de92cb5df",
+      "source_path": "Империя/ТАНЧЕГИ/Эрайзер(ТЕСТ).png",
+      "source_sha256": "eb64faf955f328471e6fac422e86febb0e9abd7cf9dca71b592e80b337f673b8",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "ERASER",
+      "cost": 375,
+      "rank": 3,
+      "rate": 2,
+      "type": "vehicle",
+      "type_label": "Тяжёлая боевая машина",
+      "weapons": [
+        {
+          "name": "Верхнее орудие · левое",
+          "range": "Д12",
+          "power": "Д20",
+          "ammo": 3,
+          "note": ""
+        },
+        {
+          "name": "Верхнее орудие · правое",
+          "range": "Д12",
+          "power": "Д20",
+          "ammo": 3,
+          "note": ""
+        },
+        {
+          "name": "Левое орудие",
+          "range": "Д20",
+          "power": "2Д20",
+          "ammo": 4,
+          "note": ""
+        },
+        {
+          "name": "Правое орудие",
+          "range": "Д6+2",
+          "power": "2Д20",
+          "ammo": 4,
+          "note": ""
+        }
+      ],
+      "segments": [
+        [
+          16,
+          8,
+          2,
+          "green"
+        ],
+        [
+          7,
+          0,
+          1,
+          "red"
+        ]
+      ]
+    },
+    {
+      "source_id": "DF-H-6ce45b0e9416",
+      "source_path": "Мертвый Флот/Герои/Марк баллард(ТЕСТ).jpg",
+      "source_sha256": "1d3a740bff742fbcb947cad29fb96df68cf30bb0e993227a8384526031beb6dc",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "Марк Баллард",
+      "cost": 100,
+      "rank": 5,
+      "type": "hero",
+      "type_label": "Герой",
+      "speed": 4,
+      "armor": 6,
+      "life": 4,
+      "weapons": [
+        {
+          "name": "Когти",
+          "range": "0",
+          "power": "0",
+          "ammo": null,
+          "note": "",
+          "melee": "7"
+        },
+        {
+          "name": "Термобарическая винтовка",
+          "range": "Д12",
+          "power": "2Д12",
+          "ammo": null,
+          "note": "",
+          "melee": "1"
+        }
+      ],
+      "abilities": [
+        {
+          "title": "Смена оружия",
+          "text": "Один раз за игру Марк может сменить оружие."
+        },
+        {
+          "title": "Жертва императору",
+          "text": "Выбранный отряд противника получает −1 ко всем параметрам. Способность «Жертва императору» не может быть применена к отрядам, возглавляемым героем."
+        }
+      ],
+      "clarifications": [
+        "В исходном листе не указаны длительность эффекта «Жертва императору» и способ применения −1 к параметрам, записанным кубиками."
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "DF-V-4d09630c812f",
+      "source_path": "Мертвый Флот/ТАНЧЕГИ/Ватракс(ТЕСТ).jpg",
+      "source_sha256": "b72e2f11d6d671cd0cb99219ee8cfb01c702f967694ff44bc28bd894a92c7ddc",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "VATRAX",
+      "cost": 220,
+      "rank": 3,
+      "rate": 2,
+      "type": "vehicle",
+      "type_label": "Тяжёлая боевая машина",
+      "weapons": [
+        {
+          "name": "Верхнее орудие · левое",
+          "range": "Д12",
+          "power": "Д20",
+          "ammo": 3,
+          "note": ""
+        },
+        {
+          "name": "Верхнее орудие · правое",
+          "range": "Д12",
+          "power": "Д20",
+          "ammo": 3,
+          "note": ""
+        }
+      ],
+      "segments": [
+        [
+          12,
+          9,
+          4,
+          "green"
+        ],
+        [
+          8,
+          5,
+          3,
+          "yellow"
+        ],
+        [
+          4,
+          0,
+          2,
+          "red"
+        ]
+      ]
+    },
+    {
+      "source_id": "DF-V-14f25990407d",
+      "source_path": "Мертвый Флот/ТАНЧЕГИ/Талион(ТЕСТ).jpg",
+      "source_sha256": "24f18ec09efaad75b89977074cc11c30873749f7f06ffad9e15ca90338d1174b",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "TALION",
+      "cost": 410,
+      "rank": 3,
+      "rate": 2,
+      "type": "vehicle",
+      "type_label": "Тяжёлая боевая машина",
+      "weapons": [
+        {
+          "name": "Верхнее орудие · левое",
+          "range": "Д12",
+          "power": "2Д20",
+          "ammo": 1,
+          "note": "Взрыв: 2 шага — 1Д20."
+        },
+        {
+          "name": "Верхнее орудие · правое",
+          "range": "Д12",
+          "power": "2Д20",
+          "ammo": 1,
+          "note": "Взрыв: 2 шага — 1Д20."
+        },
+        {
+          "name": "Левое орудие",
+          "range": "Д12",
+          "power": "Д20+3",
+          "ammo": 4,
+          "note": ""
+        },
+        {
+          "name": "Правое орудие",
+          "range": "Д12",
+          "power": "Д20+3",
+          "ammo": 4,
+          "note": ""
+        }
+      ],
+      "segments": [
+        [
+          15,
+          10,
+          3,
+          "green"
+        ],
+        [
+          9,
+          5,
+          2,
+          "yellow"
+        ],
+        [
+          4,
+          0,
+          1,
+          "red"
+        ]
+      ]
+    },
+    {
+      "source_id": "DF-V-a3efc23e484e",
+      "source_path": "Мертвый Флот/ТАНЧЕГИ/Харон(ТЕСТ).jpg",
+      "source_sha256": "5ecfb96da58c12e624d1f32d36fbf0b12b8b743ebf060d96125e9e60a12617eb",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "KHARON",
+      "cost": 200,
+      "rank": 3,
+      "rate": 1,
+      "type": "vehicle",
+      "type_label": "Тяжёлая боевая машина",
+      "weapons": [
+        {
+          "name": "Верхнее орудие",
+          "range": "Д12",
+          "power": "2Д6",
+          "ammo": 6,
+          "note": ""
+        }
+      ],
+      "segments": [
+        [
+          12,
+          9,
+          5,
+          "green"
+        ],
+        [
+          8,
+          5,
+          4,
+          "yellow"
+        ],
+        [
+          4,
+          0,
+          3,
+          "red"
+        ]
+      ],
+      "abilities": [
+        {
+          "title": "Перевозка отряда",
+          "text": "Техника способна перевозить в себе отряд из 6 бойцов."
+        }
+      ]
+    },
+    {
+      "source_id": "PR-V-16433beb3fe7",
+      "source_path": "Протекторат/ТАНЧЕГИ/Бронеход(ТЕСТ) (1).png",
+      "source_sha256": "263344235dfd54d30b5c85db8c6675f29af8b94bc4aca334329ac3437ddba003",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "BRONEKHOD",
+      "cost": 190,
+      "rank": 2,
+      "rate": 1,
+      "type": "vehicle",
+      "type_label": "Лёгкая боевая машина",
+      "weapons": [
+        {
+          "name": "Левое орудие",
+          "range": "Д12",
+          "power": "Д20",
+          "ammo": 3,
+          "note": ""
+        },
+        {
+          "name": "Правое орудие",
+          "range": "Д12",
+          "power": "Д20",
+          "ammo": 3,
+          "note": ""
+        }
+      ],
+      "segments": [
+        [
+          10,
+          7,
+          4,
+          "green"
+        ],
+        [
+          6,
+          4,
+          3,
+          "yellow"
+        ],
+        [
+          3,
+          0,
+          2,
+          "red"
+        ]
+      ]
+    },
+    {
+      "source_id": "PR-V-3cad28ed22ce",
+      "source_path": "Протекторат/ТАНЧЕГИ/Вайпер(ТЕСТ).png",
+      "source_sha256": "0d089d087dfe404bb43381914a5a175785b4444c1bb0403ed2eadf28d0e203c3",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "VIPER",
+      "cost": 200,
+      "rank": 2,
+      "rate": 1,
+      "type": "vehicle",
+      "type_label": "Лёгкая боевая машина",
+      "weapons": [
+        {
+          "name": "Левое орудие",
+          "range": "Д12",
+          "power": "Д20",
+          "ammo": 3,
+          "note": ""
+        },
+        {
+          "name": "Правое орудие",
+          "range": "Д12",
+          "power": "Д20",
+          "ammo": 3,
+          "note": ""
+        }
+      ],
+      "segments": [
+        [
+          8,
+          7,
+          7,
+          "green"
+        ],
+        [
+          6,
+          4,
+          5,
+          "yellow"
+        ],
+        [
+          3,
+          0,
+          3,
+          "red"
+        ]
+      ]
+    },
+    {
+      "source_id": "PR-V-b6c720494097",
+      "source_path": "Протекторат/ТАНЧЕГИ/Вервульф(ТЕСТ).png",
+      "source_sha256": "50cbdd0765486a80ad5f0751f45f8c57f7dd3cd3fa2962ed1ba465ddb96eed10",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "WEREWOLF",
+      "cost": 250,
+      "rank": 2,
+      "rate": 1,
+      "type": "vehicle",
+      "type_label": "Тяжёлая боевая машина",
+      "weapons": [
+        {
+          "name": "Верхнее орудие",
+          "range": "Д12",
+          "power": "3Д12",
+          "ammo": 5,
+          "note": ""
+        },
+        {
+          "name": "Левое орудие",
+          "range": null,
+          "power": null,
+          "ammo": null,
+          "note": "",
+          "melee": "2"
+        },
+        {
+          "name": "Правое орудие",
+          "range": null,
+          "power": null,
+          "ammo": null,
+          "note": "",
+          "melee": "1"
+        }
+      ],
+      "segments": [
+        [
+          14,
+          10,
+          5,
+          "green"
+        ],
+        [
+          9,
+          5,
+          4,
+          "yellow"
+        ],
+        [
+          4,
+          0,
+          3,
+          "red"
+        ]
+      ]
+    },
+    {
+      "source_id": "PR-V-f098add3f862",
+      "source_path": "Протекторат/ТАНЧЕГИ/Грифон(ТЕСТ).png",
+      "source_sha256": "bbd3f51f03db24a6a7923f516ce3792eaa33865a341230f68a4e56e86134c222",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "GRYPHON",
+      "cost": 305,
+      "rank": 3,
+      "rate": 2,
+      "type": "vehicle",
+      "type_label": "Тяжёлая боевая машина",
+      "weapons": [
+        {
+          "name": "Верхнее орудие · левое",
+          "range": "Д12",
+          "power": "Д20",
+          "ammo": 3,
+          "note": ""
+        },
+        {
+          "name": "Верхнее орудие · правое",
+          "range": "Д12",
+          "power": "Д20",
+          "ammo": 3,
+          "note": ""
+        },
+        {
+          "name": "Левое орудие",
+          "range": "Д12",
+          "power": "Д20+3",
+          "ammo": 4,
+          "note": ""
+        },
+        {
+          "name": "Правое орудие",
+          "range": "2Д12",
+          "power": "Д20",
+          "ammo": 4,
+          "note": ""
+        },
+        {
+          "name": "Нижнее орудие",
+          "range": "Д12",
+          "power": "2Д6",
+          "ammo": 6,
+          "note": "3 выстрела в 3 направлениях за 1 единицу БК."
+        }
+      ],
+      "segments": [
+        [
+          11,
+          8,
+          6,
+          "green"
+        ],
+        [
+          7,
+          4,
+          5,
+          "yellow"
+        ],
+        [
+          3,
+          0,
+          4,
+          "red"
+        ]
+      ]
+    },
+    {
+      "source_id": "PR-V-936195d7edc5",
+      "source_path": "Протекторат/ТАНЧЕГИ/Карнивор(ТЕСТ).png",
+      "source_sha256": "8cd7e3bf72f155c53ba9605604a3f1e9ac5f8c0bdc1e5f21979cda8c40561ab5",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "CARNIVORE",
+      "cost": 295,
+      "rank": 3,
+      "rate": 2,
+      "type": "vehicle",
+      "type_label": "Тяжёлая боевая машина",
+      "weapons": [
+        {
+          "name": "Верхнее орудие · левое",
+          "range": "Д12",
+          "power": "Д20",
+          "ammo": 3,
+          "note": ""
+        },
+        {
+          "name": "Верхнее орудие · правое",
+          "range": "Д12",
+          "power": "Д20",
+          "ammo": 3,
+          "note": ""
+        },
+        {
+          "name": "Левое орудие",
+          "range": "Д12",
+          "power": "Д20+3",
+          "ammo": 4,
+          "note": ""
+        },
+        {
+          "name": "Правое орудие",
+          "range": "Д20",
+          "power": "Д20",
+          "ammo": 5,
+          "note": ""
+        }
+      ],
+      "segments": [
+        [
+          14,
+          10,
+          5,
+          "green"
+        ],
+        [
+          9,
+          5,
+          4,
+          "yellow"
+        ],
+        [
+          4,
+          0,
+          3,
+          "red"
+        ]
+      ]
+    },
+    {
+      "source_id": "PR-V-d44d9eda17ef",
+      "source_path": "Протекторат/ТАНЧЕГИ/Предатор(ТЕСТ).png",
+      "source_sha256": "4509f50ff510c837dc9339406855f160fa4b70b3ee0a6c360747d56dbfc242fc",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "PREDATOR",
+      "cost": 415,
+      "rank": 3,
+      "rate": 2,
+      "type": "vehicle",
+      "type_label": "Тяжёлая боевая машина",
+      "weapons": [
+        {
+          "name": "Верхнее орудие · левое",
+          "range": "Д12",
+          "power": "2Д20",
+          "ammo": 1,
+          "note": "Взрыв: 2 шага — 1Д20."
+        },
+        {
+          "name": "Верхнее орудие · правое",
+          "range": "Д12",
+          "power": "2Д20",
+          "ammo": 1,
+          "note": "Взрыв: 2 шага — 1Д20."
+        },
+        {
+          "name": "Левое орудие",
+          "range": "Д12",
+          "power": "Д20+3",
+          "ammo": 4,
+          "note": ""
+        },
+        {
+          "name": "Правое орудие",
+          "range": "2Д12",
+          "power": "Д20",
+          "ammo": 4,
+          "note": ""
+        }
+      ],
+      "segments": [
+        [
+          14,
+          10,
+          5,
+          "green"
+        ],
+        [
+          9,
+          5,
+          4,
+          "yellow"
+        ],
+        [
+          4,
+          0,
+          3,
+          "red"
+        ]
+      ]
+    },
+    {
+      "source_id": "PR-V-0ec946a9d9c0",
+      "source_path": "Протекторат/ТАНЧЕГИ/Пума(ТЕСТ).jpg",
+      "source_sha256": "b8c03d05e861da9cd4f6fb3d498a59ae9a923941c6aacf442fe0213e373e53da",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "PUMA",
+      "cost": 200,
+      "rank": 2,
+      "rate": 2,
+      "type": "vehicle",
+      "type_label": "Лёгкая боевая машина",
+      "weapons": [
+        {
+          "name": "Левое орудие",
+          "range": "Д12",
+          "power": "Д20",
+          "ammo": 3,
+          "note": ""
+        },
+        {
+          "name": "Правое орудие",
+          "range": "Д12",
+          "power": "Д20",
+          "ammo": 3,
+          "note": ""
+        }
+      ],
+      "segments": [
+        [
+          10,
+          8,
+          5,
+          "green"
+        ],
+        [
+          7,
+          4,
+          4,
+          "yellow"
+        ],
+        [
+          3,
+          0,
+          3,
+          "red"
+        ]
+      ]
+    },
+    {
+      "source_id": "PR-V-f76977140e42",
+      "source_path": "Протекторат/ТАНЧЕГИ/Саламандра(ТЕСТ).jpg",
+      "source_sha256": "162185772a2d0a9068bca2ee35c905b468c1102afca26ff607fe7cf49df2d537",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "SALAMANDER",
+      "cost": 160,
+      "rank": 2,
+      "rate": 1,
+      "type": "vehicle",
+      "type_label": "Лёгкая боевая машина",
+      "weapons": [
+        {
+          "name": "Левое орудие",
+          "range": "Д12",
+          "power": "Д20",
+          "ammo": 3,
+          "note": ""
+        },
+        {
+          "name": "Правое орудие",
+          "range": "Д12",
+          "power": "Д20",
+          "ammo": 3,
+          "note": ""
+        }
+      ],
+      "segments": [
+        [
+          7,
+          3,
+          4,
+          "green"
+        ],
+        [
+          2,
+          0,
+          3,
+          "red"
+        ]
+      ]
+    },
+    {
+      "source_id": "PR-V-1f426c816899",
+      "source_path": "Протекторат/ТАНЧЕГИ/Т-1000(ТЕСТ).jpg",
+      "source_sha256": "32529c9bc4aa80c3ac406efdd7ff5da0a869dcc77a88ee8c0e20f0b246d04fbb",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "Т-1000",
+      "cost": 330,
+      "rank": 3,
+      "rate": 2,
+      "type": "vehicle",
+      "type_label": "Тяжёлая боевая машина",
+      "weapons": [
+        {
+          "name": "Пушка Гатлинга",
+          "range": "Д12",
+          "power": "3Д12",
+          "ammo": 5,
+          "note": ""
+        },
+        {
+          "name": "Спаренная пусковая установка «Шторм»",
+          "range": "Д12",
+          "power": "2Д20",
+          "ammo": 2,
+          "note": "Взрыв: 2 шага — 1Д20."
+        }
+      ],
+      "segments": [
+        [
+          15,
+          10,
+          4,
+          "green"
+        ],
+        [
+          9,
+          5,
+          3,
+          "yellow"
+        ],
+        [
+          4,
+          0,
+          2,
+          "red"
+        ]
+      ]
+    },
+    {
+      "source_id": "PR-V-0129d2b4518f",
+      "source_path": "Протекторат/ТАНЧЕГИ/Ти-Рекс(ТЕСТ).png",
+      "source_sha256": "15fed03236a5c6f79f7346683c376c3c6c6ed8b90c04a162c02bf0fa63868033",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "T-REX",
+      "cost": 320,
+      "rank": 3,
+      "rate": 2,
+      "type": "vehicle",
+      "type_label": "Тяжёлая боевая машина",
+      "weapons": [
+        {
+          "name": "Верхнее орудие · левое",
+          "range": "Д12",
+          "power": "Д20",
+          "ammo": 3,
+          "note": ""
+        },
+        {
+          "name": "Верхнее орудие · правое",
+          "range": "Д12",
+          "power": "Д20",
+          "ammo": 3,
+          "note": ""
+        },
+        {
+          "name": "Левое орудие",
+          "range": "Д12",
+          "power": "2Д12",
+          "ammo": 5,
+          "note": ""
+        },
+        {
+          "name": "Правое орудие",
+          "range": "Д12",
+          "power": "2Д12",
+          "ammo": 5,
+          "note": ""
+        }
+      ],
+      "segments": [
+        [
+          15,
+          10,
+          4,
+          "green"
+        ],
+        [
+          9,
+          5,
+          3,
+          "yellow"
+        ],
+        [
+          4,
+          0,
+          2,
+          "red"
+        ]
+      ]
+    },
+    {
+      "source_id": "PR-V-814bf361a8cc",
+      "source_path": "Протекторат/ТАНЧЕГИ/Торнадо(ТЕСТ).png",
+      "source_sha256": "680dd62ded211c45b31764d37018025e3fec7b652b858a738ba0cd3f881a4dc9",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "TORNADO",
+      "cost": 310,
+      "rank": 3,
+      "rate": 2,
+      "type": "vehicle",
+      "type_label": "Тяжёлая боевая машина",
+      "weapons": [
+        {
+          "name": "Верхнее орудие · левое",
+          "range": "Д12",
+          "power": "3Д12",
+          "ammo": 5,
+          "note": ""
+        },
+        {
+          "name": "Верхнее орудие · правое",
+          "range": "Д12",
+          "power": "3Д12",
+          "ammo": 5,
+          "note": ""
+        },
+        {
+          "name": "Левое орудие",
+          "range": null,
+          "power": null,
+          "ammo": null,
+          "note": "",
+          "melee": "1"
+        },
+        {
+          "name": "Правое орудие",
+          "range": null,
+          "power": null,
+          "ammo": null,
+          "note": "",
+          "melee": "2"
+        }
+      ],
+      "segments": [
+        [
+          15,
+          10,
+          4,
+          "green"
+        ],
+        [
+          9,
+          5,
+          3,
+          "yellow"
+        ],
+        [
+          4,
+          0,
+          2,
+          "red"
+        ]
+      ]
+    },
+    {
+      "source_id": "PR-V-bed72e41dee1",
+      "source_path": "Протекторат/ТАНЧЕГИ/Хэррикейн(ТЕСТ).png",
+      "source_sha256": "d6f4cac2890531e442508a5400079c007ff6835f78802adcba99def7a6eae75c",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "HURRICANE",
+      "cost": 390,
+      "rank": 3,
+      "rate": 2,
+      "type": "vehicle",
+      "type_label": "Тяжёлая боевая машина",
+      "weapons": [
+        {
+          "name": "Верхнее орудие · левое",
+          "range": "Д12",
+          "power": "3Д12",
+          "ammo": 5,
+          "note": ""
+        },
+        {
+          "name": "Верхнее орудие · правое",
+          "range": "Д12",
+          "power": "3Д12",
+          "ammo": 5,
+          "note": ""
+        },
+        {
+          "name": "Левое орудие",
+          "range": "Д12",
+          "power": "Д20",
+          "ammo": 2,
+          "note": "Взрыв: 1 шаг — 1Д12."
+        },
+        {
+          "name": "Правое орудие",
+          "range": "Д12",
+          "power": "3Д12",
+          "ammo": 5,
+          "note": ""
+        }
+      ],
+      "segments": [
+        [
+          15,
+          10,
+          4,
+          "green"
+        ],
+        [
+          9,
+          5,
+          3,
+          "yellow"
+        ],
+        [
+          4,
+          0,
+          2,
+          "red"
+        ]
+      ]
+    },
+    {
+      "source_id": "SW-H-b6915bbf93a5",
+      "source_path": "Снежные волки/Герои/Ингольв Кривой(ТЕСТ).jpg",
+      "source_sha256": "7a97a3472f05098b89a8e4a6efbcafad82c7236cf0f39271c9f6c69ad65c7819",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "Ингольв Кривой",
+      "cost": 100,
+      "rank": 5,
+      "type": "hero",
+      "type_label": "Герой",
+      "speed": 5,
+      "armor": 5,
+      "life": 4,
+      "weapons": [
+        {
+          "name": "Пневмотопор",
+          "range": "0",
+          "power": "0",
+          "ammo": null,
+          "note": "",
+          "melee": "7"
+        },
+        {
+          "name": "Винтовка",
+          "range": "Д6+2",
+          "power": "3Д6",
+          "ammo": null,
+          "note": "",
+          "melee": "1"
+        }
+      ],
+      "abilities": [
+        {
+          "title": "Смена оружия",
+          "text": "Один раз за игру Ингольв может сменить оружие."
+        },
+        {
+          "title": "Боевой клич",
+          "text": "Выбранный отряд союзников получает +1 ко всем параметрам. Способность «Боевой клич» не может быть применена к отрядам, возглавляемым героем."
+        }
+      ],
+      "clarifications": [
+        "В исходном листе не указаны длительность эффекта «Боевой клич» и способ применения +1 к параметрам, записанным кубиками."
+      ]
+    },
+    {
+      "source_id": "SW-V-5656869b73cb",
+      "source_path": "Снежные волки/ТАНЧЕГИ/Гарм.jpg",
+      "source_sha256": "81ec681bf66182a8975425b201526f3434122083f7259fd6c8ebafaa690c582f",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "Гарм",
+      "cost": 300,
+      "rank": 3,
+      "rate": 1,
+      "type": "vehicle",
+      "type_label": "Тяжёлая боевая машина",
+      "weapons": [
+        {
+          "name": "Шестиствольный пулемёт «Вулкан МК29»",
+          "range": "Д12",
+          "power": "3Д20",
+          "ammo": 3,
+          "note": "Взрыв: 1 шаг — 1Д12."
+        }
+      ],
+      "segments": [
+        [
+          14,
+          10,
+          4,
+          "green",
+          15
+        ],
+        [
+          9,
+          5,
+          3,
+          "yellow",
+          9
+        ],
+        [
+          4,
+          0,
+          2,
+          "red",
+          4
+        ]
+      ],
+      "clarifications": [
+        "В листе броня зелёного сектора равна 15, а ряд значений шкалы начинается с 14. Требует уточнения начальное значение прочности; оба показателя сохранены как в источнике."
+      ]
+    },
+    {
+      "source_id": "SW-V-86a46f16b453",
+      "source_path": "Снежные волки/ТАНЧЕГИ/Йотун.jpg",
+      "source_sha256": "85babf8be3e297ceee3e8f31dbd32ae57c4484d2ab93552435e2bb952f16ab80",
+      "review": {
+        "method": "visual-comparison-with-original",
+        "date": "2026-11-12"
+      },
+      "name": "Йотун",
+      "cost": 220,
+      "rank": 3,
+      "rate": 2,
+      "type": "vehicle",
+      "type_label": "Тяжёлая боевая машина",
+      "weapons": [
+        {
+          "name": "Левое оружие · пусковая установка «Молот»",
+          "range": "Д12",
+          "power": "Д20",
+          "ammo": 3,
+          "note": ""
+        },
+        {
+          "name": "Правое оружие · пусковая установка «Молот»",
+          "range": "Д12",
+          "power": "Д20",
+          "ammo": 3,
+          "note": ""
+        }
+      ],
+      "segments": [
+        [
+          12,
+          9,
+          5,
+          "green",
+          12
+        ],
+        [
+          8,
+          5,
+          4,
+          "yellow",
+          8
+        ],
+        [
+          4,
+          0,
+          3,
+          "red",
+          4
+        ]
+      ]
+    }
+  ]
+}

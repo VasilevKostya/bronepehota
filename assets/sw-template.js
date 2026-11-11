@@ -45,6 +45,25 @@ self.addEventListener('fetch',event=>{
     if(key.pathname.endsWith('/'))key.pathname+='index.html';
     const cache=await caches.open(CACHE),hit=await cache.match(key);
     if(hit)return hit;
+    const path=key.pathname.slice(scope.pathname.length);
+    if(path.startsWith('assets/units/large/')){
+      const manifest=await cache.match(new URL('assets/catalog-large.json',scope));
+      const entry=manifest&&(await manifest.json())[path];
+      if(entry){
+        try{
+          const image=await fetch(request);
+          if(!image.ok)throw new Error('Image unavailable');
+          const digest=await crypto.subtle.digest('SHA-256',await image.clone().arrayBuffer());
+          const hash=[...new Uint8Array(digest)].map(b=>b.toString(16).padStart(2,'0')).join('');
+          if(hash!==entry.sha256)throw new Error('Image changed');
+          // Optional images must not make the complete base cache unusable at quota.
+          try{await cache.put(key,image.clone());}catch{/* Show the downloaded image without storing it. */}
+          return image;
+        }catch{
+          return await cache.match(new URL(entry.fallback,scope))||Response.error();
+        }
+      }
+    }
     try{return await fetch(request);}catch(error){
       if(request.mode==='navigate')return await cache.match(new URL('404.html',self.registration.scope))||Response.error();
       return Response.error();

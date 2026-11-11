@@ -1,0 +1,85 @@
+{
+  "created": "2026-11-12",
+  "status": "approved",
+  "chosen_option": 2,
+  "type": "raster-design-options",
+  "workflow": "Product Design ideate; built-in image_gen",
+  "scope": "Три варианта в существующем стиле «Полевой справочник», каждый включает каталог и подробную карточку для компьютера и телефона.",
+  "viewport_targets": {
+    "desktop": [
+      1440,
+      900
+    ],
+    "mobile": [
+      390,
+      844
+    ]
+  },
+  "approved_brief": "Пользователь подтвердил ТЗ каталога перед подготовкой этих вариантов.",
+  "immutable_brand": "DESIGN.md; .impeccable/design.json; docs/design/field-manual-approved.png",
+  "authority": "Эскизы определяют предложенную композицию, но не являются источниками игровых данных или новыми утверждёнными правилами брендбука. Число фигур, типографика, значения и детали иллюстраций при реализации проверяются по исходникам.",
+  "implementation_status": "Код сайта, контент правил, сборка и публикация не изменены.",
+  "qa_scope": "Просмотрены три растровых результата. Работа интерфейса, доступность и адаптивность не тестировались, поскольку интерфейс ещё не реализован.",
+  "selection_contract": "Порядок совпадает с порядком отображённых image_gen результатов в чате: 1, затем 2, затем 3. После выбора зафиксировать выбранную композицию в DESIGN.md, .impeccable/design.json и docs/design/catalog-surface.md в том же наборе изменений.",
+  "references": [
+    "C:/Users/user/Documents/Codex/Бронепехота/docs/design/field-manual-approved.png",
+    "C:/Users/user/Documents/Codex/Бронепехота/.impeccable/review/desktop.png",
+    "C:/Users/user/Documents/Codex/Бронепехота/БП/Снежные волки/ПИХОТА/Хирдманы.jpg",
+    "C:/Users/user/Documents/Codex/Бронепехота/БП/Снежные волки/ПИХОТА/Хускарлы.jpg",
+    "C:/Users/user/Documents/Codex/Бронепехота/Извлечение-изображений/output/Империя/Техника/IM-V-7c68a43785dc/r001/IM-V-7c68a43785dc__vehicle-001__native.png"
+  ],
+  "options": [
+    {
+      "display_order": 1,
+      "id": "illustrated-catalogue",
+      "title": "Иллюстрированный каталог",
+      "file": "01-illustrated-catalogue.png",
+      "prompt": "01-illustrated-catalogue.prompt.txt",
+      "source": "C:/Users/user/.codex/generated_images/01a1b774-38f8-76c0-b2a8-770d99904fe0/exec-9f45c050-7787-4862-ac18-7c22a2f45ed6.png",
+      "sha256": "2491e96565d0d64258815bb5f33df2c9d31388306bfe1a3de8a08907ed2de819",
+      "known_preview_limits": [
+        "В части групповых превью генератор изобразил более шести фигурок. Реализация должна использовать точные исходные изображения и состав, а не копировать это искажение."
+      ]
+    },
+    {
+      "display_order": 2,
+      "id": "field-register",
+      "title": "Полевой реестр",
+      "file": "02-field-register.png",
+      "prompt": "02-field-register.prompt.txt",
+      "source": "C:/Users/user/.codex/generated_images/01a1b774-38f8-76c0-b2a8-770d99904fe0/exec-d6ede453-5eec-4e16-bfd4-9c6de3cb86fe.png",
+      "sha256": "2ace88b959841beaa697a19a757b9158d99453e0720ce483fde1a83d0461f814",
+      "known_preview_limits": []
+    },
+    {
+      "display_order": 3,
+      "id": "open-spread",
+      "title": "Открытый разворот",
+      "file": "03-open-spread.png",
+      "prompt": "03-open-spread.prompt.txt",
+      "source": "C:/Users/user/.codex/generated_images/01a1b774-38f8-76c0-b2a8-770d99904fe0/exec-465cc0d7-8232-4c0f-a9a4-d06efab98284.png",
+      "sha256": "be1914edd93bcd5411a19a51b90b0317e6df5ea37901a275d3f22ae8eb564fdf",
+      "known_preview_limits": []
+    }
+  ],
+  "user_amendment": "Крупные изображения бойцов горизонтально; параметры каждого бойца вертикально в столбце под его изображением.",
+  "revisions": [
+    {
+      "id": "field-register-large-columns-r1",
+      "file": "02-field-register-large-columns-r1.png",
+      "prompt": "02-field-register-large-columns-r1.prompt.txt",
+      "source": "C:/Users/user/.codex/generated_images/01a1b774-38f8-76c0-b2a8-770d99904fe0/exec-2ac729a6-6731-4a00-a065-6b8f9dde1835.png",
+      "status": "approved",
+      "sha256": "57ba58c3ae0d1b5d9427af1b4d1d34d6944ee4ab25f44c25e16764618ef5896f",
+      "approved_constraints": [
+        "Вариант 2 — Полевой реестр",
+        "Крупные изображения бойцов горизонтально",
+        "Один столбец на бойца; характеристики вертикально под ним"
+      ],
+      "proposed_adaptation": "На телефоне крупные колонки с локальной горизонтальной прокруткой и закреплёнными названиями строк.",
+      "implementation": "Не начата",
+      "approval": "Пользователь ответил «принято» на обновлённый макет и предложение мобильной прокрутки."
+    }
+  ],
+  "approved_revision": "field-register-large-columns-r1"
+}

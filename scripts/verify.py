@@ -48,5 +48,29 @@ for c in chapters:
                     if target not in actual:errors.append(f'{surface} content mismatch: {c["id"]}/{s["id"]}: {text[:70]}')
                 count+=1
 assert pdf.outline,'PDF bookmarks missing'
+catalog=json.loads((ROOT/'content/catalog/catalog.json').read_text(encoding='utf-8'))['units']
+assert len(catalog)==105 and len({u['id'] for u in catalog})==105
+assert sum(u['type']=='infantry' for u in catalog)==70
+assert sum(len(u.get('profiles',[])) for u in catalog)==414
+image_ids=set()
+for unit in catalog:
+    doc=docs[unit['url']]
+    assert str(unit['cost']) in doc.xpath('//p[@class="unit-price"]')[0].text_content()
+    for i,profile in enumerate(unit.get('profiles',[]),1):
+        for key,value in profile['stats'].items():
+            cells=doc.xpath(f'//td[@headers="stat-{key} fighter-{i}"]')
+            assert len(cells)==1 and cells[0].text_content()==value,(unit['id'],i,key)
+    for image in unit['figures']+[i for w in unit.get('weapons',[]) for i in w['images']]:
+        image_ids.add(image['id'])
+        for size in ('small','large'):
+            assert hashlib.sha256((dist/image[size]).read_bytes()).hexdigest()==image[size+'_sha256']
+        assert image['small'] in manifest['files'] and image['large'] not in manifest['files']
+assert len(image_ids)==554
+optional=json.loads((dist/'assets/catalog-large.json').read_text(encoding='utf-8'))
+assert len(optional)==554
+for path,entry in optional.items():
+    assert hashlib.sha256((dist/path).read_bytes()).hexdigest()==entry['sha256']
+    assert entry['fallback'] in manifest['files']
 assert not errors,'\n'.join(errors)
 print(f'PASS: {len(docs)} pages, {len(index)} search sections, {len(manifest["files"])} hashed assets, {len(pdf.pages)} PDF pages, {count} shared content fragments.')
+print('PASS: 105 catalogue records, 414 individual fighter profiles, 554 original cutouts in two verified sizes.')

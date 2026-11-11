@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-08T05:22:48.381Z",
+  "generatedAt": "2026-11-11T20:30:51.267Z",
   "title": "Бронепехота — Полевой справочник",
   "extensions": {
     "colorMeta": {
@@ -255,12 +255,68 @@
           "oklch(83.6% 0.0000 0.00)",
           "oklch(95% 0.0000 0.00)"
         ]
+      },
+      "catalog-field": {
+        "role": "neutral",
+        "displayName": "Поле каталога",
+        "tonalRamp": [
+          "oklch(15% 0.0093 99.98)",
+          "oklch(26.4% 0.0093 99.98)",
+          "oklch(37.9% 0.0093 99.98)",
+          "oklch(49.3% 0.0093 99.98)",
+          "oklch(60.7% 0.0093 99.98)",
+          "oklch(72.1% 0.0093 99.98)",
+          "oklch(83.6% 0.0093 99.98)",
+          "oklch(95% 0.0093 99.98)"
+        ]
+      },
+      "durability-green": {
+        "role": "secondary",
+        "displayName": "Зелёная зона прочности",
+        "tonalRamp": [
+          "oklch(15% 0.0305 123.31)",
+          "oklch(26.4% 0.0305 123.31)",
+          "oklch(37.9% 0.0305 123.31)",
+          "oklch(49.3% 0.0305 123.31)",
+          "oklch(60.7% 0.0305 123.31)",
+          "oklch(72.1% 0.0305 123.31)",
+          "oklch(83.6% 0.0305 123.31)",
+          "oklch(95% 0.0305 123.31)"
+        ]
+      },
+      "durability-yellow": {
+        "role": "secondary",
+        "displayName": "Жёлтая зона прочности",
+        "tonalRamp": [
+          "oklch(15% 0.0364 95.03)",
+          "oklch(26.4% 0.0364 95.03)",
+          "oklch(37.9% 0.0364 95.03)",
+          "oklch(49.3% 0.0364 95.03)",
+          "oklch(60.7% 0.0364 95.03)",
+          "oklch(72.1% 0.0364 95.03)",
+          "oklch(83.6% 0.0364 95.03)",
+          "oklch(95% 0.0364 95.03)"
+        ]
+      },
+      "durability-red": {
+        "role": "secondary",
+        "displayName": "Красная зона прочности",
+        "tonalRamp": [
+          "oklch(15% 0.0284 51.82)",
+          "oklch(26.4% 0.0284 51.82)",
+          "oklch(37.9% 0.0284 51.82)",
+          "oklch(49.3% 0.0284 51.82)",
+          "oklch(60.7% 0.0284 51.82)",
+          "oklch(72.1% 0.0284 51.82)",
+          "oklch(83.6% 0.0284 51.82)",
+          "oklch(95% 0.0284 51.82)"
+        ]
       }
     },
     "typographyMeta": {
       "display": {
         "displayName": "Словесный знак",
-        "purpose": "PT Sans Narrow Bold только для названия проекта; адаптивные размеры описаны в DESIGN.md."
+        "purpose": "PT Sans Narrow Bold для названия проекта; в каталоге семейство также используется в компактных заголовках. Адаптивные размеры описаны в DESIGN.md."
       },
       "headline": {
         "displayName": "Название главы",
@@ -301,6 +357,30 @@
       "pdf-body": {
         "displayName": "Текст PDF",
         "purpose": "Встроенная PT Sans для A4."
+      },
+      "catalog-headline": {
+        "displayName": "Название каталога или подразделения",
+        "purpose": "Первый уровень каталога: 42 px, адаптации 34/30 px; подробная карточка на узком телефоне 29 px."
+      },
+      "catalog-section": {
+        "displayName": "Раздел карточки",
+        "purpose": "PT Sans Narrow Bold для h2 каталога; адаптации 24/22 px."
+      },
+      "catalog-unit-name": {
+        "displayName": "Имя в реестре",
+        "purpose": "Название подразделения в плоской строке списка; адаптации 23/21 px."
+      },
+      "fighter-heading": {
+        "displayName": "Заголовок бойца",
+        "purpose": "Имя или номер над полной фигурой, до 900 px размер 20 px."
+      },
+      "fighter-value": {
+        "displayName": "Параметр бойца",
+        "purpose": "Индивидуальное игровое значение с табличными цифрами; до 900 px размер 18 px."
+      },
+      "fighter-value-phone": {
+        "displayName": "Параметр бойца на телефоне",
+        "purpose": "Экран до 480 px: 16 px / 1.25, поля ячейки 4/6 px; около 29 px для однострочного ряда."
       }
     },
     "shadows": [
@@ -324,7 +404,7 @@
       {
         "name": "ease",
         "value": "cubic-bezier(.2,.8,.2,1)",
-        "purpose": "Единственная кривая перехода кнопок."
+        "purpose": "Общая кривая перехода кнопок и строк каталога."
       },
       {
         "name": "anchor-scroll",
@@ -335,6 +415,11 @@
         "name": "reduced-motion",
         "value": "scroll-behavior:auto; animation:none; transition:none",
         "purpose": "Действует при prefers-reduced-motion:reduce."
+      },
+      {
+        "name": "catalog-row-background-duration",
+        "value": "150ms",
+        "purpose": "Фон строки каталога при наведении; общая кривая ease и отключение при reduced motion."
       }
     ],
     "breakpoints": [
@@ -351,8 +436,16 @@
         "value": "1200px"
       },
       {
+        "name": "catalog-compact-desktop-max",
+        "value": "1250px"
+      },
+      {
         "name": "wide-layout-min",
         "value": "1700px"
+      },
+      {
+        "name": "catalog-large-images-min",
+        "value": "901px"
       }
     ]
   },
@@ -434,6 +527,22 @@
       "description": "Лесной баннер над содержимым с подтверждением и откладыванием новой офлайн-редакции.",
       "html": "<div class=\"ds-update\" role=\"status\"><span>Доступна новая редакция. Обновить сохранённые правила?</span><button>Обновить</button><button aria-label=\"Отложить обновление\">Позже</button></div>",
       "css": ".ds-update{background:var(--forest,#30483b);color:#fff;border:1px solid #8e9b80;box-shadow:0 8px 24px #13261830;border-radius:4px;padding:16px 20px;display:flex;flex-wrap:wrap;align-items:center;gap:16px;font-family:'PT Sans',sans-serif;font-size:16px;line-height:1.55}.ds-update button{background:var(--paper,#f5f3ea);color:var(--forest,#30483b);border:0;padding:8px 14px;font-family:'PT Sans',sans-serif;font-size:16px;line-height:1.55;font-weight:700;min-height:44px;cursor:pointer}.ds-update button:disabled{opacity:.65;cursor:wait}.ds-update button:focus-visible{outline:3px solid var(--paper,#f5f3ea);outline-offset:4px;box-shadow:0 0 0 2px var(--forest-dark,#21372c)}"
+    },
+    {
+      "name": "Поиск подразделений",
+      "kind": "input",
+      "refersTo": "catalog-search",
+      "description": "Светлое поле каталога с отдельной кнопкой; высота 52 px, подпись доступна при пустом запросе.",
+      "html": "<form class=\"ds-catalog-search\" role=\"search\"><label class=\"ds-catalog-sr\" for=\"ds-catalog-query\">Поиск подразделения, оружия или свойства</label><svg class=\"ds-catalog-search-icon\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z\"/></svg><input id=\"ds-catalog-query\" type=\"search\" placeholder=\"Найти подразделение или оружие…\"><button type=\"submit\">Найти</button></form>",
+      "css": ".ds-catalog-search{position:relative;display:flex;gap:12px;font-family:'PT Sans',sans-serif;color:var(--ink,#252c27)}.ds-catalog-sr{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}.ds-catalog-search input{width:100%;min-width:0;height:52px;padding:12px 16px 12px 46px;background:#fffef7;border:1px solid var(--line,#b8bca9);border-radius:var(--radius,4px);font:18px 'PT Sans',sans-serif;color:var(--ink,#252c27)}.ds-catalog-search input::placeholder{color:var(--muted,#596052);opacity:1}.ds-catalog-search button{padding:12px 28px;min-height:44px;border:1px solid transparent;border-radius:var(--radius,4px);background:var(--olive,#5d713e);color:#fff;font:700 16px/1.55 'PT Sans',sans-serif;cursor:pointer;transition:background .18s var(--ease,cubic-bezier(.2,.8,.2,1))}.ds-catalog-search button:hover{background:var(--olive-hover,#4b5e30)}.ds-catalog-search :focus-visible{outline:3px solid var(--focus,#925c0a);outline-offset:4px}.ds-catalog-search button:disabled{cursor:wait;opacity:.65}@media(prefers-reduced-motion:reduce){.ds-catalog-search button{transition:none}}.ds-catalog-search-icon{position:absolute;left:14px;top:15px;width:22px;height:22px;color:var(--muted,#596052)}"
+    },
+    {
+      "name": "Колонки индивидуальных параметров",
+      "kind": "custom",
+      "refersTo": "fighter-table",
+      "description": "Фрагмент реальных профилей «Хирдманов»: закреплённые метки, значения по бойцам, локальная прокрутка и видимый фокус. Полная карточка дополнительно содержит вырезки в шапке.",
+      "html": "<div class=\"ds-fighter-wrap\" role=\"region\" tabindex=\"0\" aria-label=\"Индивидуальные параметры, горизонтальная прокрутка\"><table class=\"ds-fighter-table\"><caption>Хирдманы — фрагмент характеристик</caption><thead><tr><th scope=\"col\">Характеристика</th><th scope=\"col\" id=\"ds-fighter-1\">Боец 1</th><th scope=\"col\" id=\"ds-fighter-2\">Боец 2</th></tr></thead><tbody><tr><th id=\"ds-stat-rank\" scope=\"row\"><a href=\"#ds-rank\">А</a></th><td headers=\"ds-stat-rank ds-fighter-1\">3</td><td headers=\"ds-stat-rank ds-fighter-2\">3</td></tr><tr><th id=\"ds-stat-speed\" scope=\"row\">Скорость</th><td headers=\"ds-stat-speed ds-fighter-1\">5</td><td headers=\"ds-stat-speed ds-fighter-2\">5</td></tr></tbody></table></div>",
+      "css": ".ds-fighter-wrap{max-width:100%;overflow-x:auto;border:1px solid var(--line,#b8bca9);border-radius:var(--radius,4px);scrollbar-width:auto;scrollbar-color:var(--olive,#5d713e) var(--table,#d9ddc9);overscroll-behavior-x:contain}.ds-fighter-wrap:focus-visible{outline:3px solid var(--focus,#925c0a);outline-offset:4px}.ds-fighter-table{border-collapse:separate;border-spacing:0;width:100%;min-width:520px;table-layout:fixed;font:20px/1.4 'PT Sans',sans-serif;color:var(--ink,#252c27);font-variant-numeric:tabular-nums}.ds-fighter-table caption{text-align:left;font:700 16px/1.4 'PT Sans',sans-serif;margin-bottom:10px}.ds-fighter-table th,.ds-fighter-table td{padding:9px 10px;border-right:1px solid var(--line,#b8bca9);border-bottom:1px solid var(--line,#b8bca9);text-align:center;vertical-align:middle;white-space:nowrap}.ds-fighter-table th:first-child{width:160px;position:sticky;left:0;z-index:1;background:var(--paper,#f5f3ea);text-align:left;font:700 20px/1.2 'PT Sans Narrow',sans-serif;white-space:normal}.ds-fighter-table thead th{background:var(--table,#d9ddc9);font:700 23px/1.3 'PT Sans Narrow',sans-serif}.ds-fighter-table td{background:#faf9f3}.ds-fighter-table tbody tr:nth-child(even) td{background:#f0f0e7}.ds-fighter-table tbody tr:nth-child(odd)>*{background:var(--sidebar,#e9ebdd)}.ds-fighter-table th:last-child,.ds-fighter-table td:last-child{border-right:0}.ds-fighter-table tbody tr:last-child>*{border-bottom:0}.ds-fighter-table a{color:var(--ink,#252c27);text-decoration:none}.ds-fighter-table a:hover{text-decoration:underline}.ds-fighter-table a:focus-visible{outline:3px solid var(--focus,#925c0a);outline-offset:4px}@media(max-width:480px){.ds-fighter-table{min-width:354px;font-size:16px;line-height:1.25}.ds-fighter-table th:first-child{width:90px;font-size:15px;white-space:nowrap}.ds-fighter-table th,.ds-fighter-table td{padding:4px 6px}.ds-fighter-table thead th{font-size:20px}}"
     }
   ],
   "narrative": {
@@ -460,7 +569,7 @@
       },
       {
         "name": "The Reading First Rule",
-        "body": "Декоративный эффект не должен мешать чтению или откладывать показ правила. Анимация ограничена изменением фона кнопки и плавной прокруткой; уменьшенное движение отключает переходы и плавную прокрутку.",
+        "body": "Декоративный эффект не должен мешать чтению или откладывать показ правила. Анимация ограничена изменением фона кнопки или строки каталога и плавной прокруткой; уменьшенное движение отключает переходы и плавную прокрутку.",
         "section": "elevation"
       },
       {
@@ -482,11 +591,16 @@
         "name": "Manual offline refresh",
         "body": "Ручное обновление: надпись «Доступно без интернета · версия» стала текстовой кнопкой с подчёркиванием и title «Проверить и загрузить обновления с сайта». Нативный button поддерживает Tab, Enter и пробел; минимальная высота 44 px. Существующие лесной цвет, 18/15 px значок и охристый focus-visible сохранены. Под действием находится отдельный role=status, 12 px/1.4, muted: проверка и загрузка, актуальная версия, переключение либо ошибка с сохранением прежней копии. Во время проверки действие отключено и aria-busy=true. На телефоне нижнее поле текста, отступ якорей и положение баннера зависят от измеренной высоты панели, включая переносы обратной связи и safe area. Нажатие проверяет и устанавливает новую сборку целиком; автоматическое предложение по-прежнему требует «Обновить». Причина: дать ручной запуск обновления, сохранив атомарную офлайн-копию. Поверхности: боковая панель компьютера и нижняя панель телефона; правила и PDF остаются 0.3.",
         "section": "components"
+      },
+      {
+        "name": "Catalogue: field register with fighter columns",
+        "section": "components",
+        "body": "Утверждён 2026-11-12 второй вариант с уточнением: крупные бойцы горизонтально, параметры каждого вертикально под ним. [Уточнённый макет](docs/design/catalog-options/2026-11-12/02-field-register-large-columns-r1.png) задаёт композицию; данные и изображения поступают из исходных листов и принятых вырезок. Это расширение «Полевого справочника» с теми же лесной шапкой, бумажным фоном, линиями, скруглениями и локальными SVG Phosphor.\n\n**Поиск и список.** Поле высотой 52 px и отдельная кнопка «Найти» стоят над фильтрами. Select и поля стоимости имеют высоту от 44 px, границу line и скругление control; подписи 14 px, значения 16 px. Фракция, тип и стоимость видны сразу на компьютере; ранг и «Только тестовые» находятся в «Ещё фильтры». На телефоне основной блок изначально свёрнут, если URL не содержит фильтров; активные фильтры из ссылки раскрываются. Состояния: загрузка поиска с отключёнными полями, число результатов, пустой список со сбросом, ошибка с повторной загрузкой при сохранении всех статических карточек. Число результатов объявляется через role=status. Наведение строки даёт sidebar; клавиатурный контур остаётся охристым и смещён внутрь строки на 3 px.\n\n**Вариант и тест.** Текстовые метки 12 px / 1.3 со скруглением compact и полями 3 / 7 px: вариант использует sidebar/forest, «Тест» — note/note-ink. До 480 px — 11 px и поля 2 / 5 px. Метки передают статус словами и не являются декоративными надзаголовками.\n\n**Таблица профилей.** Скруглённый контейнер с границей line и нативной горизонтальной прокруткой получает tabindex=0, role=region и доступное имя. Семантические заголовки колонок и строк связаны с каждой ячейкой через headers. Имя/номер бойца находится на заливке table, полное изображение — на paper. Нечётные строки используют sidebar, остальные сохраняют светлое чередование общей таблицы; закреплённые метки имеют непрозрачную подложку. Значения центрированы, метки слева. Свойства и заголовки параметров ведут к словарю; наведение подчёркивает ссылки, фокус наследуется. Макет не усредняет индивидуальные профили.\n\n**Техника, кавалерия и герои.** Изображение и сводка расположены в сетке 2:1 с промежутком 40 px; высота изображения 350 px. До 900 px — две равные колонки, промежуток 24 px и изображение 280 px; до 480 px — один столбец и изображение 260 px, сводка в двух колонках. Оружие оформляется плоскими секциями с верхней линией: две колонки с промежутками 24 / 40 px, на узком телефоне одна. Область изображений оружия — 150 / 125 / 145 px. Шкалы состоят из ячеек не уже 32 px, высотой 32 px, с промежутком 4 px и границей line; сегменты прочности имеют спокойные исходные цветовые зоны, подписи скорости и при наличии брони. Примечания «Требует уточнения» наследуют существующий компонент.\n\n**Контекст и действия.** Верхние ссылки «К каталогу» и «Ссылка» сохраняют лёгкое текстовое оформление; подтверждение копирования меняет подпись на «Скопировано» и объявляется через role=status. Если буфер обмена недоступен, появляется подписанное поле с выделенной ссылкой. «Обозначения и свойства» — нативный details с тонкими верхней и нижней границами, заголовком PT Sans Narrow Bold 24 px (22 px до 480 px), абзацами до 75ch и подсветкой текущего термина sidebar. Ссылки параметров раскрывают его; определения ведут к правилам. «Другие варианты» — список ссылок с разделителями.\n\n**Навигация и офлайн.** Общая навигация теперь содержит «Правила», «Каталог», «Форум». На страницах каталога верхняя строка показывает статус сохранения вместо поиска правил и кнопки PDF, нижняя мобильная панель имеет три равные колонки; текущий каталог отмечен olive/white и aria-current. Ссылка на PDF правил сохраняется в общем подвале; отдельный PDF каталога не создаётся. Базовая офлайн-копия включает все карточки и малые изображения, ×4 подставляется по мере просмотра при ширине от 901 px и возвращается к малой версии при ошибке. Правила и PDF остаются в редакции 0.3.\n\nИзменение затрагивает список, подробные карточки, общую навигацию и статус сохранения. Оно связывает узнаваемую фигурку с её собственными параметрами и делает продолжение мобильной таблицы заметным. Каталог реализован локально; публикация и повторный просмотр последних исправлений плотности/подсказки на момент записи не завершены. Растровый макет и отдельные снимки не подтверждают универсальную адаптивность или доступность."
       }
     ],
     "dos": [
       "**Do** сохранять светлую область чтения, лесную шапку и приглушённые оливковые поверхности выбранного «Полевого справочника».",
-      "**Do** применять локальную PT Sans для правил и PT Sans Narrow Bold для словесного знака.",
+      "**Do** применять локальную PT Sans для прозы и значений, PT Sans Narrow Bold для словесного знака и компактных заголовков каталога.",
       "**Do** сохранять полный текст действующей редакции, читаемые таблицы, пропорции иллюстраций и контекст главы при прямом переходе с телефона.",
       "**Do** отделять редакционные примечания заголовком «Требует уточнения» и охристым оформлением одинаково на сайте и в PDF.",
       "**Do** проверять состояния клавиатуры, поиска и офлайн-редакции на фактических компонентах.",

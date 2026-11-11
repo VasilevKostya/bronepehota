@@ -1,0 +1,28 @@
+Edit the selected Russian tabletop reference website design shown in reference image 1, "Полевой реестр", to follow the user's revision. This is ONE refined version of that chosen design, not another options round. Create a realistic, high-quality UI presentation focusing on the revised UNIT DETAIL page, shown in TWO viewports: desktop 1440 x 1024 on the left and phone 390 x 844 on the right. Overall board approximately 2400 x 1500, landscape, with natural viewport proportions, balanced gutter and labels "Карточка · компьютер" and "Карточка · телефон". Title outside the app: "Полевой реестр · крупные изображения". Optional brief subtitle outside app: "Боец сверху — его характеристики в колонке под ним". No hardware, device bezels, browser chrome, shadows, perspective, notches, OS indicators. Keep every screen boundary visible.
+
+Reference roles: first image is the selected UI style and layout authority. Reference 2 is the original Хирдманы source sheet for exact individual soldiers and their parameters; its metallic ornament is NOT the UI style. References 3 and 4 are the real large transparent cutouts of fighter 1 and fighter 2. Use those exact sculpted grey miniature characters, full bodies, natural proportions, not generic new soldiers. Extract the remaining four poses visually from original sheet: source sheet order is top left=1, top right=2, middle left=3, middle right=4, bottom left=5, bottom right=6. Six soldiers in total, never 5, 7 or 8.
+
+THE USER'S CHANGE, ABSOLUTE PRIORITY: use LARGE full-body pictures of the soldiers; arrange the fighters HORIZONTALLY next to one another; transpose the stats table so EACH FIGHTER IS A COLUMN. Put his picture at the TOP of HIS COLUMN and all his parameters VERTICALLY UNDER HIM. Characteristics are table ROWS, soldiers are table COLUMNS. Do NOT repeat the old layout where each soldier occupied a horizontal row. Do NOT put an image strip above a disconnected traditional table. Images and data must share exactly the same column grid. This column association must be immediately obvious.
+
+DESKTOP SPECIFICATION:
+Forest top nav БРОНЕПЕХОТА / "Уральская версия 0.3", links Правила / active Каталог / Форум. No sidebar. Page margins 32px. Top back link "К каталогу", discreet "Ссылка" on right. Heading Хирдманы with "Снежные волки · Пехота · 6 бойцов" and cost "100 оч." to the right.
+Below, heading "Состав и характеристики" with text link "Обозначения".
+ONE large, full-width table, seven columns: label column 180px and SIX equal fighter columns about 180px each. Each fighter column starts with header "Боец 1", "Боец 2", etc and LARGE fully visible full-body image around 250-300px tall. All feet aligned on same baseline. Source grey miniatures sitting directly on paper, no grey image boxes, no frames, no crops. Thin vertical rules continue into the data under each fighter, alternating subtle row fills, generous 40-45px row height and ~20px tabular numerals.
+Left labels: "А", "Скорость", "Дальность", "Мощность", "Ближний бой", "Свойства", "Броня".
+Table EXACT values across fighters 1 through 6:
+А: 3, 3, 3, 3, 3, 3
+Скорость: 5, 5, 5, 5, 5, 5
+Дальность: Д12, Д6, Д6, 2Д12, Д6, Д12
+Мощность: 2Д6, 1Д12, 1Д12, 1Д20, 1Д6+3, 2Д6
+Ближний бой: 4, 2, 2, 0, 4, 2
+Свойства: —, —, —, —, —, —
+Броня: 3, 3, 3, 3, 3, 3
+No averages, no extra values, use Cyrillic Д and uppercase Б, accurate headings.
+
+PHONE:
+Use THE SAME COLUMN ORIENTATION, never revert to vertically stacked individual soldier cards. Header compact about 64px, back link and unit identity compact. Full-width table within a LOCAL horizontally scrollable region. The overall page remains 390px wide. Left row label column ~90px remains fixed when scrolling, fighter columns ~132px each. Show first TWO large full-body portraits around 205px high, side by side, each with label "Боец 1" / "Боец 2" ABOVE, and all seven stats as aligned vertical cells UNDER his image, corresponding to row labels at the left. Image header portion of row-label column can be empty. Small "Листайте бойцов →" hint and a visible unobtrusive horizontal scrollbar below table clearly indicate remaining four columns off-screen. Correct first-two-column values from table above, high readable text contrast, at least 16px for main values. No microscopic six-soldier fit and no wrapping fighter 3 underneath fighter 1. These are large images horizontally browsed. Desktop all six visible at once, phone first two then scroll. Reserved footer space so no rows overlap nav.
+Bottom phone navigation matches selected reference "Правила / Каталог / Форум", plus the underlined action "Доступно без интернета". No extra download/export buttons, favourites, army builder, filters inside unit card, new controls or abilities.
+
+ESTABLISHED VISUAL SYSTEM: paper #f5f3ea; forest #30483b; ink #252c27; pale olive #e9ebdd; action #5d713e; thin border #b8bca9; table heading #d9ddc9; cells #faf9f3 and #f0f0e7. PT Sans body with PT Sans Narrow Bold wordmark. Rectangular 4px corners, fine precise dividers, no glass, no gradients, no distressed parchment, no oversized rounded cards, no decorative badges. Typography clear Cyrillic, realistic spacing and clean alignment. Keep selected option's understated paper reference-guide design. The catalogue list design from selected option is retained unchanged and doesn't need to be repeated in this close-up.
+Current date anchor 2026-11-12, no visible timestamp necessary.
+This is a composed, professional revised mock-up, not an illustration of a description. Portraits must be at least three times the prior row thumbnail height. Prioritize clearly readable transposed table and unmistakably large six-person horizontal formation.

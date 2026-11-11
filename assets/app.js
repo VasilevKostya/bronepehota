@@ -8,7 +8,7 @@ $$('[data-open-chapters]').forEach(b=>b.addEventListener('click',()=>{opener=b;d
 $('.dialog-close')?.addEventListener('click',()=>dialog.close());
 dialog?.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});
 dialog?.addEventListener('close',()=>opener?.focus());
-document.addEventListener('keydown',e=>{if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='k'){e.preventDefault();$('.top-search input')?.focus();}});
+document.addEventListener('keydown',e=>{if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='k'){e.preventDefault();$('#catalog-query, .top-search input')?.focus();}});
 const queryInput=$('#rule-query');
 if(queryInput){
   let docsPromise=null,timer,seq=0;

@@ -23,6 +23,15 @@ def verify(base, expected):
     files = manifest["files"]
     if len(files) != build["files"]:
         raise ValueError("Offline asset count differs")
+    hashes=dict(manifest['hashes'])
+    optional={}
+    if 'assets/catalog-large.json' in files:
+        optional=json.loads(read(urljoin(base,'assets/catalog-large.json')))
+        for path,entry in optional.items():
+            if entry['fallback'] not in files:
+                raise ValueError('Missing offline image fallback: '+path)
+            hashes[path]=entry['sha256']
+        files=files+list(optional)
 
     def check(path):
         parsed = urlsplit(path)
@@ -32,7 +41,7 @@ def verify(base, expected):
             data = read(urljoin(base, path))
         except Exception as error:
             raise ValueError(f'Published asset unavailable: {path}: {error}') from error
-        if hashlib.sha256(data).hexdigest() != manifest["hashes"][path]:
+        if hashlib.sha256(data).hexdigest() != hashes[path]:
             raise ValueError("Published asset differs: " + path)
         return path
 
@@ -44,7 +53,7 @@ def verify(base, expected):
     worker = read(urljoin(base, "sw.js")).decode("utf-8")
     if expected not in worker:
         raise ValueError("Service worker build differs")
-    print(f"PASS: public site, service worker and {len(files)} assets match build {expected}; version {build['version']}.")
+    print(f"PASS: public site, service worker and {len(files)} assets ({len(optional)} optional images) match build {expected}; version {build['version']}.")
 
 
 def main():

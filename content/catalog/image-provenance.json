@@ -1,0 +1,6650 @@
+[
+  {
+    "object_id": "SW-01__infantry-001",
+    "source_id": "SW-01",
+    "revision": "r002",
+    "source_sha256": "ced77739118017174271c403acd51fe0f9972ee95e4670c1580c78e8f1d2ca50",
+    "bbox": [
+      54,
+      301,
+      156,
+      278
+    ]
+  },
+  {
+    "object_id": "SW-01__infantry-002",
+    "source_id": "SW-01",
+    "revision": "r002",
+    "source_sha256": "ced77739118017174271c403acd51fe0f9972ee95e4670c1580c78e8f1d2ca50",
+    "bbox": [
+      1173,
+      293,
+      156,
+      276
+    ]
+  },
+  {
+    "object_id": "SW-01__infantry-003",
+    "source_id": "SW-01",
+    "revision": "r002",
+    "source_sha256": "ced77739118017174271c403acd51fe0f9972ee95e4670c1580c78e8f1d2ca50",
+    "bbox": [
+      65,
+      626,
+      159,
+      271
+    ]
+  },
+  {
+    "object_id": "SW-01__infantry-004",
+    "source_id": "SW-01",
+    "revision": "r002",
+    "source_sha256": "ced77739118017174271c403acd51fe0f9972ee95e4670c1580c78e8f1d2ca50",
+    "bbox": [
+      1169,
+      616,
+      168,
+      275
+    ]
+  },
+  {
+    "object_id": "SW-01__infantry-005",
+    "source_id": "SW-01",
+    "revision": "r002",
+    "source_sha256": "ced77739118017174271c403acd51fe0f9972ee95e4670c1580c78e8f1d2ca50",
+    "bbox": [
+      29,
+      935,
+      200,
+      272
+    ]
+  },
+  {
+    "object_id": "SW-01__infantry-006",
+    "source_id": "SW-01",
+    "revision": "r002",
+    "source_sha256": "ced77739118017174271c403acd51fe0f9972ee95e4670c1580c78e8f1d2ca50",
+    "bbox": [
+      1167,
+      941,
+      219,
+      276
+    ]
+  },
+  {
+    "object_id": "IM-V-adf02ed9ecf4__vehicle-001",
+    "source_id": "IM-V-adf02ed9ecf4",
+    "revision": "r001",
+    "source_sha256": "4586a0c3615a009fb57dfef8c26902a143f6e57966e2cf2fcb5ea2253fca411b",
+    "bbox": [
+      73,
+      58,
+      125,
+      179
+    ]
+  },
+  {
+    "object_id": "IM-V-adf02ed9ecf4__weapon-001",
+    "source_id": "IM-V-adf02ed9ecf4",
+    "revision": "r001",
+    "source_sha256": "4586a0c3615a009fb57dfef8c26902a143f6e57966e2cf2fcb5ea2253fca411b",
+    "bbox": [
+      86,
+      289,
+      132,
+      26
+    ]
+  },
+  {
+    "object_id": "IM-V-adf02ed9ecf4__weapon-002",
+    "source_id": "IM-V-adf02ed9ecf4",
+    "revision": "r001",
+    "source_sha256": "4586a0c3615a009fb57dfef8c26902a143f6e57966e2cf2fcb5ea2253fca411b",
+    "bbox": [
+      313,
+      289,
+      132,
+      26
+    ]
+  },
+  {
+    "object_id": "IM-V-adf02ed9ecf4__weapon-003",
+    "source_id": "IM-V-adf02ed9ecf4",
+    "revision": "r001",
+    "source_sha256": "4586a0c3615a009fb57dfef8c26902a143f6e57966e2cf2fcb5ea2253fca411b",
+    "bbox": [
+      54,
+      417,
+      191,
+      62
+    ]
+  },
+  {
+    "object_id": "IM-V-adf02ed9ecf4__weapon-004",
+    "source_id": "IM-V-adf02ed9ecf4",
+    "revision": "r001",
+    "source_sha256": "4586a0c3615a009fb57dfef8c26902a143f6e57966e2cf2fcb5ea2253fca411b",
+    "bbox": [
+      285,
+      416,
+      191,
+      59
+    ]
+  },
+  {
+    "object_id": "IM-V-28cf5c62b6b3__vehicle-001",
+    "source_id": "IM-V-28cf5c62b6b3",
+    "revision": "r001",
+    "source_sha256": "a862fafadd6eea778ed0969cf7813e0e9cd8dd2b20e42ec2a942c41fc0160940",
+    "bbox": [
+      54,
+      57,
+      170,
+      174
+    ]
+  },
+  {
+    "object_id": "IM-V-28cf5c62b6b3__weapon-001",
+    "source_id": "IM-V-28cf5c62b6b3",
+    "revision": "r001",
+    "source_sha256": "a862fafadd6eea778ed0969cf7813e0e9cd8dd2b20e42ec2a942c41fc0160940",
+    "bbox": [
+      88,
+      286,
+      123,
+      65
+    ]
+  },
+  {
+    "object_id": "IM-V-28cf5c62b6b3__weapon-002",
+    "source_id": "IM-V-28cf5c62b6b3",
+    "revision": "r001",
+    "source_sha256": "a862fafadd6eea778ed0969cf7813e0e9cd8dd2b20e42ec2a942c41fc0160940",
+    "bbox": [
+      317,
+      287,
+      120,
+      64
+    ]
+  },
+  {
+    "object_id": "IM-V-28cf5c62b6b3__weapon-003",
+    "source_id": "IM-V-28cf5c62b6b3",
+    "revision": "r001",
+    "source_sha256": "a862fafadd6eea778ed0969cf7813e0e9cd8dd2b20e42ec2a942c41fc0160940",
+    "bbox": [
+      186,
+      447,
+      118,
+      65
+    ]
+  },
+  {
+    "object_id": "IM-V-c5b686766026__vehicle-001",
+    "source_id": "IM-V-c5b686766026",
+    "revision": "r001",
+    "source_sha256": "a27888c7e2fd233151640d37d044335fdf1788ff5d2762ef21df128293def51d",
+    "bbox": [
+      54,
+      54,
+      166,
+      197
+    ]
+  },
+  {
+    "object_id": "IM-V-c5b686766026__weapon-001",
+    "source_id": "IM-V-c5b686766026",
+    "revision": "r001",
+    "source_sha256": "a27888c7e2fd233151640d37d044335fdf1788ff5d2762ef21df128293def51d",
+    "bbox": [
+      86,
+      313,
+      137,
+      50
+    ]
+  },
+  {
+    "object_id": "IM-V-c5b686766026__weapon-002",
+    "source_id": "IM-V-c5b686766026",
+    "revision": "r001",
+    "source_sha256": "a27888c7e2fd233151640d37d044335fdf1788ff5d2762ef21df128293def51d",
+    "bbox": [
+      313,
+      313,
+      139,
+      50
+    ]
+  },
+  {
+    "object_id": "IM-V-bc6ad0cd69d0__vehicle-001",
+    "source_id": "IM-V-bc6ad0cd69d0",
+    "revision": "r001",
+    "source_sha256": "182731229eb483a3170639abc6ce45a0b6a45837e9737ba4450085bffa08f200",
+    "bbox": [
+      40,
+      95,
+      194,
+      154
+    ]
+  },
+  {
+    "object_id": "IM-V-bc6ad0cd69d0__weapon-001",
+    "source_id": "IM-V-bc6ad0cd69d0",
+    "revision": "r001",
+    "source_sha256": "182731229eb483a3170639abc6ce45a0b6a45837e9737ba4450085bffa08f200",
+    "bbox": [
+      102,
+      338,
+      98,
+      41
+    ]
+  },
+  {
+    "object_id": "IM-V-bc6ad0cd69d0__weapon-002",
+    "source_id": "IM-V-bc6ad0cd69d0",
+    "revision": "r001",
+    "source_sha256": "182731229eb483a3170639abc6ce45a0b6a45837e9737ba4450085bffa08f200",
+    "bbox": [
+      331,
+      338,
+      94,
+      40
+    ]
+  },
+  {
+    "object_id": "DF-V-4d09630c812f__vehicle-001",
+    "source_id": "DF-V-4d09630c812f",
+    "revision": "r001",
+    "source_sha256": "b72e2f11d6d671cd0cb99219ee8cfb01c702f967694ff44bc28bd894a92c7ddc",
+    "bbox": [
+      28,
+      96,
+      275,
+      226
+    ]
+  },
+  {
+    "object_id": "DF-V-4d09630c812f__weapon-001",
+    "source_id": "DF-V-4d09630c812f",
+    "revision": "r001",
+    "source_sha256": "b72e2f11d6d671cd0cb99219ee8cfb01c702f967694ff44bc28bd894a92c7ddc",
+    "bbox": [
+      124,
+      417,
+      123,
+      52
+    ]
+  },
+  {
+    "object_id": "DF-V-4d09630c812f__weapon-002",
+    "source_id": "DF-V-4d09630c812f",
+    "revision": "r001",
+    "source_sha256": "b72e2f11d6d671cd0cb99219ee8cfb01c702f967694ff44bc28bd894a92c7ddc",
+    "bbox": [
+      410,
+      418,
+      118,
+      50
+    ]
+  },
+  {
+    "object_id": "DF-V-a3efc23e484e__vehicle-001",
+    "source_id": "DF-V-a3efc23e484e",
+    "revision": "r001",
+    "source_sha256": "5ecfb96da58c12e624d1f32d36fbf0b12b8b743ebf060d96125e9e60a12617eb",
+    "bbox": [
+      57,
+      87,
+      217,
+      176
+    ]
+  },
+  {
+    "object_id": "DF-V-a3efc23e484e__weapon-001",
+    "source_id": "DF-V-a3efc23e484e",
+    "revision": "r001",
+    "source_sha256": "5ecfb96da58c12e624d1f32d36fbf0b12b8b743ebf060d96125e9e60a12617eb",
+    "bbox": [
+      206,
+      343,
+      195,
+      128
+    ]
+  },
+  {
+    "object_id": "PR-V-3cad28ed22ce__vehicle-001",
+    "source_id": "PR-V-3cad28ed22ce",
+    "revision": "r001",
+    "source_sha256": "0d089d087dfe404bb43381914a5a175785b4444c1bb0403ed2eadf28d0e203c3",
+    "bbox": [
+      87,
+      69,
+      209,
+      214
+    ]
+  },
+  {
+    "object_id": "PR-V-3cad28ed22ce__weapon-001",
+    "source_id": "PR-V-3cad28ed22ce",
+    "revision": "r001",
+    "source_sha256": "0d089d087dfe404bb43381914a5a175785b4444c1bb0403ed2eadf28d0e203c3",
+    "bbox": [
+      134,
+      345,
+      137,
+      56
+    ]
+  },
+  {
+    "object_id": "PR-V-3cad28ed22ce__weapon-002",
+    "source_id": "PR-V-3cad28ed22ce",
+    "revision": "r001",
+    "source_sha256": "0d089d087dfe404bb43381914a5a175785b4444c1bb0403ed2eadf28d0e203c3",
+    "bbox": [
+      454,
+      345,
+      137,
+      56
+    ]
+  },
+  {
+    "object_id": "PR-V-b6c720494097__vehicle-001",
+    "source_id": "PR-V-b6c720494097",
+    "revision": "r001",
+    "source_sha256": "50cbdd0765486a80ad5f0751f45f8c57f7dd3cd3fa2962ed1ba465ddb96eed10",
+    "bbox": [
+      57,
+      77,
+      151,
+      212
+    ]
+  },
+  {
+    "object_id": "PR-V-b6c720494097__weapon-001",
+    "source_id": "PR-V-b6c720494097",
+    "revision": "r001",
+    "source_sha256": "50cbdd0765486a80ad5f0751f45f8c57f7dd3cd3fa2962ed1ba465ddb96eed10",
+    "bbox": [
+      157,
+      359,
+      186,
+      92
+    ]
+  },
+  {
+    "object_id": "PR-V-b6c720494097__weapon-002",
+    "source_id": "PR-V-b6c720494097",
+    "revision": "r001",
+    "source_sha256": "50cbdd0765486a80ad5f0751f45f8c57f7dd3cd3fa2962ed1ba465ddb96eed10",
+    "bbox": [
+      55,
+      530,
+      145,
+      74
+    ]
+  },
+  {
+    "object_id": "PR-V-b6c720494097__weapon-003",
+    "source_id": "PR-V-b6c720494097",
+    "revision": "r001",
+    "source_sha256": "50cbdd0765486a80ad5f0751f45f8c57f7dd3cd3fa2962ed1ba465ddb96eed10",
+    "bbox": [
+      321,
+      548,
+      143,
+      54
+    ]
+  },
+  {
+    "object_id": "PR-V-d44d9eda17ef__vehicle-001",
+    "source_id": "PR-V-d44d9eda17ef",
+    "revision": "r001",
+    "source_sha256": "4509f50ff510c837dc9339406855f160fa4b70b3ee0a6c360747d56dbfc242fc",
+    "bbox": [
+      50,
+      58,
+      169,
+      254
+    ]
+  },
+  {
+    "object_id": "PR-V-d44d9eda17ef__weapon-001",
+    "source_id": "PR-V-d44d9eda17ef",
+    "revision": "r001",
+    "source_sha256": "4509f50ff510c837dc9339406855f160fa4b70b3ee0a6c360747d56dbfc242fc",
+    "bbox": [
+      76,
+      373,
+      146,
+      29
+    ]
+  },
+  {
+    "object_id": "PR-V-d44d9eda17ef__weapon-002",
+    "source_id": "PR-V-d44d9eda17ef",
+    "revision": "r001",
+    "source_sha256": "4509f50ff510c837dc9339406855f160fa4b70b3ee0a6c360747d56dbfc242fc",
+    "bbox": [
+      304,
+      373,
+      146,
+      29
+    ]
+  },
+  {
+    "object_id": "PR-V-d44d9eda17ef__weapon-003",
+    "source_id": "PR-V-d44d9eda17ef",
+    "revision": "r001",
+    "source_sha256": "4509f50ff510c837dc9339406855f160fa4b70b3ee0a6c360747d56dbfc242fc",
+    "bbox": [
+      56,
+      501,
+      184,
+      77
+    ]
+  },
+  {
+    "object_id": "PR-V-d44d9eda17ef__weapon-004",
+    "source_id": "PR-V-d44d9eda17ef",
+    "revision": "r001",
+    "source_sha256": "4509f50ff510c837dc9339406855f160fa4b70b3ee0a6c360747d56dbfc242fc",
+    "bbox": [
+      282,
+      512,
+      186,
+      55
+    ]
+  },
+  {
+    "object_id": "PR-V-0ec946a9d9c0__vehicle-001",
+    "source_id": "PR-V-0ec946a9d9c0",
+    "revision": "r001",
+    "source_sha256": "b8c03d05e861da9cd4f6fb3d498a59ae9a923941c6aacf442fe0213e373e53da",
+    "bbox": [
+      55,
+      78,
+      258,
+      212
+    ]
+  },
+  {
+    "object_id": "PR-V-0ec946a9d9c0__weapon-001",
+    "source_id": "PR-V-0ec946a9d9c0",
+    "revision": "r001",
+    "source_sha256": "b8c03d05e861da9cd4f6fb3d498a59ae9a923941c6aacf442fe0213e373e53da",
+    "bbox": [
+      131,
+      347,
+      137,
+      59
+    ]
+  },
+  {
+    "object_id": "PR-V-0ec946a9d9c0__weapon-002",
+    "source_id": "PR-V-0ec946a9d9c0",
+    "revision": "r001",
+    "source_sha256": "b8c03d05e861da9cd4f6fb3d498a59ae9a923941c6aacf442fe0213e373e53da",
+    "bbox": [
+      451,
+      347,
+      137,
+      59
+    ]
+  },
+  {
+    "object_id": "PR-V-f76977140e42__vehicle-001",
+    "source_id": "PR-V-f76977140e42",
+    "revision": "r001",
+    "source_sha256": "162185772a2d0a9068bca2ee35c905b468c1102afca26ff607fe7cf49df2d537",
+    "bbox": [
+      124,
+      88,
+      125,
+      183
+    ]
+  },
+  {
+    "object_id": "PR-V-f76977140e42__weapon-001",
+    "source_id": "PR-V-f76977140e42",
+    "revision": "r001",
+    "source_sha256": "162185772a2d0a9068bca2ee35c905b468c1102afca26ff607fe7cf49df2d537",
+    "bbox": [
+      131,
+      346,
+      137,
+      55
+    ]
+  },
+  {
+    "object_id": "PR-V-f76977140e42__weapon-002",
+    "source_id": "PR-V-f76977140e42",
+    "revision": "r001",
+    "source_sha256": "162185772a2d0a9068bca2ee35c905b468c1102afca26ff607fe7cf49df2d537",
+    "bbox": [
+      451,
+      346,
+      137,
+      55
+    ]
+  },
+  {
+    "object_id": "PR-V-0129d2b4518f__vehicle-001",
+    "source_id": "PR-V-0129d2b4518f",
+    "revision": "r001",
+    "source_sha256": "15fed03236a5c6f79f7346683c376c3c6c6ed8b90c04a162c02bf0fa63868033",
+    "bbox": [
+      70,
+      85,
+      155,
+      193
+    ]
+  },
+  {
+    "object_id": "PR-V-0129d2b4518f__weapon-001",
+    "source_id": "PR-V-0129d2b4518f",
+    "revision": "r001",
+    "source_sha256": "15fed03236a5c6f79f7346683c376c3c6c6ed8b90c04a162c02bf0fa63868033",
+    "bbox": [
+      101,
+      359,
+      114,
+      52
+    ]
+  },
+  {
+    "object_id": "PR-V-0129d2b4518f__weapon-002",
+    "source_id": "PR-V-0129d2b4518f",
+    "revision": "r001",
+    "source_sha256": "15fed03236a5c6f79f7346683c376c3c6c6ed8b90c04a162c02bf0fa63868033",
+    "bbox": [
+      335,
+      359,
+      113,
+      50
+    ]
+  },
+  {
+    "object_id": "PR-V-0129d2b4518f__weapon-003",
+    "source_id": "PR-V-0129d2b4518f",
+    "revision": "r001",
+    "source_sha256": "15fed03236a5c6f79f7346683c376c3c6c6ed8b90c04a162c02bf0fa63868033",
+    "bbox": [
+      57,
+      521,
+      203,
+      66
+    ]
+  },
+  {
+    "object_id": "PR-V-0129d2b4518f__weapon-004",
+    "source_id": "PR-V-0129d2b4518f",
+    "revision": "r001",
+    "source_sha256": "15fed03236a5c6f79f7346683c376c3c6c6ed8b90c04a162c02bf0fa63868033",
+    "bbox": [
+      288,
+      521,
+      204,
+      66
+    ]
+  },
+  {
+    "object_id": "IM-I-74556d7f1034__infantry-001",
+    "source_id": "IM-I-74556d7f1034",
+    "revision": "r001",
+    "source_sha256": "59fb1f5eb4f41b55f4e71fde3da19518937347441f186d64f7ba70d47b98ddb5",
+    "bbox": [
+      28,
+      272,
+      172,
+      259
+    ]
+  },
+  {
+    "object_id": "IM-I-74556d7f1034__infantry-002",
+    "source_id": "IM-I-74556d7f1034",
+    "revision": "r001",
+    "source_sha256": "59fb1f5eb4f41b55f4e71fde3da19518937347441f186d64f7ba70d47b98ddb5",
+    "bbox": [
+      1055,
+      273,
+      210,
+      258
+    ]
+  },
+  {
+    "object_id": "IM-I-74556d7f1034__infantry-003",
+    "source_id": "IM-I-74556d7f1034",
+    "revision": "r001",
+    "source_sha256": "59fb1f5eb4f41b55f4e71fde3da19518937347441f186d64f7ba70d47b98ddb5",
+    "bbox": [
+      61,
+      568,
+      139,
+      253
+    ]
+  },
+  {
+    "object_id": "IM-I-74556d7f1034__infantry-004",
+    "source_id": "IM-I-74556d7f1034",
+    "revision": "r001",
+    "source_sha256": "59fb1f5eb4f41b55f4e71fde3da19518937347441f186d64f7ba70d47b98ddb5",
+    "bbox": [
+      1079,
+      582,
+      143,
+      250
+    ]
+  },
+  {
+    "object_id": "IM-I-74556d7f1034__infantry-005",
+    "source_id": "IM-I-74556d7f1034",
+    "revision": "r001",
+    "source_sha256": "59fb1f5eb4f41b55f4e71fde3da19518937347441f186d64f7ba70d47b98ddb5",
+    "bbox": [
+      50,
+      866,
+      183,
+      245
+    ]
+  },
+  {
+    "object_id": "IM-I-74556d7f1034__infantry-006",
+    "source_id": "IM-I-74556d7f1034",
+    "revision": "r001",
+    "source_sha256": "59fb1f5eb4f41b55f4e71fde3da19518937347441f186d64f7ba70d47b98ddb5",
+    "bbox": [
+      1085,
+      878,
+      134,
+      258
+    ]
+  },
+  {
+    "object_id": "DF-H-6ce45b0e9416__hero-001",
+    "source_id": "DF-H-6ce45b0e9416",
+    "revision": "r001",
+    "source_sha256": "1d3a740bff742fbcb947cad29fb96df68cf30bb0e993227a8384526031beb6dc",
+    "bbox": [
+      60,
+      339,
+      510,
+      593
+    ]
+  },
+  {
+    "object_id": "PR-I-5f624711bcbc__infantry-001",
+    "source_id": "PR-I-5f624711bcbc",
+    "revision": "r001",
+    "source_sha256": "479de387c7527cfdb444f77c7bde3f7936bc0067d9e667b3f29a64bebe4ffb41",
+    "bbox": [
+      29,
+      195,
+      215,
+      341
+    ]
+  },
+  {
+    "object_id": "PR-I-5f624711bcbc__infantry-002",
+    "source_id": "PR-I-5f624711bcbc",
+    "revision": "r001",
+    "source_sha256": "479de387c7527cfdb444f77c7bde3f7936bc0067d9e667b3f29a64bebe4ffb41",
+    "bbox": [
+      1033,
+      297,
+      212,
+      236
+    ]
+  },
+  {
+    "object_id": "PR-I-5f624711bcbc__infantry-003",
+    "source_id": "PR-I-5f624711bcbc",
+    "revision": "r001",
+    "source_sha256": "479de387c7527cfdb444f77c7bde3f7936bc0067d9e667b3f29a64bebe4ffb41",
+    "bbox": [
+      15,
+      584,
+      230,
+      239
+    ]
+  },
+  {
+    "object_id": "PR-I-5f624711bcbc__infantry-004",
+    "source_id": "PR-I-5f624711bcbc",
+    "revision": "r001",
+    "source_sha256": "479de387c7527cfdb444f77c7bde3f7936bc0067d9e667b3f29a64bebe4ffb41",
+    "bbox": [
+      1039,
+      584,
+      206,
+      247
+    ]
+  },
+  {
+    "object_id": "PR-I-5f624711bcbc__infantry-005",
+    "source_id": "PR-I-5f624711bcbc",
+    "revision": "r001",
+    "source_sha256": "479de387c7527cfdb444f77c7bde3f7936bc0067d9e667b3f29a64bebe4ffb41",
+    "bbox": [
+      22,
+      882,
+      226,
+      237
+    ]
+  },
+  {
+    "object_id": "PR-I-5f624711bcbc__infantry-006",
+    "source_id": "PR-I-5f624711bcbc",
+    "revision": "r001",
+    "source_sha256": "479de387c7527cfdb444f77c7bde3f7936bc0067d9e667b3f29a64bebe4ffb41",
+    "bbox": [
+      976,
+      893,
+      282,
+      237
+    ]
+  },
+  {
+    "object_id": "SW-H-b6915bbf93a5__hero-001",
+    "source_id": "SW-H-b6915bbf93a5",
+    "revision": "r001",
+    "source_sha256": "7a97a3472f05098b89a8e4a6efbcafad82c7236cf0f39271c9f6c69ad65c7819",
+    "bbox": [
+      15,
+      273,
+      499,
+      677
+    ]
+  },
+  {
+    "object_id": "SW-I-61cbfef32a40__infantry-001",
+    "source_id": "SW-I-61cbfef32a40",
+    "revision": "r001",
+    "source_sha256": "7e0fa13402cf7cd18e80db3d3a7015d94bdacd117e044ec52d668522e769bb0e",
+    "bbox": [
+      60,
+      314,
+      163,
+      248
+    ]
+  },
+  {
+    "object_id": "SW-I-61cbfef32a40__infantry-002",
+    "source_id": "SW-I-61cbfef32a40",
+    "revision": "r001",
+    "source_sha256": "7e0fa13402cf7cd18e80db3d3a7015d94bdacd117e044ec52d668522e769bb0e",
+    "bbox": [
+      1189,
+      321,
+      127,
+      244
+    ]
+  },
+  {
+    "object_id": "SW-I-61cbfef32a40__infantry-003",
+    "source_id": "SW-I-61cbfef32a40",
+    "revision": "r001",
+    "source_sha256": "7e0fa13402cf7cd18e80db3d3a7015d94bdacd117e044ec52d668522e769bb0e",
+    "bbox": [
+      59,
+      640,
+      226,
+      242
+    ]
+  },
+  {
+    "object_id": "SW-I-61cbfef32a40__infantry-004",
+    "source_id": "SW-I-61cbfef32a40",
+    "revision": "r001",
+    "source_sha256": "7e0fa13402cf7cd18e80db3d3a7015d94bdacd117e044ec52d668522e769bb0e",
+    "bbox": [
+      1160,
+      607,
+      164,
+      282
+    ]
+  },
+  {
+    "object_id": "SW-I-61cbfef32a40__infantry-005",
+    "source_id": "SW-I-61cbfef32a40",
+    "revision": "r001",
+    "source_sha256": "7e0fa13402cf7cd18e80db3d3a7015d94bdacd117e044ec52d668522e769bb0e",
+    "bbox": [
+      60,
+      957,
+      157,
+      246
+    ]
+  },
+  {
+    "object_id": "SW-I-61cbfef32a40__infantry-006",
+    "source_id": "SW-I-61cbfef32a40",
+    "revision": "r001",
+    "source_sha256": "7e0fa13402cf7cd18e80db3d3a7015d94bdacd117e044ec52d668522e769bb0e",
+    "bbox": [
+      1188,
+      962,
+      138,
+      236
+    ]
+  },
+  {
+    "object_id": "SW-I-11839c0135af__infantry-001",
+    "source_id": "SW-I-11839c0135af",
+    "revision": "r001",
+    "source_sha256": "b59bded3da389d66d18bef384cebe20c1941afdf5008254473ccbd461dc59100",
+    "bbox": [
+      61,
+      312,
+      154,
+      255
+    ]
+  },
+  {
+    "object_id": "SW-I-11839c0135af__infantry-002",
+    "source_id": "SW-I-11839c0135af",
+    "revision": "r001",
+    "source_sha256": "b59bded3da389d66d18bef384cebe20c1941afdf5008254473ccbd461dc59100",
+    "bbox": [
+      1164,
+      313,
+      163,
+      246
+    ]
+  },
+  {
+    "object_id": "SW-I-11839c0135af__infantry-003",
+    "source_id": "SW-I-11839c0135af",
+    "revision": "r001",
+    "source_sha256": "b59bded3da389d66d18bef384cebe20c1941afdf5008254473ccbd461dc59100",
+    "bbox": [
+      59,
+      634,
+      203,
+      253
+    ]
+  },
+  {
+    "object_id": "SW-I-11839c0135af__infantry-004",
+    "source_id": "SW-I-11839c0135af",
+    "revision": "r001",
+    "source_sha256": "b59bded3da389d66d18bef384cebe20c1941afdf5008254473ccbd461dc59100",
+    "bbox": [
+      1175,
+      622,
+      151,
+      256
+    ]
+  },
+  {
+    "object_id": "SW-I-11839c0135af__infantry-005",
+    "source_id": "SW-I-11839c0135af",
+    "revision": "r001",
+    "source_sha256": "b59bded3da389d66d18bef384cebe20c1941afdf5008254473ccbd461dc59100",
+    "bbox": [
+      60,
+      958,
+      170,
+      253
+    ]
+  },
+  {
+    "object_id": "SW-I-11839c0135af__infantry-006",
+    "source_id": "SW-I-11839c0135af",
+    "revision": "r001",
+    "source_sha256": "b59bded3da389d66d18bef384cebe20c1941afdf5008254473ccbd461dc59100",
+    "bbox": [
+      1092,
+      966,
+      253,
+      237
+    ]
+  },
+  {
+    "object_id": "SW-I-7c2d3a7c0441__infantry-001",
+    "source_id": "SW-I-7c2d3a7c0441",
+    "revision": "r001",
+    "source_sha256": "6d1b36dc2b2ad5759266b1741001df2d24eca30514dcd42080f9df883f3dc85e",
+    "bbox": [
+      35,
+      298,
+      204,
+      268
+    ]
+  },
+  {
+    "object_id": "SW-I-7c2d3a7c0441__infantry-002",
+    "source_id": "SW-I-7c2d3a7c0441",
+    "revision": "r001",
+    "source_sha256": "6d1b36dc2b2ad5759266b1741001df2d24eca30514dcd42080f9df883f3dc85e",
+    "bbox": [
+      1178,
+      299,
+      174,
+      273
+    ]
+  },
+  {
+    "object_id": "SW-I-7c2d3a7c0441__infantry-003",
+    "source_id": "SW-I-7c2d3a7c0441",
+    "revision": "r001",
+    "source_sha256": "6d1b36dc2b2ad5759266b1741001df2d24eca30514dcd42080f9df883f3dc85e",
+    "bbox": [
+      61,
+      623,
+      161,
+      269
+    ]
+  },
+  {
+    "object_id": "SW-I-7c2d3a7c0441__infantry-004",
+    "source_id": "SW-I-7c2d3a7c0441",
+    "revision": "r001",
+    "source_sha256": "6d1b36dc2b2ad5759266b1741001df2d24eca30514dcd42080f9df883f3dc85e",
+    "bbox": [
+      1158,
+      631,
+      174,
+      261
+    ]
+  },
+  {
+    "object_id": "SW-I-7c2d3a7c0441__infantry-005",
+    "source_id": "SW-I-7c2d3a7c0441",
+    "revision": "r001",
+    "source_sha256": "6d1b36dc2b2ad5759266b1741001df2d24eca30514dcd42080f9df883f3dc85e",
+    "bbox": [
+      65,
+      953,
+      130,
+      263
+    ]
+  },
+  {
+    "object_id": "SW-I-7c2d3a7c0441__infantry-006",
+    "source_id": "SW-I-7c2d3a7c0441",
+    "revision": "r001",
+    "source_sha256": "6d1b36dc2b2ad5759266b1741001df2d24eca30514dcd42080f9df883f3dc85e",
+    "bbox": [
+      1144,
+      953,
+      191,
+      257
+    ]
+  },
+  {
+    "object_id": "SW-I-afbed572c531__infantry-001",
+    "source_id": "SW-I-afbed572c531",
+    "revision": "r001",
+    "source_sha256": "9e81ef2eb6bee0af81c9ad7d727cd761596ed802b73e93f6fa2312493a9bf670",
+    "bbox": [
+      70,
+      298,
+      145,
+      268
+    ]
+  },
+  {
+    "object_id": "SW-I-afbed572c531__infantry-002",
+    "source_id": "SW-I-afbed572c531",
+    "revision": "r001",
+    "source_sha256": "9e81ef2eb6bee0af81c9ad7d727cd761596ed802b73e93f6fa2312493a9bf670",
+    "bbox": [
+      1178,
+      321,
+      142,
+      248
+    ]
+  },
+  {
+    "object_id": "SW-I-afbed572c531__infantry-003",
+    "source_id": "SW-I-afbed572c531",
+    "revision": "r001",
+    "source_sha256": "9e81ef2eb6bee0af81c9ad7d727cd761596ed802b73e93f6fa2312493a9bf670",
+    "bbox": [
+      60,
+      630,
+      159,
+      257
+    ]
+  },
+  {
+    "object_id": "SW-I-afbed572c531__infantry-004",
+    "source_id": "SW-I-afbed572c531",
+    "revision": "r001",
+    "source_sha256": "9e81ef2eb6bee0af81c9ad7d727cd761596ed802b73e93f6fa2312493a9bf670",
+    "bbox": [
+      1181,
+      632,
+      147,
+      253
+    ]
+  },
+  {
+    "object_id": "SW-I-afbed572c531__infantry-005",
+    "source_id": "SW-I-afbed572c531",
+    "revision": "r001",
+    "source_sha256": "9e81ef2eb6bee0af81c9ad7d727cd761596ed802b73e93f6fa2312493a9bf670",
+    "bbox": [
+      74,
+      957,
+      133,
+      254
+    ]
+  },
+  {
+    "object_id": "SW-I-afbed572c531__infantry-006",
+    "source_id": "SW-I-afbed572c531",
+    "revision": "r001",
+    "source_sha256": "9e81ef2eb6bee0af81c9ad7d727cd761596ed802b73e93f6fa2312493a9bf670",
+    "bbox": [
+      1179,
+      964,
+      159,
+      246
+    ]
+  },
+  {
+    "object_id": "IM-V-7c68a43785dc__vehicle-001",
+    "source_id": "IM-V-7c68a43785dc",
+    "revision": "r001",
+    "source_sha256": "4ff7acb9bb824d7218e471b7192d2f20c795596f016fe9d13ade509dff673f6d",
+    "bbox": [
+      58,
+      75,
+      180,
+      152
+    ]
+  },
+  {
+    "object_id": "IM-V-7c68a43785dc__weapon-001",
+    "source_id": "IM-V-7c68a43785dc",
+    "revision": "r001",
+    "source_sha256": "4ff7acb9bb824d7218e471b7192d2f20c795596f016fe9d13ade509dff673f6d",
+    "bbox": [
+      181,
+      298,
+      212,
+      84
+    ]
+  },
+  {
+    "object_id": "IM-I-59c657269a24__infantry-001",
+    "source_id": "IM-I-59c657269a24",
+    "revision": "r002",
+    "source_sha256": "74349ab2167817eaa5edb9e854b377902b3c32e575ec096032ba43a6791408bb",
+    "bbox": [
+      44,
+      229,
+      223,
+      302
+    ]
+  },
+  {
+    "object_id": "IM-I-59c657269a24__infantry-002",
+    "source_id": "IM-I-59c657269a24",
+    "revision": "r002",
+    "source_sha256": "74349ab2167817eaa5edb9e854b377902b3c32e575ec096032ba43a6791408bb",
+    "bbox": [
+      980,
+      297,
+      256,
+      241
+    ]
+  },
+  {
+    "object_id": "IM-I-59c657269a24__infantry-003",
+    "source_id": "IM-I-59c657269a24",
+    "revision": "r002",
+    "source_sha256": "74349ab2167817eaa5edb9e854b377902b3c32e575ec096032ba43a6791408bb",
+    "bbox": [
+      43,
+      580,
+      249,
+      248
+    ]
+  },
+  {
+    "object_id": "IM-I-59c657269a24__infantry-004",
+    "source_id": "IM-I-59c657269a24",
+    "revision": "r002",
+    "source_sha256": "74349ab2167817eaa5edb9e854b377902b3c32e575ec096032ba43a6791408bb",
+    "bbox": [
+      1067,
+      596,
+      169,
+      237
+    ]
+  },
+  {
+    "object_id": "IM-I-59c657269a24__infantry-005",
+    "source_id": "IM-I-59c657269a24",
+    "revision": "r002",
+    "source_sha256": "74349ab2167817eaa5edb9e854b377902b3c32e575ec096032ba43a6791408bb",
+    "bbox": [
+      42,
+      882,
+      157,
+      244
+    ]
+  },
+  {
+    "object_id": "IM-I-59c657269a24__infantry-006",
+    "source_id": "IM-I-59c657269a24",
+    "revision": "r002",
+    "source_sha256": "74349ab2167817eaa5edb9e854b377902b3c32e575ec096032ba43a6791408bb",
+    "bbox": [
+      970,
+      788,
+      293,
+      343
+    ]
+  },
+  {
+    "object_id": "SW-V-5656869b73cb__vehicle-001",
+    "source_id": "SW-V-5656869b73cb",
+    "revision": "r002",
+    "source_sha256": "81ec681bf66182a8975425b201526f3434122083f7259fd6c8ebafaa690c582f",
+    "bbox": [
+      47,
+      176,
+      535,
+      353
+    ]
+  },
+  {
+    "object_id": "SW-V-5656869b73cb__weapon-001",
+    "source_id": "SW-V-5656869b73cb",
+    "revision": "r002",
+    "source_sha256": "81ec681bf66182a8975425b201526f3434122083f7259fd6c8ebafaa690c582f",
+    "bbox": [
+      154,
+      770,
+      827,
+      165
+    ]
+  },
+  {
+    "object_id": "DF-I-da2bce656e1c__infantry-001",
+    "source_id": "DF-I-da2bce656e1c",
+    "revision": "r002",
+    "source_sha256": "706d2200c4687513ac40709e5777bfd6b100bec23bab24fcde27fff0017c3610",
+    "bbox": [
+      34,
+      322,
+      214,
+      240
+    ]
+  },
+  {
+    "object_id": "DF-I-da2bce656e1c__infantry-002",
+    "source_id": "DF-I-da2bce656e1c",
+    "revision": "r002",
+    "source_sha256": "706d2200c4687513ac40709e5777bfd6b100bec23bab24fcde27fff0017c3610",
+    "bbox": [
+      1159,
+      312,
+      177,
+      248
+    ]
+  },
+  {
+    "object_id": "DF-I-da2bce656e1c__infantry-003",
+    "source_id": "DF-I-da2bce656e1c",
+    "revision": "r002",
+    "source_sha256": "706d2200c4687513ac40709e5777bfd6b100bec23bab24fcde27fff0017c3610",
+    "bbox": [
+      19,
+      634,
+      198,
+      243
+    ]
+  },
+  {
+    "object_id": "DF-I-da2bce656e1c__infantry-004",
+    "source_id": "DF-I-da2bce656e1c",
+    "revision": "r002",
+    "source_sha256": "706d2200c4687513ac40709e5777bfd6b100bec23bab24fcde27fff0017c3610",
+    "bbox": [
+      1160,
+      640,
+      167,
+      246
+    ]
+  },
+  {
+    "object_id": "DF-I-da2bce656e1c__infantry-005",
+    "source_id": "DF-I-da2bce656e1c",
+    "revision": "r002",
+    "source_sha256": "706d2200c4687513ac40709e5777bfd6b100bec23bab24fcde27fff0017c3610",
+    "bbox": [
+      46,
+      940,
+      209,
+      269
+    ]
+  },
+  {
+    "object_id": "DF-I-da2bce656e1c__infantry-006",
+    "source_id": "DF-I-da2bce656e1c",
+    "revision": "r002",
+    "source_sha256": "706d2200c4687513ac40709e5777bfd6b100bec23bab24fcde27fff0017c3610",
+    "bbox": [
+      1158,
+      964,
+      179,
+      242
+    ]
+  },
+  {
+    "object_id": "IM-I-06c953df8d57__infantry-001",
+    "source_id": "IM-I-06c953df8d57",
+    "revision": "r003",
+    "source_sha256": "4e191a333ec02f6091cf42bb0953002b1d490f3189737f3cd64b94483fdd658e",
+    "bbox": [
+      32,
+      285,
+      224,
+      247
+    ]
+  },
+  {
+    "object_id": "IM-I-06c953df8d57__infantry-002",
+    "source_id": "IM-I-06c953df8d57",
+    "revision": "r003",
+    "source_sha256": "4e191a333ec02f6091cf42bb0953002b1d490f3189737f3cd64b94483fdd658e",
+    "bbox": [
+      1065,
+      298,
+      191,
+      239
+    ]
+  },
+  {
+    "object_id": "IM-I-06c953df8d57__infantry-003",
+    "source_id": "IM-I-06c953df8d57",
+    "revision": "r003",
+    "source_sha256": "4e191a333ec02f6091cf42bb0953002b1d490f3189737f3cd64b94483fdd658e",
+    "bbox": [
+      3,
+      509,
+      202,
+      319
+    ]
+  },
+  {
+    "object_id": "IM-I-06c953df8d57__infantry-004",
+    "source_id": "IM-I-06c953df8d57",
+    "revision": "r003",
+    "source_sha256": "4e191a333ec02f6091cf42bb0953002b1d490f3189737f3cd64b94483fdd658e",
+    "bbox": [
+      1064,
+      600,
+      179,
+      238
+    ]
+  },
+  {
+    "object_id": "IM-I-06c953df8d57__infantry-005",
+    "source_id": "IM-I-06c953df8d57",
+    "revision": "r003",
+    "source_sha256": "4e191a333ec02f6091cf42bb0953002b1d490f3189737f3cd64b94483fdd658e",
+    "bbox": [
+      47,
+      881,
+      158,
+      242
+    ]
+  },
+  {
+    "object_id": "IM-I-06c953df8d57__infantry-006",
+    "source_id": "IM-I-06c953df8d57",
+    "revision": "r003",
+    "source_sha256": "4e191a333ec02f6091cf42bb0953002b1d490f3189737f3cd64b94483fdd658e",
+    "bbox": [
+      1072,
+      881,
+      146,
+      247
+    ]
+  },
+  {
+    "object_id": "IM-I-ba3e3f1a2902__infantry-001",
+    "source_id": "IM-I-ba3e3f1a2902",
+    "revision": "r003",
+    "source_sha256": "da99f937e2e4102f756c1b6fabae91cc1c7507a62d85e7567735957aa426fcae",
+    "bbox": [
+      7,
+      293,
+      188,
+      222
+    ]
+  },
+  {
+    "object_id": "IM-I-ba3e3f1a2902__infantry-002",
+    "source_id": "IM-I-ba3e3f1a2902",
+    "revision": "r003",
+    "source_sha256": "da99f937e2e4102f756c1b6fabae91cc1c7507a62d85e7567735957aa426fcae",
+    "bbox": [
+      1000,
+      303,
+      226,
+      226
+    ]
+  },
+  {
+    "object_id": "IM-I-ba3e3f1a2902__infantry-003",
+    "source_id": "IM-I-ba3e3f1a2902",
+    "revision": "r003",
+    "source_sha256": "da99f937e2e4102f756c1b6fabae91cc1c7507a62d85e7567735957aa426fcae",
+    "bbox": [
+      48,
+      554,
+      148,
+      255
+    ]
+  },
+  {
+    "object_id": "IM-I-ba3e3f1a2902__infantry-004",
+    "source_id": "IM-I-ba3e3f1a2902",
+    "revision": "r003",
+    "source_sha256": "da99f937e2e4102f756c1b6fabae91cc1c7507a62d85e7567735957aa426fcae",
+    "bbox": [
+      996,
+      603,
+      267,
+      225
+    ]
+  },
+  {
+    "object_id": "IM-I-ba3e3f1a2902__infantry-005",
+    "source_id": "IM-I-ba3e3f1a2902",
+    "revision": "r003",
+    "source_sha256": "da99f937e2e4102f756c1b6fabae91cc1c7507a62d85e7567735957aa426fcae",
+    "bbox": [
+      50,
+      801,
+      143,
+      314
+    ]
+  },
+  {
+    "object_id": "IM-I-ba3e3f1a2902__infantry-006",
+    "source_id": "IM-I-ba3e3f1a2902",
+    "revision": "r003",
+    "source_sha256": "da99f937e2e4102f756c1b6fabae91cc1c7507a62d85e7567735957aa426fcae",
+    "bbox": [
+      994,
+      899,
+      242,
+      228
+    ]
+  },
+  {
+    "object_id": "IM-I-87b002afb708__infantry-001",
+    "source_id": "IM-I-87b002afb708",
+    "revision": "r002",
+    "source_sha256": "23936abec033c1ad24f4e1a13649dc35d185feb59f2543e06db6958c8ea23f22",
+    "bbox": [
+      36,
+      220,
+      139,
+      188
+    ]
+  },
+  {
+    "object_id": "IM-I-87b002afb708__infantry-002",
+    "source_id": "IM-I-87b002afb708",
+    "revision": "r002",
+    "source_sha256": "23936abec033c1ad24f4e1a13649dc35d185feb59f2543e06db6958c8ea23f22",
+    "bbox": [
+      844,
+      221,
+      112,
+      194
+    ]
+  },
+  {
+    "object_id": "IM-I-87b002afb708__infantry-003",
+    "source_id": "IM-I-87b002afb708",
+    "revision": "r002",
+    "source_sha256": "23936abec033c1ad24f4e1a13649dc35d185feb59f2543e06db6958c8ea23f22",
+    "bbox": [
+      20,
+      436,
+      177,
+      201
+    ]
+  },
+  {
+    "object_id": "IM-I-87b002afb708__infantry-004",
+    "source_id": "IM-I-87b002afb708",
+    "revision": "r002",
+    "source_sha256": "23936abec033c1ad24f4e1a13649dc35d185feb59f2543e06db6958c8ea23f22",
+    "bbox": [
+      819,
+      454,
+      163,
+      199
+    ]
+  },
+  {
+    "object_id": "IM-I-87b002afb708__infantry-005",
+    "source_id": "IM-I-87b002afb708",
+    "revision": "r002",
+    "source_sha256": "23936abec033c1ad24f4e1a13649dc35d185feb59f2543e06db6958c8ea23f22",
+    "bbox": [
+      43,
+      678,
+      113,
+      189
+    ]
+  },
+  {
+    "object_id": "IM-I-87b002afb708__infantry-006",
+    "source_id": "IM-I-87b002afb708",
+    "revision": "r002",
+    "source_sha256": "23936abec033c1ad24f4e1a13649dc35d185feb59f2543e06db6958c8ea23f22",
+    "bbox": [
+      829,
+      689,
+      130,
+      188
+    ]
+  },
+  {
+    "object_id": "IM-I-d04819b84a22__infantry-001",
+    "source_id": "IM-I-d04819b84a22",
+    "revision": "r002",
+    "source_sha256": "ed432b829505e389fb39a14b1e5f55068eef80563a7fec19ff33dff5c7d934ad",
+    "bbox": [
+      49,
+      218,
+      119,
+      188
+    ]
+  },
+  {
+    "object_id": "IM-I-d04819b84a22__infantry-002",
+    "source_id": "IM-I-d04819b84a22",
+    "revision": "r002",
+    "source_sha256": "ed432b829505e389fb39a14b1e5f55068eef80563a7fec19ff33dff5c7d934ad",
+    "bbox": [
+      815,
+      220,
+      158,
+      194
+    ]
+  },
+  {
+    "object_id": "IM-I-d04819b84a22__infantry-003",
+    "source_id": "IM-I-d04819b84a22",
+    "revision": "r002",
+    "source_sha256": "ed432b829505e389fb39a14b1e5f55068eef80563a7fec19ff33dff5c7d934ad",
+    "bbox": [
+      33,
+      450,
+      128,
+      186
+    ]
+  },
+  {
+    "object_id": "IM-I-d04819b84a22__infantry-004",
+    "source_id": "IM-I-d04819b84a22",
+    "revision": "r002",
+    "source_sha256": "ed432b829505e389fb39a14b1e5f55068eef80563a7fec19ff33dff5c7d934ad",
+    "bbox": [
+      810,
+      445,
+      162,
+      196
+    ]
+  },
+  {
+    "object_id": "IM-I-d04819b84a22__infantry-005",
+    "source_id": "IM-I-d04819b84a22",
+    "revision": "r002",
+    "source_sha256": "ed432b829505e389fb39a14b1e5f55068eef80563a7fec19ff33dff5c7d934ad",
+    "bbox": [
+      36,
+      683,
+      146,
+      186
+    ]
+  },
+  {
+    "object_id": "IM-I-d04819b84a22__infantry-006",
+    "source_id": "IM-I-d04819b84a22",
+    "revision": "r002",
+    "source_sha256": "ed432b829505e389fb39a14b1e5f55068eef80563a7fec19ff33dff5c7d934ad",
+    "bbox": [
+      789,
+      688,
+      163,
+      192
+    ]
+  },
+  {
+    "object_id": "IM-I-287c4eaac206__infantry-001",
+    "source_id": "IM-I-287c4eaac206",
+    "revision": "r002",
+    "source_sha256": "80b84bcc48aff647a48aa34e4cb843ab5b332641e460fdbb9679933aa846104d",
+    "bbox": [
+      40,
+      223,
+      134,
+      182
+    ]
+  },
+  {
+    "object_id": "IM-I-287c4eaac206__infantry-002",
+    "source_id": "IM-I-287c4eaac206",
+    "revision": "r002",
+    "source_sha256": "80b84bcc48aff647a48aa34e4cb843ab5b332641e460fdbb9679933aa846104d",
+    "bbox": [
+      824,
+      226,
+      153,
+      184
+    ]
+  },
+  {
+    "object_id": "IM-I-287c4eaac206__infantry-003",
+    "source_id": "IM-I-287c4eaac206",
+    "revision": "r002",
+    "source_sha256": "80b84bcc48aff647a48aa34e4cb843ab5b332641e460fdbb9679933aa846104d",
+    "bbox": [
+      37,
+      457,
+      131,
+      178
+    ]
+  },
+  {
+    "object_id": "IM-I-287c4eaac206__infantry-004",
+    "source_id": "IM-I-287c4eaac206",
+    "revision": "r002",
+    "source_sha256": "80b84bcc48aff647a48aa34e4cb843ab5b332641e460fdbb9679933aa846104d",
+    "bbox": [
+      828,
+      459,
+      131,
+      186
+    ]
+  },
+  {
+    "object_id": "IM-I-287c4eaac206__infantry-005",
+    "source_id": "IM-I-287c4eaac206",
+    "revision": "r002",
+    "source_sha256": "80b84bcc48aff647a48aa34e4cb843ab5b332641e460fdbb9679933aa846104d",
+    "bbox": [
+      27,
+      677,
+      138,
+      189
+    ]
+  },
+  {
+    "object_id": "IM-I-287c4eaac206__infantry-006",
+    "source_id": "IM-I-287c4eaac206",
+    "revision": "r002",
+    "source_sha256": "80b84bcc48aff647a48aa34e4cb843ab5b332641e460fdbb9679933aa846104d",
+    "bbox": [
+      837,
+      690,
+      102,
+      187
+    ]
+  },
+  {
+    "object_id": "IM-I-b4421fff0b04__infantry-001",
+    "source_id": "IM-I-b4421fff0b04",
+    "revision": "r004",
+    "source_sha256": "fbe8aa0f17884282d7b71eb0053ad27b02902dcf586ca205ca54431094f1967b",
+    "bbox": [
+      41,
+      224,
+      120,
+      176
+    ]
+  },
+  {
+    "object_id": "IM-I-b4421fff0b04__infantry-002",
+    "source_id": "IM-I-b4421fff0b04",
+    "revision": "r004",
+    "source_sha256": "fbe8aa0f17884282d7b71eb0053ad27b02902dcf586ca205ca54431094f1967b",
+    "bbox": [
+      819,
+      155,
+      127,
+      255
+    ]
+  },
+  {
+    "object_id": "IM-I-b4421fff0b04__infantry-003",
+    "source_id": "IM-I-b4421fff0b04",
+    "revision": "r004",
+    "source_sha256": "fbe8aa0f17884282d7b71eb0053ad27b02902dcf586ca205ca54431094f1967b",
+    "bbox": [
+      38,
+      453,
+      128,
+      183
+    ]
+  },
+  {
+    "object_id": "IM-I-b4421fff0b04__infantry-004",
+    "source_id": "IM-I-b4421fff0b04",
+    "revision": "r004",
+    "source_sha256": "fbe8aa0f17884282d7b71eb0053ad27b02902dcf586ca205ca54431094f1967b",
+    "bbox": [
+      837,
+      459,
+      124,
+      181
+    ]
+  },
+  {
+    "object_id": "IM-I-b4421fff0b04__infantry-005",
+    "source_id": "IM-I-b4421fff0b04",
+    "revision": "r004",
+    "source_sha256": "fbe8aa0f17884282d7b71eb0053ad27b02902dcf586ca205ca54431094f1967b",
+    "bbox": [
+      40,
+      682,
+      119,
+      180
+    ]
+  },
+  {
+    "object_id": "IM-I-b4421fff0b04__infantry-006",
+    "source_id": "IM-I-b4421fff0b04",
+    "revision": "r004",
+    "source_sha256": "fbe8aa0f17884282d7b71eb0053ad27b02902dcf586ca205ca54431094f1967b",
+    "bbox": [
+      832,
+      690,
+      140,
+      184
+    ]
+  },
+  {
+    "object_id": "IM-I-8cfb676e7e9d__infantry-001",
+    "source_id": "IM-I-8cfb676e7e9d",
+    "revision": "r002",
+    "source_sha256": "28b3afe973972c4244383ddd708abe694bd13cf0e4072ba67b230dda1e535342",
+    "bbox": [
+      25,
+      305,
+      215,
+      218
+    ]
+  },
+  {
+    "object_id": "IM-I-8cfb676e7e9d__infantry-002",
+    "source_id": "IM-I-8cfb676e7e9d",
+    "revision": "r002",
+    "source_sha256": "28b3afe973972c4244383ddd708abe694bd13cf0e4072ba67b230dda1e535342",
+    "bbox": [
+      950,
+      295,
+      288,
+      238
+    ]
+  },
+  {
+    "object_id": "IM-I-8cfb676e7e9d__infantry-003",
+    "source_id": "IM-I-8cfb676e7e9d",
+    "revision": "r002",
+    "source_sha256": "28b3afe973972c4244383ddd708abe694bd13cf0e4072ba67b230dda1e535342",
+    "bbox": [
+      41,
+      579,
+      271,
+      237
+    ]
+  },
+  {
+    "object_id": "IM-I-8cfb676e7e9d__infantry-004",
+    "source_id": "IM-I-8cfb676e7e9d",
+    "revision": "r002",
+    "source_sha256": "28b3afe973972c4244383ddd708abe694bd13cf0e4072ba67b230dda1e535342",
+    "bbox": [
+      999,
+      597,
+      240,
+      229
+    ]
+  },
+  {
+    "object_id": "IM-I-07b44b0e396e__infantry-001",
+    "source_id": "IM-I-07b44b0e396e",
+    "revision": "r002",
+    "source_sha256": "61b36bacb779b7ec7edd75dffcc539e5687cb57524d10ac658f1ded61dcfd5fb",
+    "bbox": [
+      7,
+      275,
+      305,
+      251
+    ]
+  },
+  {
+    "object_id": "IM-I-07b44b0e396e__infantry-002",
+    "source_id": "IM-I-07b44b0e396e",
+    "revision": "r002",
+    "source_sha256": "61b36bacb779b7ec7edd75dffcc539e5687cb57524d10ac658f1ded61dcfd5fb",
+    "bbox": [
+      1002,
+      275,
+      255,
+      263
+    ]
+  },
+  {
+    "object_id": "IM-I-07b44b0e396e__infantry-003",
+    "source_id": "IM-I-07b44b0e396e",
+    "revision": "r002",
+    "source_sha256": "61b36bacb779b7ec7edd75dffcc539e5687cb57524d10ac658f1ded61dcfd5fb",
+    "bbox": [
+      7,
+      581,
+      273,
+      240
+    ]
+  },
+  {
+    "object_id": "IM-I-07b44b0e396e__infantry-004",
+    "source_id": "IM-I-07b44b0e396e",
+    "revision": "r002",
+    "source_sha256": "61b36bacb779b7ec7edd75dffcc539e5687cb57524d10ac658f1ded61dcfd5fb",
+    "bbox": [
+      987,
+      567,
+      284,
+      268
+    ]
+  },
+  {
+    "object_id": "IM-I-07b44b0e396e__infantry-005",
+    "source_id": "IM-I-07b44b0e396e",
+    "revision": "r002",
+    "source_sha256": "61b36bacb779b7ec7edd75dffcc539e5687cb57524d10ac658f1ded61dcfd5fb",
+    "bbox": [
+      41,
+      875,
+      232,
+      246
+    ]
+  },
+  {
+    "object_id": "IM-I-07b44b0e396e__infantry-006",
+    "source_id": "IM-I-07b44b0e396e",
+    "revision": "r002",
+    "source_sha256": "61b36bacb779b7ec7edd75dffcc539e5687cb57524d10ac658f1ded61dcfd5fb",
+    "bbox": [
+      960,
+      896,
+      271,
+      233
+    ]
+  },
+  {
+    "object_id": "IM-I-d123b066888e__infantry-001",
+    "source_id": "IM-I-d123b066888e",
+    "revision": "r004",
+    "source_sha256": "d6c46dbd8200bc099e8ddb3969e4baa85931f991c5e99e38ba068a3b3c8e6c33",
+    "bbox": [
+      36,
+      218,
+      127,
+      186
+    ]
+  },
+  {
+    "object_id": "IM-I-d123b066888e__infantry-002",
+    "source_id": "IM-I-d123b066888e",
+    "revision": "r004",
+    "source_sha256": "d6c46dbd8200bc099e8ddb3969e4baa85931f991c5e99e38ba068a3b3c8e6c33",
+    "bbox": [
+      825,
+      218,
+      147,
+      191
+    ]
+  },
+  {
+    "object_id": "IM-I-d123b066888e__infantry-003",
+    "source_id": "IM-I-d123b066888e",
+    "revision": "r004",
+    "source_sha256": "d6c46dbd8200bc099e8ddb3969e4baa85931f991c5e99e38ba068a3b3c8e6c33",
+    "bbox": [
+      26,
+      452,
+      140,
+      179
+    ]
+  },
+  {
+    "object_id": "IM-I-d123b066888e__infantry-004",
+    "source_id": "IM-I-d123b066888e",
+    "revision": "r004",
+    "source_sha256": "d6c46dbd8200bc099e8ddb3969e4baa85931f991c5e99e38ba068a3b3c8e6c33",
+    "bbox": [
+      820,
+      451,
+      149,
+      192
+    ]
+  },
+  {
+    "object_id": "IM-I-d123b066888e__infantry-005",
+    "source_id": "IM-I-d123b066888e",
+    "revision": "r004",
+    "source_sha256": "d6c46dbd8200bc099e8ddb3969e4baa85931f991c5e99e38ba068a3b3c8e6c33",
+    "bbox": [
+      35,
+      679,
+      130,
+      183
+    ]
+  },
+  {
+    "object_id": "IM-I-d123b066888e__infantry-006",
+    "source_id": "IM-I-d123b066888e",
+    "revision": "r004",
+    "source_sha256": "d6c46dbd8200bc099e8ddb3969e4baa85931f991c5e99e38ba068a3b3c8e6c33",
+    "bbox": [
+      845,
+      691,
+      106,
+      185
+    ]
+  },
+  {
+    "object_id": "IM-I-92e075e4554a__infantry-001",
+    "source_id": "IM-I-92e075e4554a",
+    "revision": "r002",
+    "source_sha256": "d9d946dfce83760aca1a450fa24017931f8f8d7a0090f99776fdbe109e5ed309",
+    "bbox": [
+      27,
+      192,
+      216,
+      330
+    ]
+  },
+  {
+    "object_id": "IM-I-92e075e4554a__infantry-002",
+    "source_id": "IM-I-92e075e4554a",
+    "revision": "r002",
+    "source_sha256": "d9d946dfce83760aca1a450fa24017931f8f8d7a0090f99776fdbe109e5ed309",
+    "bbox": [
+      1070,
+      302,
+      203,
+      232
+    ]
+  },
+  {
+    "object_id": "IM-I-92e075e4554a__infantry-003",
+    "source_id": "IM-I-92e075e4554a",
+    "revision": "r002",
+    "source_sha256": "d9d946dfce83760aca1a450fa24017931f8f8d7a0090f99776fdbe109e5ed309",
+    "bbox": [
+      40,
+      588,
+      203,
+      232
+    ]
+  },
+  {
+    "object_id": "IM-I-92e075e4554a__infantry-004",
+    "source_id": "IM-I-92e075e4554a",
+    "revision": "r002",
+    "source_sha256": "d9d946dfce83760aca1a450fa24017931f8f8d7a0090f99776fdbe109e5ed309",
+    "bbox": [
+      1070,
+      601,
+      203,
+      232
+    ]
+  },
+  {
+    "object_id": "IM-I-92e075e4554a__infantry-005",
+    "source_id": "IM-I-92e075e4554a",
+    "revision": "r002",
+    "source_sha256": "d9d946dfce83760aca1a450fa24017931f8f8d7a0090f99776fdbe109e5ed309",
+    "bbox": [
+      40,
+      885,
+      203,
+      232
+    ]
+  },
+  {
+    "object_id": "IM-I-92e075e4554a__infantry-006",
+    "source_id": "IM-I-92e075e4554a",
+    "revision": "r002",
+    "source_sha256": "d9d946dfce83760aca1a450fa24017931f8f8d7a0090f99776fdbe109e5ed309",
+    "bbox": [
+      1070,
+      900,
+      203,
+      232
+    ]
+  },
+  {
+    "object_id": "IM-I-9f3dfafe6307__infantry-001",
+    "source_id": "IM-I-9f3dfafe6307",
+    "revision": "r002",
+    "source_sha256": "cf052819913e6a0ea51624c1e5150996e600b8c62b2b5f156c20ec74e88db625",
+    "bbox": [
+      17,
+      216,
+      173,
+      194
+    ]
+  },
+  {
+    "object_id": "IM-I-9f3dfafe6307__infantry-002",
+    "source_id": "IM-I-9f3dfafe6307",
+    "revision": "r002",
+    "source_sha256": "cf052819913e6a0ea51624c1e5150996e600b8c62b2b5f156c20ec74e88db625",
+    "bbox": [
+      767,
+      214,
+      212,
+      206
+    ]
+  },
+  {
+    "object_id": "IM-I-9f3dfafe6307__infantry-003",
+    "source_id": "IM-I-9f3dfafe6307",
+    "revision": "r002",
+    "source_sha256": "cf052819913e6a0ea51624c1e5150996e600b8c62b2b5f156c20ec74e88db625",
+    "bbox": [
+      46,
+      443,
+      145,
+      190
+    ]
+  },
+  {
+    "object_id": "IM-I-9f3dfafe6307__infantry-004",
+    "source_id": "IM-I-9f3dfafe6307",
+    "revision": "r002",
+    "source_sha256": "cf052819913e6a0ea51624c1e5150996e600b8c62b2b5f156c20ec74e88db625",
+    "bbox": [
+      824,
+      454,
+      133,
+      188
+    ]
+  },
+  {
+    "object_id": "IM-I-9f3dfafe6307__infantry-005",
+    "source_id": "IM-I-9f3dfafe6307",
+    "revision": "r002",
+    "source_sha256": "cf052819913e6a0ea51624c1e5150996e600b8c62b2b5f156c20ec74e88db625",
+    "bbox": [
+      42,
+      671,
+      155,
+      190
+    ]
+  },
+  {
+    "object_id": "IM-I-9f3dfafe6307__infantry-006",
+    "source_id": "IM-I-9f3dfafe6307",
+    "revision": "r002",
+    "source_sha256": "cf052819913e6a0ea51624c1e5150996e600b8c62b2b5f156c20ec74e88db625",
+    "bbox": [
+      796,
+      650,
+      181,
+      222
+    ]
+  },
+  {
+    "object_id": "IM-I-df790eaba582__infantry-001",
+    "source_id": "IM-I-df790eaba582",
+    "revision": "r003",
+    "source_sha256": "16fed441232bd23e4403bff7e1c6784853b7413c5762f6002638a34a2b9f6edb",
+    "bbox": [
+      39,
+      215,
+      119,
+      190
+    ]
+  },
+  {
+    "object_id": "IM-I-df790eaba582__infantry-002",
+    "source_id": "IM-I-df790eaba582",
+    "revision": "r003",
+    "source_sha256": "16fed441232bd23e4403bff7e1c6784853b7413c5762f6002638a34a2b9f6edb",
+    "bbox": [
+      812,
+      227,
+      159,
+      188
+    ]
+  },
+  {
+    "object_id": "IM-I-df790eaba582__infantry-003",
+    "source_id": "IM-I-df790eaba582",
+    "revision": "r003",
+    "source_sha256": "16fed441232bd23e4403bff7e1c6784853b7413c5762f6002638a34a2b9f6edb",
+    "bbox": [
+      30,
+      452,
+      151,
+      184
+    ]
+  },
+  {
+    "object_id": "IM-I-df790eaba582__infantry-004",
+    "source_id": "IM-I-df790eaba582",
+    "revision": "r003",
+    "source_sha256": "16fed441232bd23e4403bff7e1c6784853b7413c5762f6002638a34a2b9f6edb",
+    "bbox": [
+      824,
+      461,
+      132,
+      188
+    ]
+  },
+  {
+    "object_id": "IM-I-df790eaba582__infantry-005",
+    "source_id": "IM-I-df790eaba582",
+    "revision": "r003",
+    "source_sha256": "16fed441232bd23e4403bff7e1c6784853b7413c5762f6002638a34a2b9f6edb",
+    "bbox": [
+      33,
+      680,
+      133,
+      188
+    ]
+  },
+  {
+    "object_id": "IM-I-df790eaba582__infantry-006",
+    "source_id": "IM-I-df790eaba582",
+    "revision": "r003",
+    "source_sha256": "16fed441232bd23e4403bff7e1c6784853b7413c5762f6002638a34a2b9f6edb",
+    "bbox": [
+      838,
+      690,
+      137,
+      187
+    ]
+  },
+  {
+    "object_id": "IM-I-f2673637d9fb__infantry-001",
+    "source_id": "IM-I-f2673637d9fb",
+    "revision": "r003",
+    "source_sha256": "e42dd797c5295a7224e667d877b0fcdbac350288f0232b5e20434f858a483d91",
+    "bbox": [
+      28,
+      239,
+      225,
+      289
+    ]
+  },
+  {
+    "object_id": "IM-I-f2673637d9fb__infantry-002",
+    "source_id": "IM-I-f2673637d9fb",
+    "revision": "r003",
+    "source_sha256": "e42dd797c5295a7224e667d877b0fcdbac350288f0232b5e20434f858a483d91",
+    "bbox": [
+      1080,
+      221,
+      175,
+      324
+    ]
+  },
+  {
+    "object_id": "IM-I-f2673637d9fb__infantry-003",
+    "source_id": "IM-I-f2673637d9fb",
+    "revision": "r003",
+    "source_sha256": "e42dd797c5295a7224e667d877b0fcdbac350288f0232b5e20434f858a483d91",
+    "bbox": [
+      42,
+      582,
+      166,
+      248
+    ]
+  },
+  {
+    "object_id": "IM-I-f2673637d9fb__infantry-004",
+    "source_id": "IM-I-f2673637d9fb",
+    "revision": "r003",
+    "source_sha256": "e42dd797c5295a7224e667d877b0fcdbac350288f0232b5e20434f858a483d91",
+    "bbox": [
+      1077,
+      530,
+      193,
+      307
+    ]
+  },
+  {
+    "object_id": "IM-I-f2673637d9fb__infantry-005",
+    "source_id": "IM-I-f2673637d9fb",
+    "revision": "r003",
+    "source_sha256": "e42dd797c5295a7224e667d877b0fcdbac350288f0232b5e20434f858a483d91",
+    "bbox": [
+      42,
+      865,
+      183,
+      253
+    ]
+  },
+  {
+    "object_id": "IM-I-f2673637d9fb__infantry-006",
+    "source_id": "IM-I-f2673637d9fb",
+    "revision": "r003",
+    "source_sha256": "e42dd797c5295a7224e667d877b0fcdbac350288f0232b5e20434f858a483d91",
+    "bbox": [
+      1071,
+      876,
+      203,
+      259
+    ]
+  },
+  {
+    "object_id": "IM-I-426a394eb729__infantry-001",
+    "source_id": "IM-I-426a394eb729",
+    "revision": "r002",
+    "source_sha256": "bdceccc7daeca5c4f5f4e0524a8185a05f80997cd87bb0c0987b2a8d23632dd0",
+    "bbox": [
+      35,
+      218,
+      140,
+      179
+    ]
+  },
+  {
+    "object_id": "IM-I-426a394eb729__infantry-002",
+    "source_id": "IM-I-426a394eb729",
+    "revision": "r002",
+    "source_sha256": "bdceccc7daeca5c4f5f4e0524a8185a05f80997cd87bb0c0987b2a8d23632dd0",
+    "bbox": [
+      789,
+      161,
+      175,
+      252
+    ]
+  },
+  {
+    "object_id": "IM-I-426a394eb729__infantry-003",
+    "source_id": "IM-I-426a394eb729",
+    "revision": "r002",
+    "source_sha256": "bdceccc7daeca5c4f5f4e0524a8185a05f80997cd87bb0c0987b2a8d23632dd0",
+    "bbox": [
+      38,
+      448,
+      149,
+      187
+    ]
+  },
+  {
+    "object_id": "IM-I-426a394eb729__infantry-004",
+    "source_id": "IM-I-426a394eb729",
+    "revision": "r002",
+    "source_sha256": "bdceccc7daeca5c4f5f4e0524a8185a05f80997cd87bb0c0987b2a8d23632dd0",
+    "bbox": [
+      823,
+      442,
+      139,
+      201
+    ]
+  },
+  {
+    "object_id": "IM-I-426a394eb729__infantry-005",
+    "source_id": "IM-I-426a394eb729",
+    "revision": "r002",
+    "source_sha256": "bdceccc7daeca5c4f5f4e0524a8185a05f80997cd87bb0c0987b2a8d23632dd0",
+    "bbox": [
+      41,
+      676,
+      120,
+      186
+    ]
+  },
+  {
+    "object_id": "IM-I-426a394eb729__infantry-006",
+    "source_id": "IM-I-426a394eb729",
+    "revision": "r002",
+    "source_sha256": "bdceccc7daeca5c4f5f4e0524a8185a05f80997cd87bb0c0987b2a8d23632dd0",
+    "bbox": [
+      828,
+      691,
+      119,
+      182
+    ]
+  },
+  {
+    "object_id": "IM-I-93bc4f0dd35d__infantry-001",
+    "source_id": "IM-I-93bc4f0dd35d",
+    "revision": "r006",
+    "source_sha256": "9abc4b138461ba795c4548820788359b9f6a9d2b12d5d0ef54796c8ebd874fb8",
+    "bbox": [
+      44,
+      223,
+      197,
+      194
+    ]
+  },
+  {
+    "object_id": "IM-I-93bc4f0dd35d__infantry-002",
+    "source_id": "IM-I-93bc4f0dd35d",
+    "revision": "r006",
+    "source_sha256": "9abc4b138461ba795c4548820788359b9f6a9d2b12d5d0ef54796c8ebd874fb8",
+    "bbox": [
+      779,
+      222,
+      191,
+      201
+    ]
+  },
+  {
+    "object_id": "IM-I-93bc4f0dd35d__infantry-003",
+    "source_id": "IM-I-93bc4f0dd35d",
+    "revision": "r006",
+    "source_sha256": "9abc4b138461ba795c4548820788359b9f6a9d2b12d5d0ef54796c8ebd874fb8",
+    "bbox": [
+      51,
+      449,
+      129,
+      198
+    ]
+  },
+  {
+    "object_id": "IM-I-93bc4f0dd35d__infantry-004",
+    "source_id": "IM-I-93bc4f0dd35d",
+    "revision": "r006",
+    "source_sha256": "9abc4b138461ba795c4548820788359b9f6a9d2b12d5d0ef54796c8ebd874fb8",
+    "bbox": [
+      836,
+      452,
+      134,
+      197
+    ]
+  },
+  {
+    "object_id": "IM-I-93bc4f0dd35d__infantry-005",
+    "source_id": "IM-I-93bc4f0dd35d",
+    "revision": "r006",
+    "source_sha256": "9abc4b138461ba795c4548820788359b9f6a9d2b12d5d0ef54796c8ebd874fb8",
+    "bbox": [
+      40,
+      675,
+      172,
+      198
+    ]
+  },
+  {
+    "object_id": "IM-I-93bc4f0dd35d__infantry-006",
+    "source_id": "IM-I-93bc4f0dd35d",
+    "revision": "r006",
+    "source_sha256": "9abc4b138461ba795c4548820788359b9f6a9d2b12d5d0ef54796c8ebd874fb8",
+    "bbox": [
+      790,
+      659,
+      192,
+      226
+    ]
+  },
+  {
+    "object_id": "IM-I-74c29c5b6581__infantry-001",
+    "source_id": "IM-I-74c29c5b6581",
+    "revision": "r002",
+    "source_sha256": "cb1751439e845d9b699ec388405bc739b367b3818eb412d2da03f6aa3bb1ca5d",
+    "bbox": [
+      37,
+      215,
+      125,
+      200
+    ]
+  },
+  {
+    "object_id": "IM-I-74c29c5b6581__infantry-002",
+    "source_id": "IM-I-74c29c5b6581",
+    "revision": "r002",
+    "source_sha256": "cb1751439e845d9b699ec388405bc739b367b3818eb412d2da03f6aa3bb1ca5d",
+    "bbox": [
+      809,
+      218,
+      172,
+      201
+    ]
+  },
+  {
+    "object_id": "IM-I-74c29c5b6581__infantry-003",
+    "source_id": "IM-I-74c29c5b6581",
+    "revision": "r002",
+    "source_sha256": "cb1751439e845d9b699ec388405bc739b367b3818eb412d2da03f6aa3bb1ca5d",
+    "bbox": [
+      27,
+      437,
+      145,
+      205
+    ]
+  },
+  {
+    "object_id": "IM-I-74c29c5b6581__infantry-004",
+    "source_id": "IM-I-74c29c5b6581",
+    "revision": "r002",
+    "source_sha256": "cb1751439e845d9b699ec388405bc739b367b3818eb412d2da03f6aa3bb1ca5d",
+    "bbox": [
+      812,
+      444,
+      155,
+      207
+    ]
+  },
+  {
+    "object_id": "IM-I-74c29c5b6581__infantry-005",
+    "source_id": "IM-I-74c29c5b6581",
+    "revision": "r002",
+    "source_sha256": "cb1751439e845d9b699ec388405bc739b367b3818eb412d2da03f6aa3bb1ca5d",
+    "bbox": [
+      33,
+      673,
+      143,
+      203
+    ]
+  },
+  {
+    "object_id": "IM-I-74c29c5b6581__infantry-006",
+    "source_id": "IM-I-74c29c5b6581",
+    "revision": "r002",
+    "source_sha256": "cb1751439e845d9b699ec388405bc739b367b3818eb412d2da03f6aa3bb1ca5d",
+    "bbox": [
+      810,
+      684,
+      176,
+      201
+    ]
+  },
+  {
+    "object_id": "IM-I-1b785fa55aae__infantry-001",
+    "source_id": "IM-I-1b785fa55aae",
+    "revision": "r004",
+    "source_sha256": "2c021f9a0e932a7916b44b32ab232a6df100105b2ca31620399a507835c9109c",
+    "bbox": [
+      29,
+      221,
+      138,
+      192
+    ]
+  },
+  {
+    "object_id": "IM-I-1b785fa55aae__infantry-002",
+    "source_id": "IM-I-1b785fa55aae",
+    "revision": "r004",
+    "source_sha256": "2c021f9a0e932a7916b44b32ab232a6df100105b2ca31620399a507835c9109c",
+    "bbox": [
+      837,
+      226,
+      108,
+      187
+    ]
+  },
+  {
+    "object_id": "IM-I-1b785fa55aae__infantry-003",
+    "source_id": "IM-I-1b785fa55aae",
+    "revision": "r004",
+    "source_sha256": "2c021f9a0e932a7916b44b32ab232a6df100105b2ca31620399a507835c9109c",
+    "bbox": [
+      40,
+      448,
+      120,
+      188
+    ]
+  },
+  {
+    "object_id": "IM-I-1b785fa55aae__infantry-004",
+    "source_id": "IM-I-1b785fa55aae",
+    "revision": "r004",
+    "source_sha256": "2c021f9a0e932a7916b44b32ab232a6df100105b2ca31620399a507835c9109c",
+    "bbox": [
+      835,
+      453,
+      132,
+      198
+    ]
+  },
+  {
+    "object_id": "IM-I-1b785fa55aae__infantry-005",
+    "source_id": "IM-I-1b785fa55aae",
+    "revision": "r004",
+    "source_sha256": "2c021f9a0e932a7916b44b32ab232a6df100105b2ca31620399a507835c9109c",
+    "bbox": [
+      32,
+      686,
+      124,
+      181
+    ]
+  },
+  {
+    "object_id": "IM-I-1b785fa55aae__infantry-006",
+    "source_id": "IM-I-1b785fa55aae",
+    "revision": "r004",
+    "source_sha256": "2c021f9a0e932a7916b44b32ab232a6df100105b2ca31620399a507835c9109c",
+    "bbox": [
+      825,
+      676,
+      121,
+      198
+    ]
+  },
+  {
+    "object_id": "IM-V-3acb3a0d4e18__vehicle-001",
+    "source_id": "IM-V-3acb3a0d4e18",
+    "revision": "r002",
+    "source_sha256": "aa7472af1866556a8053584c4b95d98f9f0d2bc9e87a918437e9bdb9d67a3c13",
+    "bbox": [
+      79,
+      63,
+      115,
+      169
+    ]
+  },
+  {
+    "object_id": "IM-V-3acb3a0d4e18__weapon-001",
+    "source_id": "IM-V-3acb3a0d4e18",
+    "revision": "r002",
+    "source_sha256": "aa7472af1866556a8053584c4b95d98f9f0d2bc9e87a918437e9bdb9d67a3c13",
+    "bbox": [
+      87,
+      297,
+      132,
+      26
+    ]
+  },
+  {
+    "object_id": "IM-V-3acb3a0d4e18__weapon-002",
+    "source_id": "IM-V-3acb3a0d4e18",
+    "revision": "r002",
+    "source_sha256": "aa7472af1866556a8053584c4b95d98f9f0d2bc9e87a918437e9bdb9d67a3c13",
+    "bbox": [
+      314,
+      297,
+      132,
+      26
+    ]
+  },
+  {
+    "object_id": "IM-V-3acb3a0d4e18__weapon-003",
+    "source_id": "IM-V-3acb3a0d4e18",
+    "revision": "r002",
+    "source_sha256": "aa7472af1866556a8053584c4b95d98f9f0d2bc9e87a918437e9bdb9d67a3c13",
+    "bbox": [
+      64,
+      430,
+      182,
+      58
+    ]
+  },
+  {
+    "object_id": "IM-V-3acb3a0d4e18__weapon-004",
+    "source_id": "IM-V-3acb3a0d4e18",
+    "revision": "r002",
+    "source_sha256": "aa7472af1866556a8053584c4b95d98f9f0d2bc9e87a918437e9bdb9d67a3c13",
+    "bbox": [
+      304,
+      418,
+      156,
+      80
+    ]
+  },
+  {
+    "object_id": "IM-V-59dac01e1b22__vehicle-001",
+    "source_id": "IM-V-59dac01e1b22",
+    "revision": "r002",
+    "source_sha256": "0ba8fc9a2db3afcb2eb13a5d785a9ea9d3b0130248dee9eea8d6c37509cc92bf",
+    "bbox": [
+      76,
+      72,
+      123,
+      140
+    ]
+  },
+  {
+    "object_id": "IM-V-59dac01e1b22__weapon-001",
+    "source_id": "IM-V-59dac01e1b22",
+    "revision": "r002",
+    "source_sha256": "0ba8fc9a2db3afcb2eb13a5d785a9ea9d3b0130248dee9eea8d6c37509cc92bf",
+    "bbox": [
+      86,
+      286,
+      132,
+      25
+    ]
+  },
+  {
+    "object_id": "IM-V-59dac01e1b22__weapon-002",
+    "source_id": "IM-V-59dac01e1b22",
+    "revision": "r002",
+    "source_sha256": "0ba8fc9a2db3afcb2eb13a5d785a9ea9d3b0130248dee9eea8d6c37509cc92bf",
+    "bbox": [
+      313,
+      286,
+      132,
+      25
+    ]
+  },
+  {
+    "object_id": "IM-V-59dac01e1b22__weapon-003",
+    "source_id": "IM-V-59dac01e1b22",
+    "revision": "r002",
+    "source_sha256": "0ba8fc9a2db3afcb2eb13a5d785a9ea9d3b0130248dee9eea8d6c37509cc92bf",
+    "bbox": [
+      63,
+      418,
+      175,
+      80
+    ]
+  },
+  {
+    "object_id": "IM-V-59dac01e1b22__weapon-004",
+    "source_id": "IM-V-59dac01e1b22",
+    "revision": "r002",
+    "source_sha256": "0ba8fc9a2db3afcb2eb13a5d785a9ea9d3b0130248dee9eea8d6c37509cc92bf",
+    "bbox": [
+      285,
+      426,
+      186,
+      66
+    ]
+  },
+  {
+    "object_id": "IM-V-d7d4f6e98b65__vehicle-001",
+    "source_id": "IM-V-d7d4f6e98b65",
+    "revision": "r002",
+    "source_sha256": "f67a1536e2439e0a9ef65921e5fd124a57343c2457e23ff12302987f567566ca",
+    "bbox": [
+      18,
+      53,
+      173,
+      196
+    ]
+  },
+  {
+    "object_id": "IM-V-d7d4f6e98b65__weapon-001",
+    "source_id": "IM-V-d7d4f6e98b65",
+    "revision": "r002",
+    "source_sha256": "f67a1536e2439e0a9ef65921e5fd124a57343c2457e23ff12302987f567566ca",
+    "bbox": [
+      48,
+      281,
+      152,
+      49
+    ]
+  },
+  {
+    "object_id": "IM-V-d7d4f6e98b65__weapon-002",
+    "source_id": "IM-V-d7d4f6e98b65",
+    "revision": "r002",
+    "source_sha256": "f67a1536e2439e0a9ef65921e5fd124a57343c2457e23ff12302987f567566ca",
+    "bbox": [
+      74,
+      309,
+      105,
+      30
+    ]
+  },
+  {
+    "object_id": "IM-V-d7d4f6e98b65__weapon-003",
+    "source_id": "IM-V-d7d4f6e98b65",
+    "revision": "r002",
+    "source_sha256": "f67a1536e2439e0a9ef65921e5fd124a57343c2457e23ff12302987f567566ca",
+    "bbox": [
+      284,
+      283,
+      129,
+      55
+    ]
+  },
+  {
+    "object_id": "IM-V-d7d4f6e98b65__weapon-004",
+    "source_id": "IM-V-d7d4f6e98b65",
+    "revision": "r002",
+    "source_sha256": "f67a1536e2439e0a9ef65921e5fd124a57343c2457e23ff12302987f567566ca",
+    "bbox": [
+      322,
+      315,
+      91,
+      24
+    ]
+  },
+  {
+    "object_id": "IM-V-d7d4f6e98b65__weapon-005",
+    "source_id": "IM-V-d7d4f6e98b65",
+    "revision": "r002",
+    "source_sha256": "f67a1536e2439e0a9ef65921e5fd124a57343c2457e23ff12302987f567566ca",
+    "bbox": [
+      60,
+      397,
+      132,
+      57
+    ]
+  },
+  {
+    "object_id": "IM-V-d7d4f6e98b65__weapon-006",
+    "source_id": "IM-V-d7d4f6e98b65",
+    "revision": "r002",
+    "source_sha256": "f67a1536e2439e0a9ef65921e5fd124a57343c2457e23ff12302987f567566ca",
+    "bbox": [
+      256,
+      404,
+      200,
+      23
+    ]
+  },
+  {
+    "object_id": "IM-V-d7d4f6e98b65__weapon-007",
+    "source_id": "IM-V-d7d4f6e98b65",
+    "revision": "r002",
+    "source_sha256": "f67a1536e2439e0a9ef65921e5fd124a57343c2457e23ff12302987f567566ca",
+    "bbox": [
+      256,
+      428,
+      200,
+      21
+    ]
+  },
+  {
+    "object_id": "IM-V-cfaf7aa15214__vehicle-001",
+    "source_id": "IM-V-cfaf7aa15214",
+    "revision": "r003",
+    "source_sha256": "d64518d843de11519f1acea5bf9b49f611732483b4ec32f16f26462b2b13a782",
+    "bbox": [
+      43,
+      55,
+      159,
+      198
+    ]
+  },
+  {
+    "object_id": "IM-V-cfaf7aa15214__weapon-001",
+    "source_id": "IM-V-cfaf7aa15214",
+    "revision": "r003",
+    "source_sha256": "d64518d843de11519f1acea5bf9b49f611732483b4ec32f16f26462b2b13a782",
+    "bbox": [
+      48,
+      281,
+      152,
+      49
+    ]
+  },
+  {
+    "object_id": "IM-V-cfaf7aa15214__weapon-002",
+    "source_id": "IM-V-cfaf7aa15214",
+    "revision": "r003",
+    "source_sha256": "d64518d843de11519f1acea5bf9b49f611732483b4ec32f16f26462b2b13a782",
+    "bbox": [
+      74,
+      309,
+      105,
+      30
+    ]
+  },
+  {
+    "object_id": "IM-V-cfaf7aa15214__weapon-003",
+    "source_id": "IM-V-cfaf7aa15214",
+    "revision": "r003",
+    "source_sha256": "d64518d843de11519f1acea5bf9b49f611732483b4ec32f16f26462b2b13a782",
+    "bbox": [
+      284,
+      283,
+      129,
+      55
+    ]
+  },
+  {
+    "object_id": "IM-V-cfaf7aa15214__weapon-004",
+    "source_id": "IM-V-cfaf7aa15214",
+    "revision": "r003",
+    "source_sha256": "d64518d843de11519f1acea5bf9b49f611732483b4ec32f16f26462b2b13a782",
+    "bbox": [
+      322,
+      315,
+      91,
+      24
+    ]
+  },
+  {
+    "object_id": "IM-V-cfaf7aa15214__weapon-005",
+    "source_id": "IM-V-cfaf7aa15214",
+    "revision": "r003",
+    "source_sha256": "d64518d843de11519f1acea5bf9b49f611732483b4ec32f16f26462b2b13a782",
+    "bbox": [
+      60,
+      397,
+      132,
+      57
+    ]
+  },
+  {
+    "object_id": "IM-V-cfaf7aa15214__weapon-006",
+    "source_id": "IM-V-cfaf7aa15214",
+    "revision": "r003",
+    "source_sha256": "d64518d843de11519f1acea5bf9b49f611732483b4ec32f16f26462b2b13a782",
+    "bbox": [
+      256,
+      404,
+      200,
+      23
+    ]
+  },
+  {
+    "object_id": "IM-V-cfaf7aa15214__weapon-007",
+    "source_id": "IM-V-cfaf7aa15214",
+    "revision": "r003",
+    "source_sha256": "d64518d843de11519f1acea5bf9b49f611732483b4ec32f16f26462b2b13a782",
+    "bbox": [
+      256,
+      428,
+      200,
+      21
+    ]
+  },
+  {
+    "object_id": "IM-V-bc10db0ca010__vehicle-001",
+    "source_id": "IM-V-bc10db0ca010",
+    "revision": "r002",
+    "source_sha256": "1be8a77974bac035dfa817652e030b58677fa25af490bd5d48e1ad24c52dfaa0",
+    "bbox": [
+      75,
+      67,
+      123,
+      156
+    ]
+  },
+  {
+    "object_id": "IM-V-bc10db0ca010__weapon-001",
+    "source_id": "IM-V-bc10db0ca010",
+    "revision": "r002",
+    "source_sha256": "1be8a77974bac035dfa817652e030b58677fa25af490bd5d48e1ad24c52dfaa0",
+    "bbox": [
+      86,
+      288,
+      132,
+      26
+    ]
+  },
+  {
+    "object_id": "IM-V-bc10db0ca010__weapon-002",
+    "source_id": "IM-V-bc10db0ca010",
+    "revision": "r002",
+    "source_sha256": "1be8a77974bac035dfa817652e030b58677fa25af490bd5d48e1ad24c52dfaa0",
+    "bbox": [
+      313,
+      288,
+      132,
+      26
+    ]
+  },
+  {
+    "object_id": "IM-V-bc10db0ca010__weapon-003",
+    "source_id": "IM-V-bc10db0ca010",
+    "revision": "r002",
+    "source_sha256": "1be8a77974bac035dfa817652e030b58677fa25af490bd5d48e1ad24c52dfaa0",
+    "bbox": [
+      76,
+      422,
+      156,
+      80
+    ]
+  },
+  {
+    "object_id": "IM-V-bc10db0ca010__weapon-004",
+    "source_id": "IM-V-bc10db0ca010",
+    "revision": "r002",
+    "source_sha256": "1be8a77974bac035dfa817652e030b58677fa25af490bd5d48e1ad24c52dfaa0",
+    "bbox": [
+      318,
+      426,
+      151,
+      77
+    ]
+  },
+  {
+    "object_id": "IM-V-bc10db0ca010__weapon-005",
+    "source_id": "IM-V-bc10db0ca010",
+    "revision": "r002",
+    "source_sha256": "1be8a77974bac035dfa817652e030b58677fa25af490bd5d48e1ad24c52dfaa0",
+    "bbox": [
+      205,
+      588,
+      123,
+      76
+    ]
+  },
+  {
+    "object_id": "IM-V-91a294cb417c__vehicle-001",
+    "source_id": "IM-V-91a294cb417c",
+    "revision": "r002",
+    "source_sha256": "dd991c72831d4aa9a480cafa307cb0ed9a92f80151586d1dd6ed4e795db1f73a",
+    "bbox": [
+      56,
+      91,
+      165,
+      220
+    ]
+  },
+  {
+    "object_id": "IM-V-91a294cb417c__weapon-001",
+    "source_id": "IM-V-91a294cb417c",
+    "revision": "r002",
+    "source_sha256": "dd991c72831d4aa9a480cafa307cb0ed9a92f80151586d1dd6ed4e795db1f73a",
+    "bbox": [
+      66,
+      401,
+      170,
+      80
+    ]
+  },
+  {
+    "object_id": "IM-V-91a294cb417c__weapon-002",
+    "source_id": "IM-V-91a294cb417c",
+    "revision": "r002",
+    "source_sha256": "dd991c72831d4aa9a480cafa307cb0ed9a92f80151586d1dd6ed4e795db1f73a",
+    "bbox": [
+      293,
+      401,
+      171,
+      80
+    ]
+  },
+  {
+    "object_id": "IM-V-71eb5ae0766e__vehicle-001",
+    "source_id": "IM-V-71eb5ae0766e",
+    "revision": "r002",
+    "source_sha256": "58ab5cbf4fb1c745db5bb0839645b4a65b208a972865c3d88472afa266dcc354",
+    "bbox": [
+      55,
+      92,
+      165,
+      220
+    ]
+  },
+  {
+    "object_id": "IM-V-71eb5ae0766e__weapon-001",
+    "source_id": "IM-V-71eb5ae0766e",
+    "revision": "r002",
+    "source_sha256": "58ab5cbf4fb1c745db5bb0839645b4a65b208a972865c3d88472afa266dcc354",
+    "bbox": [
+      65,
+      402,
+      170,
+      80
+    ]
+  },
+  {
+    "object_id": "IM-V-71eb5ae0766e__weapon-002",
+    "source_id": "IM-V-71eb5ae0766e",
+    "revision": "r002",
+    "source_sha256": "58ab5cbf4fb1c745db5bb0839645b4a65b208a972865c3d88472afa266dcc354",
+    "bbox": [
+      311,
+      412,
+      140,
+      55
+    ]
+  },
+  {
+    "object_id": "IM-V-83bb7d62a1d7__vehicle-001",
+    "source_id": "IM-V-83bb7d62a1d7",
+    "revision": "r002",
+    "source_sha256": "812e008955e172215d9b0e699cb8181ed93306ef8e6e69d2387a13b2b68d3127",
+    "bbox": [
+      70,
+      53,
+      127,
+      185
+    ]
+  },
+  {
+    "object_id": "IM-V-83bb7d62a1d7__weapon-001",
+    "source_id": "IM-V-83bb7d62a1d7",
+    "revision": "r002",
+    "source_sha256": "812e008955e172215d9b0e699cb8181ed93306ef8e6e69d2387a13b2b68d3127",
+    "bbox": [
+      116,
+      284,
+      78,
+      33
+    ]
+  },
+  {
+    "object_id": "IM-V-83bb7d62a1d7__weapon-002",
+    "source_id": "IM-V-83bb7d62a1d7",
+    "revision": "r002",
+    "source_sha256": "812e008955e172215d9b0e699cb8181ed93306ef8e6e69d2387a13b2b68d3127",
+    "bbox": [
+      335,
+      284,
+      76,
+      33
+    ]
+  },
+  {
+    "object_id": "IM-V-83bb7d62a1d7__weapon-003",
+    "source_id": "IM-V-83bb7d62a1d7",
+    "revision": "r002",
+    "source_sha256": "812e008955e172215d9b0e699cb8181ed93306ef8e6e69d2387a13b2b68d3127",
+    "bbox": [
+      58,
+      402,
+      190,
+      63
+    ]
+  },
+  {
+    "object_id": "IM-V-83bb7d62a1d7__weapon-004",
+    "source_id": "IM-V-83bb7d62a1d7",
+    "revision": "r002",
+    "source_sha256": "812e008955e172215d9b0e699cb8181ed93306ef8e6e69d2387a13b2b68d3127",
+    "bbox": [
+      279,
+      402,
+      190,
+      59
+    ]
+  },
+  {
+    "object_id": "IM-V-83bb7d62a1d7__weapon-005",
+    "source_id": "IM-V-83bb7d62a1d7",
+    "revision": "r002",
+    "source_sha256": "812e008955e172215d9b0e699cb8181ed93306ef8e6e69d2387a13b2b68d3127",
+    "bbox": [
+      187,
+      546,
+      147,
+      49
+    ]
+  },
+  {
+    "object_id": "IM-V-8a5a01c33593__vehicle-001",
+    "source_id": "IM-V-8a5a01c33593",
+    "revision": "r002",
+    "source_sha256": "45a126d4aa729a2ec896f83fdf50ab3640679c9bd682860dd435c8e342ba9c97",
+    "bbox": [
+      114,
+      81,
+      151,
+      193
+    ]
+  },
+  {
+    "object_id": "IM-V-8a5a01c33593__weapon-001",
+    "source_id": "IM-V-8a5a01c33593",
+    "revision": "r002",
+    "source_sha256": "45a126d4aa729a2ec896f83fdf50ab3640679c9bd682860dd435c8e342ba9c97",
+    "bbox": [
+      131,
+      340,
+      137,
+      59
+    ]
+  },
+  {
+    "object_id": "IM-V-8a5a01c33593__weapon-002",
+    "source_id": "IM-V-8a5a01c33593",
+    "revision": "r002",
+    "source_sha256": "45a126d4aa729a2ec896f83fdf50ab3640679c9bd682860dd435c8e342ba9c97",
+    "bbox": [
+      451,
+      340,
+      137,
+      59
+    ]
+  },
+  {
+    "object_id": "IM-V-1d6186c29f5c__vehicle-001",
+    "source_id": "IM-V-1d6186c29f5c",
+    "revision": "r002",
+    "source_sha256": "cdf750e3dee82b34373dcf195d3cf00058694ac72f4b93efac4a85e66b250e83",
+    "bbox": [
+      70,
+      103,
+      187,
+      138
+    ]
+  },
+  {
+    "object_id": "IM-V-1d6186c29f5c__weapon-001",
+    "source_id": "IM-V-1d6186c29f5c",
+    "revision": "r002",
+    "source_sha256": "cdf750e3dee82b34373dcf195d3cf00058694ac72f4b93efac4a85e66b250e83",
+    "bbox": [
+      77,
+      344,
+      210,
+      73
+    ]
+  },
+  {
+    "object_id": "IM-V-1d6186c29f5c__weapon-002",
+    "source_id": "IM-V-1d6186c29f5c",
+    "revision": "r002",
+    "source_sha256": "cdf750e3dee82b34373dcf195d3cf00058694ac72f4b93efac4a85e66b250e83",
+    "bbox": [
+      364,
+      354,
+      213,
+      41
+    ]
+  },
+  {
+    "object_id": "IM-V-1d6186c29f5c__weapon-003",
+    "source_id": "IM-V-1d6186c29f5c",
+    "revision": "r002",
+    "source_sha256": "cdf750e3dee82b34373dcf195d3cf00058694ac72f4b93efac4a85e66b250e83",
+    "bbox": [
+      210,
+      540,
+      234,
+      118
+    ]
+  },
+  {
+    "object_id": "IM-V-bd4de92cb5df__vehicle-001",
+    "source_id": "IM-V-bd4de92cb5df",
+    "revision": "r002",
+    "source_sha256": "eb64faf955f328471e6fac422e86febb0e9abd7cf9dca71b592e80b337f673b8",
+    "bbox": [
+      49,
+      54,
+      185,
+      184
+    ]
+  },
+  {
+    "object_id": "IM-V-bd4de92cb5df__weapon-001",
+    "source_id": "IM-V-bd4de92cb5df",
+    "revision": "r002",
+    "source_sha256": "eb64faf955f328471e6fac422e86febb0e9abd7cf9dca71b592e80b337f673b8",
+    "bbox": [
+      114,
+      284,
+      78,
+      33
+    ]
+  },
+  {
+    "object_id": "IM-V-bd4de92cb5df__weapon-002",
+    "source_id": "IM-V-bd4de92cb5df",
+    "revision": "r002",
+    "source_sha256": "eb64faf955f328471e6fac422e86febb0e9abd7cf9dca71b592e80b337f673b8",
+    "bbox": [
+      342,
+      284,
+      76,
+      33
+    ]
+  },
+  {
+    "object_id": "IM-V-bd4de92cb5df__weapon-003",
+    "source_id": "IM-V-bd4de92cb5df",
+    "revision": "r002",
+    "source_sha256": "eb64faf955f328471e6fac422e86febb0e9abd7cf9dca71b592e80b337f673b8",
+    "bbox": [
+      59,
+      416,
+      186,
+      65
+    ]
+  },
+  {
+    "object_id": "IM-V-bd4de92cb5df__weapon-004",
+    "source_id": "IM-V-bd4de92cb5df",
+    "revision": "r002",
+    "source_sha256": "eb64faf955f328471e6fac422e86febb0e9abd7cf9dca71b592e80b337f673b8",
+    "bbox": [
+      285,
+      418,
+      191,
+      59
+    ]
+  },
+  {
+    "object_id": "DF-I-65207611bf0b__infantry-001",
+    "source_id": "DF-I-65207611bf0b",
+    "revision": "r002",
+    "source_sha256": "153c392bba88eec001599c1a7385c0e4762b57db7b035bd2baf678aeed379c17",
+    "bbox": [
+      48,
+      305,
+      224,
+      261
+    ]
+  },
+  {
+    "object_id": "DF-I-65207611bf0b__infantry-002",
+    "source_id": "DF-I-65207611bf0b",
+    "revision": "r002",
+    "source_sha256": "153c392bba88eec001599c1a7385c0e4762b57db7b035bd2baf678aeed379c17",
+    "bbox": [
+      1169,
+      309,
+      158,
+      250
+    ]
+  },
+  {
+    "object_id": "DF-I-65207611bf0b__infantry-003",
+    "source_id": "DF-I-65207611bf0b",
+    "revision": "r002",
+    "source_sha256": "153c392bba88eec001599c1a7385c0e4762b57db7b035bd2baf678aeed379c17",
+    "bbox": [
+      57,
+      628,
+      164,
+      263
+    ]
+  },
+  {
+    "object_id": "DF-I-65207611bf0b__infantry-004",
+    "source_id": "DF-I-65207611bf0b",
+    "revision": "r002",
+    "source_sha256": "153c392bba88eec001599c1a7385c0e4762b57db7b035bd2baf678aeed379c17",
+    "bbox": [
+      1148,
+      629,
+      179,
+      256
+    ]
+  },
+  {
+    "object_id": "DF-I-65207611bf0b__infantry-005",
+    "source_id": "DF-I-65207611bf0b",
+    "revision": "r002",
+    "source_sha256": "153c392bba88eec001599c1a7385c0e4762b57db7b035bd2baf678aeed379c17",
+    "bbox": [
+      57,
+      952,
+      156,
+      258
+    ]
+  },
+  {
+    "object_id": "DF-I-65207611bf0b__infantry-006",
+    "source_id": "DF-I-65207611bf0b",
+    "revision": "r002",
+    "source_sha256": "153c392bba88eec001599c1a7385c0e4762b57db7b035bd2baf678aeed379c17",
+    "bbox": [
+      1171,
+      946,
+      152,
+      265
+    ]
+  },
+  {
+    "object_id": "DF-I-f53aad5024d0__infantry-001",
+    "source_id": "DF-I-f53aad5024d0",
+    "revision": "r002",
+    "source_sha256": "f10b782dfd0027e77115de77af9565308cc2f377b62091090253e0ddb87320a7",
+    "bbox": [
+      66,
+      309,
+      173,
+      251
+    ]
+  },
+  {
+    "object_id": "DF-I-f53aad5024d0__infantry-002",
+    "source_id": "DF-I-f53aad5024d0",
+    "revision": "r002",
+    "source_sha256": "f10b782dfd0027e77115de77af9565308cc2f377b62091090253e0ddb87320a7",
+    "bbox": [
+      1178,
+      316,
+      189,
+      244
+    ]
+  },
+  {
+    "object_id": "DF-I-f53aad5024d0__infantry-003",
+    "source_id": "DF-I-f53aad5024d0",
+    "revision": "r002",
+    "source_sha256": "f10b782dfd0027e77115de77af9565308cc2f377b62091090253e0ddb87320a7",
+    "bbox": [
+      60,
+      639,
+      219,
+      245
+    ]
+  },
+  {
+    "object_id": "DF-I-f53aad5024d0__infantry-004",
+    "source_id": "DF-I-f53aad5024d0",
+    "revision": "r002",
+    "source_sha256": "f10b782dfd0027e77115de77af9565308cc2f377b62091090253e0ddb87320a7",
+    "bbox": [
+      1115,
+      639,
+      235,
+      240
+    ]
+  },
+  {
+    "object_id": "DF-I-f53aad5024d0__infantry-005",
+    "source_id": "DF-I-f53aad5024d0",
+    "revision": "r002",
+    "source_sha256": "f10b782dfd0027e77115de77af9565308cc2f377b62091090253e0ddb87320a7",
+    "bbox": [
+      71,
+      961,
+      130,
+      245
+    ]
+  },
+  {
+    "object_id": "DF-I-f53aad5024d0__infantry-006",
+    "source_id": "DF-I-f53aad5024d0",
+    "revision": "r002",
+    "source_sha256": "f10b782dfd0027e77115de77af9565308cc2f377b62091090253e0ddb87320a7",
+    "bbox": [
+      1109,
+      958,
+      232,
+      246
+    ]
+  },
+  {
+    "object_id": "DF-I-d318c2818b19__infantry-001",
+    "source_id": "DF-I-d318c2818b19",
+    "revision": "r002",
+    "source_sha256": "e12552b5bc93653fa28dbc360ad469dc65c9dee244087e3a06c66c20608d726c",
+    "bbox": [
+      38,
+      303,
+      233,
+      266
+    ]
+  },
+  {
+    "object_id": "DF-I-d318c2818b19__infantry-002",
+    "source_id": "DF-I-d318c2818b19",
+    "revision": "r002",
+    "source_sha256": "e12552b5bc93653fa28dbc360ad469dc65c9dee244087e3a06c66c20608d726c",
+    "bbox": [
+      1138,
+      303,
+      214,
+      266
+    ]
+  },
+  {
+    "object_id": "DF-I-d318c2818b19__infantry-003",
+    "source_id": "DF-I-d318c2818b19",
+    "revision": "r002",
+    "source_sha256": "e12552b5bc93653fa28dbc360ad469dc65c9dee244087e3a06c66c20608d726c",
+    "bbox": [
+      55,
+      627,
+      160,
+      268
+    ]
+  },
+  {
+    "object_id": "DF-I-d318c2818b19__infantry-004",
+    "source_id": "DF-I-d318c2818b19",
+    "revision": "r002",
+    "source_sha256": "e12552b5bc93653fa28dbc360ad469dc65c9dee244087e3a06c66c20608d726c",
+    "bbox": [
+      1151,
+      591,
+      196,
+      302
+    ]
+  },
+  {
+    "object_id": "DF-I-d318c2818b19__infantry-005",
+    "source_id": "DF-I-d318c2818b19",
+    "revision": "r002",
+    "source_sha256": "e12552b5bc93653fa28dbc360ad469dc65c9dee244087e3a06c66c20608d726c",
+    "bbox": [
+      50,
+      948,
+      215,
+      265
+    ]
+  },
+  {
+    "object_id": "DF-I-d318c2818b19__infantry-006",
+    "source_id": "DF-I-d318c2818b19",
+    "revision": "r002",
+    "source_sha256": "e12552b5bc93653fa28dbc360ad469dc65c9dee244087e3a06c66c20608d726c",
+    "bbox": [
+      1157,
+      948,
+      232,
+      260
+    ]
+  },
+  {
+    "object_id": "DF-I-68c6cb6f3807__infantry-001",
+    "source_id": "DF-I-68c6cb6f3807",
+    "revision": "r002",
+    "source_sha256": "649ca7bf4cc8f1c5ae69c532b8cf10afd8b525c559ba7b2a359dcfafcadb1168",
+    "bbox": [
+      53,
+      268,
+      212,
+      292
+    ]
+  },
+  {
+    "object_id": "DF-I-68c6cb6f3807__infantry-002",
+    "source_id": "DF-I-68c6cb6f3807",
+    "revision": "r002",
+    "source_sha256": "649ca7bf4cc8f1c5ae69c532b8cf10afd8b525c559ba7b2a359dcfafcadb1168",
+    "bbox": [
+      1148,
+      320,
+      232,
+      241
+    ]
+  },
+  {
+    "object_id": "DF-I-68c6cb6f3807__infantry-003",
+    "source_id": "DF-I-68c6cb6f3807",
+    "revision": "r002",
+    "source_sha256": "649ca7bf4cc8f1c5ae69c532b8cf10afd8b525c559ba7b2a359dcfafcadb1168",
+    "bbox": [
+      57,
+      638,
+      239,
+      243
+    ]
+  },
+  {
+    "object_id": "DF-I-68c6cb6f3807__infantry-004",
+    "source_id": "DF-I-68c6cb6f3807",
+    "revision": "r002",
+    "source_sha256": "649ca7bf4cc8f1c5ae69c532b8cf10afd8b525c559ba7b2a359dcfafcadb1168",
+    "bbox": [
+      1068,
+      643,
+      270,
+      238
+    ]
+  },
+  {
+    "object_id": "DF-I-68c6cb6f3807__infantry-005",
+    "source_id": "DF-I-68c6cb6f3807",
+    "revision": "r002",
+    "source_sha256": "649ca7bf4cc8f1c5ae69c532b8cf10afd8b525c559ba7b2a359dcfafcadb1168",
+    "bbox": [
+      58,
+      961,
+      244,
+      240
+    ]
+  },
+  {
+    "object_id": "DF-I-68c6cb6f3807__infantry-006",
+    "source_id": "DF-I-68c6cb6f3807",
+    "revision": "r002",
+    "source_sha256": "649ca7bf4cc8f1c5ae69c532b8cf10afd8b525c559ba7b2a359dcfafcadb1168",
+    "bbox": [
+      1173,
+      968,
+      201,
+      239
+    ]
+  },
+  {
+    "object_id": "DF-V-14f25990407d__vehicle-001",
+    "source_id": "DF-V-14f25990407d",
+    "revision": "r007",
+    "source_sha256": "24f18ec09efaad75b89977074cc11c30873749f7f06ffad9e15ca90338d1174b",
+    "bbox": [
+      100,
+      57,
+      165,
+      233
+    ]
+  },
+  {
+    "object_id": "DF-V-14f25990407d__weapon-001",
+    "source_id": "DF-V-14f25990407d",
+    "revision": "r007",
+    "source_sha256": "24f18ec09efaad75b89977074cc11c30873749f7f06ffad9e15ca90338d1174b",
+    "bbox": [
+      69,
+      338,
+      230,
+      56
+    ]
+  },
+  {
+    "object_id": "DF-V-14f25990407d__weapon-002",
+    "source_id": "DF-V-14f25990407d",
+    "revision": "r007",
+    "source_sha256": "24f18ec09efaad75b89977074cc11c30873749f7f06ffad9e15ca90338d1174b",
+    "bbox": [
+      353,
+      338,
+      230,
+      56
+    ]
+  },
+  {
+    "object_id": "DF-V-14f25990407d__weapon-003",
+    "source_id": "DF-V-14f25990407d",
+    "revision": "r007",
+    "source_sha256": "24f18ec09efaad75b89977074cc11c30873749f7f06ffad9e15ca90338d1174b",
+    "bbox": [
+      71,
+      504,
+      222,
+      85
+    ]
+  },
+  {
+    "object_id": "DF-V-14f25990407d__weapon-004",
+    "source_id": "DF-V-14f25990407d",
+    "revision": "r007",
+    "source_sha256": "24f18ec09efaad75b89977074cc11c30873749f7f06ffad9e15ca90338d1174b",
+    "bbox": [
+      355,
+      504,
+      222,
+      85
+    ]
+  },
+  {
+    "object_id": "ME-I-08cb8ff6a6f0__infantry-001",
+    "source_id": "ME-I-08cb8ff6a6f0",
+    "revision": "r003",
+    "source_sha256": "ddf0b6e155de81513a6564158d18c0fc283dd69b1e9d2474f4d76e23e5941e41",
+    "bbox": [
+      7,
+      286,
+      216,
+      231
+    ]
+  },
+  {
+    "object_id": "ME-I-08cb8ff6a6f0__infantry-002",
+    "source_id": "ME-I-08cb8ff6a6f0",
+    "revision": "r003",
+    "source_sha256": "ddf0b6e155de81513a6564158d18c0fc283dd69b1e9d2474f4d76e23e5941e41",
+    "bbox": [
+      989,
+      259,
+      264,
+      262
+    ]
+  },
+  {
+    "object_id": "ME-I-08cb8ff6a6f0__infantry-003",
+    "source_id": "ME-I-08cb8ff6a6f0",
+    "revision": "r003",
+    "source_sha256": "ddf0b6e155de81513a6564158d18c0fc283dd69b1e9d2474f4d76e23e5941e41",
+    "bbox": [
+      16,
+      553,
+      230,
+      272
+    ]
+  },
+  {
+    "object_id": "ME-I-08cb8ff6a6f0__infantry-004",
+    "source_id": "ME-I-08cb8ff6a6f0",
+    "revision": "r003",
+    "source_sha256": "ddf0b6e155de81513a6564158d18c0fc283dd69b1e9d2474f4d76e23e5941e41",
+    "bbox": [
+      1011,
+      547,
+      220,
+      289
+    ]
+  },
+  {
+    "object_id": "ME-I-08cb8ff6a6f0__infantry-005",
+    "source_id": "ME-I-08cb8ff6a6f0",
+    "revision": "r003",
+    "source_sha256": "ddf0b6e155de81513a6564158d18c0fc283dd69b1e9d2474f4d76e23e5941e41",
+    "bbox": [
+      20,
+      879,
+      222,
+      237
+    ]
+  },
+  {
+    "object_id": "ME-I-08cb8ff6a6f0__infantry-006",
+    "source_id": "ME-I-08cb8ff6a6f0",
+    "revision": "r003",
+    "source_sha256": "ddf0b6e155de81513a6564158d18c0fc283dd69b1e9d2474f4d76e23e5941e41",
+    "bbox": [
+      1047,
+      833,
+      207,
+      290
+    ]
+  },
+  {
+    "object_id": "ME-I-2c2ecc3ebb43__infantry-001",
+    "source_id": "ME-I-2c2ecc3ebb43",
+    "revision": "r002",
+    "source_sha256": "66fe646d0c45273c06ccbc1031ae31975d653d73c88fdd12e82eb889f38386ab",
+    "bbox": [
+      16,
+      296,
+      276,
+      233
+    ]
+  },
+  {
+    "object_id": "ME-I-2c2ecc3ebb43__infantry-002",
+    "source_id": "ME-I-2c2ecc3ebb43",
+    "revision": "r002",
+    "source_sha256": "66fe646d0c45273c06ccbc1031ae31975d653d73c88fdd12e82eb889f38386ab",
+    "bbox": [
+      1048,
+      296,
+      171,
+      231
+    ]
+  },
+  {
+    "object_id": "ME-I-2c2ecc3ebb43__infantry-003",
+    "source_id": "ME-I-2c2ecc3ebb43",
+    "revision": "r002",
+    "source_sha256": "66fe646d0c45273c06ccbc1031ae31975d653d73c88fdd12e82eb889f38386ab",
+    "bbox": [
+      40,
+      581,
+      185,
+      247
+    ]
+  },
+  {
+    "object_id": "ME-I-2c2ecc3ebb43__infantry-004",
+    "source_id": "ME-I-2c2ecc3ebb43",
+    "revision": "r002",
+    "source_sha256": "66fe646d0c45273c06ccbc1031ae31975d653d73c88fdd12e82eb889f38386ab",
+    "bbox": [
+      1012,
+      590,
+      232,
+      235
+    ]
+  },
+  {
+    "object_id": "ME-I-2c2ecc3ebb43__infantry-005",
+    "source_id": "ME-I-2c2ecc3ebb43",
+    "revision": "r002",
+    "source_sha256": "66fe646d0c45273c06ccbc1031ae31975d653d73c88fdd12e82eb889f38386ab",
+    "bbox": [
+      47,
+      874,
+      151,
+      242
+    ]
+  },
+  {
+    "object_id": "ME-I-2c2ecc3ebb43__infantry-006",
+    "source_id": "ME-I-2c2ecc3ebb43",
+    "revision": "r002",
+    "source_sha256": "66fe646d0c45273c06ccbc1031ae31975d653d73c88fdd12e82eb889f38386ab",
+    "bbox": [
+      1015,
+      888,
+      250,
+      234
+    ]
+  },
+  {
+    "object_id": "ME-I-bf2c97b57962__infantry-001",
+    "source_id": "ME-I-bf2c97b57962",
+    "revision": "r002",
+    "source_sha256": "1dc6a19f1ff1406fe69d8b37e871baae91d29154fd214c95bf58de0625eb5de7",
+    "bbox": [
+      14,
+      246,
+      225,
+      286
+    ]
+  },
+  {
+    "object_id": "ME-I-bf2c97b57962__infantry-002",
+    "source_id": "ME-I-bf2c97b57962",
+    "revision": "r002",
+    "source_sha256": "1dc6a19f1ff1406fe69d8b37e871baae91d29154fd214c95bf58de0625eb5de7",
+    "bbox": [
+      1018,
+      279,
+      221,
+      253
+    ]
+  },
+  {
+    "object_id": "ME-I-bf2c97b57962__infantry-003",
+    "source_id": "ME-I-bf2c97b57962",
+    "revision": "r002",
+    "source_sha256": "1dc6a19f1ff1406fe69d8b37e871baae91d29154fd214c95bf58de0625eb5de7",
+    "bbox": [
+      10,
+      560,
+      236,
+      253
+    ]
+  },
+  {
+    "object_id": "ME-I-bf2c97b57962__infantry-004",
+    "source_id": "ME-I-bf2c97b57962",
+    "revision": "r002",
+    "source_sha256": "1dc6a19f1ff1406fe69d8b37e871baae91d29154fd214c95bf58de0625eb5de7",
+    "bbox": [
+      1035,
+      561,
+      211,
+      281
+    ]
+  },
+  {
+    "object_id": "ME-I-f909de25f425__infantry-001",
+    "source_id": "ME-I-f909de25f425",
+    "revision": "r002",
+    "source_sha256": "f06e25f7b9d6d0751a03ef8966a94db010d457f690e691c6860b332c281e3e32",
+    "bbox": [
+      45,
+      271,
+      166,
+      255
+    ]
+  },
+  {
+    "object_id": "ME-I-f909de25f425__infantry-002",
+    "source_id": "ME-I-f909de25f425",
+    "revision": "r002",
+    "source_sha256": "f06e25f7b9d6d0751a03ef8966a94db010d457f690e691c6860b332c281e3e32",
+    "bbox": [
+      1047,
+      245,
+      173,
+      289
+    ]
+  },
+  {
+    "object_id": "ME-I-f909de25f425__infantry-003",
+    "source_id": "ME-I-f909de25f425",
+    "revision": "r002",
+    "source_sha256": "f06e25f7b9d6d0751a03ef8966a94db010d457f690e691c6860b332c281e3e32",
+    "bbox": [
+      9,
+      544,
+      234,
+      277
+    ]
+  },
+  {
+    "object_id": "ME-I-f909de25f425__infantry-004",
+    "source_id": "ME-I-f909de25f425",
+    "revision": "r002",
+    "source_sha256": "f06e25f7b9d6d0751a03ef8966a94db010d457f690e691c6860b332c281e3e32",
+    "bbox": [
+      1034,
+      572,
+      199,
+      265
+    ]
+  },
+  {
+    "object_id": "ME-I-f909de25f425__infantry-005",
+    "source_id": "ME-I-f909de25f425",
+    "revision": "r002",
+    "source_sha256": "f06e25f7b9d6d0751a03ef8966a94db010d457f690e691c6860b332c281e3e32",
+    "bbox": [
+      8,
+      873,
+      247,
+      247
+    ]
+  },
+  {
+    "object_id": "ME-I-f909de25f425__infantry-006",
+    "source_id": "ME-I-f909de25f425",
+    "revision": "r002",
+    "source_sha256": "f06e25f7b9d6d0751a03ef8966a94db010d457f690e691c6860b332c281e3e32",
+    "bbox": [
+      998,
+      862,
+      240,
+      267
+    ]
+  },
+  {
+    "object_id": "ME-I-50b95fac5960__infantry-001",
+    "source_id": "ME-I-50b95fac5960",
+    "revision": "r002",
+    "source_sha256": "8d41690efaae06712518b073edda2226266d9be7c5d06e97db792b6bd5de8829",
+    "bbox": [
+      9,
+      290,
+      254,
+      232
+    ]
+  },
+  {
+    "object_id": "ME-I-50b95fac5960__infantry-002",
+    "source_id": "ME-I-50b95fac5960",
+    "revision": "r002",
+    "source_sha256": "8d41690efaae06712518b073edda2226266d9be7c5d06e97db792b6bd5de8829",
+    "bbox": [
+      1038,
+      300,
+      238,
+      229
+    ]
+  },
+  {
+    "object_id": "ME-I-50b95fac5960__infantry-003",
+    "source_id": "ME-I-50b95fac5960",
+    "revision": "r002",
+    "source_sha256": "8d41690efaae06712518b073edda2226266d9be7c5d06e97db792b6bd5de8829",
+    "bbox": [
+      12,
+      583,
+      230,
+      238
+    ]
+  },
+  {
+    "object_id": "ME-I-50b95fac5960__infantry-004",
+    "source_id": "ME-I-50b95fac5960",
+    "revision": "r002",
+    "source_sha256": "8d41690efaae06712518b073edda2226266d9be7c5d06e97db792b6bd5de8829",
+    "bbox": [
+      1057,
+      598,
+      189,
+      234
+    ]
+  },
+  {
+    "object_id": "ME-I-50b95fac5960__infantry-005",
+    "source_id": "ME-I-50b95fac5960",
+    "revision": "r002",
+    "source_sha256": "8d41690efaae06712518b073edda2226266d9be7c5d06e97db792b6bd5de8829",
+    "bbox": [
+      53,
+      882,
+      188,
+      231
+    ]
+  },
+  {
+    "object_id": "ME-I-50b95fac5960__infantry-006",
+    "source_id": "ME-I-50b95fac5960",
+    "revision": "r002",
+    "source_sha256": "8d41690efaae06712518b073edda2226266d9be7c5d06e97db792b6bd5de8829",
+    "bbox": [
+      1039,
+      891,
+      219,
+      234
+    ]
+  },
+  {
+    "object_id": "ME-I-04fe106f8df0__infantry-001",
+    "source_id": "ME-I-04fe106f8df0",
+    "revision": "r002",
+    "source_sha256": "f12430218f719d1a871c4cdd511f26278d9a9d2276b943c874966bcefc7a2f60",
+    "bbox": [
+      44,
+      216,
+      204,
+      300
+    ]
+  },
+  {
+    "object_id": "ME-I-04fe106f8df0__infantry-002",
+    "source_id": "ME-I-04fe106f8df0",
+    "revision": "r002",
+    "source_sha256": "f12430218f719d1a871c4cdd511f26278d9a9d2276b943c874966bcefc7a2f60",
+    "bbox": [
+      1014,
+      297,
+      235,
+      232
+    ]
+  },
+  {
+    "object_id": "ME-I-04fe106f8df0__infantry-003",
+    "source_id": "ME-I-04fe106f8df0",
+    "revision": "r002",
+    "source_sha256": "f12430218f719d1a871c4cdd511f26278d9a9d2276b943c874966bcefc7a2f60",
+    "bbox": [
+      11,
+      581,
+      208,
+      230
+    ]
+  },
+  {
+    "object_id": "ME-I-04fe106f8df0__infantry-004",
+    "source_id": "ME-I-04fe106f8df0",
+    "revision": "r002",
+    "source_sha256": "f12430218f719d1a871c4cdd511f26278d9a9d2276b943c874966bcefc7a2f60",
+    "bbox": [
+      1016,
+      596,
+      247,
+      235
+    ]
+  },
+  {
+    "object_id": "ME-I-04fe106f8df0__infantry-005",
+    "source_id": "ME-I-04fe106f8df0",
+    "revision": "r002",
+    "source_sha256": "f12430218f719d1a871c4cdd511f26278d9a9d2276b943c874966bcefc7a2f60",
+    "bbox": [
+      5,
+      879,
+      239,
+      238
+    ]
+  },
+  {
+    "object_id": "ME-I-04fe106f8df0__infantry-006",
+    "source_id": "ME-I-04fe106f8df0",
+    "revision": "r002",
+    "source_sha256": "f12430218f719d1a871c4cdd511f26278d9a9d2276b943c874966bcefc7a2f60",
+    "bbox": [
+      1049,
+      867,
+      231,
+      259
+    ]
+  },
+  {
+    "object_id": "ME-I-21817c1f1521__infantry-001",
+    "source_id": "ME-I-21817c1f1521",
+    "revision": "r002",
+    "source_sha256": "10234feade71fa0f7b2c32a516a0da919dd4f00696a73aa56e2ec02ed1ebba87",
+    "bbox": [
+      26,
+      247,
+      190,
+      280
+    ]
+  },
+  {
+    "object_id": "ME-I-21817c1f1521__infantry-002",
+    "source_id": "ME-I-21817c1f1521",
+    "revision": "r002",
+    "source_sha256": "10234feade71fa0f7b2c32a516a0da919dd4f00696a73aa56e2ec02ed1ebba87",
+    "bbox": [
+      1072,
+      275,
+      154,
+      263
+    ]
+  },
+  {
+    "object_id": "ME-I-21817c1f1521__infantry-003",
+    "source_id": "ME-I-21817c1f1521",
+    "revision": "r002",
+    "source_sha256": "10234feade71fa0f7b2c32a516a0da919dd4f00696a73aa56e2ec02ed1ebba87",
+    "bbox": [
+      19,
+      564,
+      193,
+      259
+    ]
+  },
+  {
+    "object_id": "ME-I-21817c1f1521__infantry-004",
+    "source_id": "ME-I-21817c1f1521",
+    "revision": "r002",
+    "source_sha256": "10234feade71fa0f7b2c32a516a0da919dd4f00696a73aa56e2ec02ed1ebba87",
+    "bbox": [
+      984,
+      612,
+      260,
+      214
+    ]
+  },
+  {
+    "object_id": "ME-I-21817c1f1521__infantry-005",
+    "source_id": "ME-I-21817c1f1521",
+    "revision": "r002",
+    "source_sha256": "10234feade71fa0f7b2c32a516a0da919dd4f00696a73aa56e2ec02ed1ebba87",
+    "bbox": [
+      43,
+      858,
+      161,
+      253
+    ]
+  },
+  {
+    "object_id": "ME-I-21817c1f1521__infantry-006",
+    "source_id": "ME-I-21817c1f1521",
+    "revision": "r002",
+    "source_sha256": "10234feade71fa0f7b2c32a516a0da919dd4f00696a73aa56e2ec02ed1ebba87",
+    "bbox": [
+      1044,
+      873,
+      191,
+      250
+    ]
+  },
+  {
+    "object_id": "ME-I-8c36db01a3e0__infantry-001",
+    "source_id": "ME-I-8c36db01a3e0",
+    "revision": "r002",
+    "source_sha256": "bc05afe052db3fad2ebb1342696aa60b1dd662c2c4493dd0889683497de70b93",
+    "bbox": [
+      12,
+      297,
+      245,
+      227
+    ]
+  },
+  {
+    "object_id": "ME-I-8c36db01a3e0__infantry-002",
+    "source_id": "ME-I-8c36db01a3e0",
+    "revision": "r002",
+    "source_sha256": "bc05afe052db3fad2ebb1342696aa60b1dd662c2c4493dd0889683497de70b93",
+    "bbox": [
+      1038,
+      297,
+      207,
+      229
+    ]
+  },
+  {
+    "object_id": "ME-I-8c36db01a3e0__infantry-003",
+    "source_id": "ME-I-8c36db01a3e0",
+    "revision": "r002",
+    "source_sha256": "bc05afe052db3fad2ebb1342696aa60b1dd662c2c4493dd0889683497de70b93",
+    "bbox": [
+      48,
+      589,
+      172,
+      228
+    ]
+  },
+  {
+    "object_id": "ME-I-8c36db01a3e0__infantry-004",
+    "source_id": "ME-I-8c36db01a3e0",
+    "revision": "r002",
+    "source_sha256": "bc05afe052db3fad2ebb1342696aa60b1dd662c2c4493dd0889683497de70b93",
+    "bbox": [
+      1076,
+      554,
+      151,
+      274
+    ]
+  },
+  {
+    "object_id": "ME-I-8c36db01a3e0__infantry-005",
+    "source_id": "ME-I-8c36db01a3e0",
+    "revision": "r002",
+    "source_sha256": "bc05afe052db3fad2ebb1342696aa60b1dd662c2c4493dd0889683497de70b93",
+    "bbox": [
+      19,
+      837,
+      198,
+      278
+    ]
+  },
+  {
+    "object_id": "ME-I-8c36db01a3e0__infantry-006",
+    "source_id": "ME-I-8c36db01a3e0",
+    "revision": "r002",
+    "source_sha256": "bc05afe052db3fad2ebb1342696aa60b1dd662c2c4493dd0889683497de70b93",
+    "bbox": [
+      1034,
+      896,
+      209,
+      229
+    ]
+  },
+  {
+    "object_id": "PR-I-384a183cc152__infantry-001",
+    "source_id": "PR-I-384a183cc152",
+    "revision": "r002",
+    "source_sha256": "df4c7980c44131832db803380bd17314a924d981b2bfb7c404fbccdc7c099b2a",
+    "bbox": [
+      38,
+      165,
+      163,
+      246
+    ]
+  },
+  {
+    "object_id": "PR-I-384a183cc152__infantry-002",
+    "source_id": "PR-I-384a183cc152",
+    "revision": "r002",
+    "source_sha256": "df4c7980c44131832db803380bd17314a924d981b2bfb7c404fbccdc7c099b2a",
+    "bbox": [
+      830,
+      230,
+      126,
+      188
+    ]
+  },
+  {
+    "object_id": "PR-I-384a183cc152__infantry-003",
+    "source_id": "PR-I-384a183cc152",
+    "revision": "r002",
+    "source_sha256": "df4c7980c44131832db803380bd17314a924d981b2bfb7c404fbccdc7c099b2a",
+    "bbox": [
+      12,
+      449,
+      160,
+      190
+    ]
+  },
+  {
+    "object_id": "PR-I-384a183cc152__infantry-004",
+    "source_id": "PR-I-384a183cc152",
+    "revision": "r002",
+    "source_sha256": "df4c7980c44131832db803380bd17314a924d981b2bfb7c404fbccdc7c099b2a",
+    "bbox": [
+      823,
+      443,
+      147,
+      200
+    ]
+  },
+  {
+    "object_id": "PR-I-384a183cc152__infantry-005",
+    "source_id": "PR-I-384a183cc152",
+    "revision": "r002",
+    "source_sha256": "df4c7980c44131832db803380bd17314a924d981b2bfb7c404fbccdc7c099b2a",
+    "bbox": [
+      26,
+      672,
+      151,
+      194
+    ]
+  },
+  {
+    "object_id": "PR-I-384a183cc152__infantry-006",
+    "source_id": "PR-I-384a183cc152",
+    "revision": "r002",
+    "source_sha256": "df4c7980c44131832db803380bd17314a924d981b2bfb7c404fbccdc7c099b2a",
+    "bbox": [
+      815,
+      686,
+      161,
+      191
+    ]
+  },
+  {
+    "object_id": "PR-I-db9554e6011f__infantry-001",
+    "source_id": "PR-I-db9554e6011f",
+    "revision": "r002",
+    "source_sha256": "8ffb627a34475b289827cc6fe111651d8d6ec070d755944d18e1b7dd59ba67e1",
+    "bbox": [
+      29,
+      275,
+      196,
+      269
+    ]
+  },
+  {
+    "object_id": "PR-I-db9554e6011f__infantry-002",
+    "source_id": "PR-I-db9554e6011f",
+    "revision": "r002",
+    "source_sha256": "8ffb627a34475b289827cc6fe111651d8d6ec070d755944d18e1b7dd59ba67e1",
+    "bbox": [
+      1024,
+      274,
+      208,
+      272
+    ]
+  },
+  {
+    "object_id": "PR-I-db9554e6011f__infantry-003",
+    "source_id": "PR-I-db9554e6011f",
+    "revision": "r002",
+    "source_sha256": "8ffb627a34475b289827cc6fe111651d8d6ec070d755944d18e1b7dd59ba67e1",
+    "bbox": [
+      44,
+      569,
+      202,
+      264
+    ]
+  },
+  {
+    "object_id": "PR-I-db9554e6011f__infantry-004",
+    "source_id": "PR-I-db9554e6011f",
+    "revision": "r002",
+    "source_sha256": "8ffb627a34475b289827cc6fe111651d8d6ec070d755944d18e1b7dd59ba67e1",
+    "bbox": [
+      1017,
+      570,
+      223,
+      267
+    ]
+  },
+  {
+    "object_id": "PR-I-db9554e6011f__infantry-005",
+    "source_id": "PR-I-db9554e6011f",
+    "revision": "r002",
+    "source_sha256": "8ffb627a34475b289827cc6fe111651d8d6ec070d755944d18e1b7dd59ba67e1",
+    "bbox": [
+      48,
+      856,
+      160,
+      270
+    ]
+  },
+  {
+    "object_id": "PR-I-db9554e6011f__infantry-006",
+    "source_id": "PR-I-db9554e6011f",
+    "revision": "r002",
+    "source_sha256": "8ffb627a34475b289827cc6fe111651d8d6ec070d755944d18e1b7dd59ba67e1",
+    "bbox": [
+      1060,
+      865,
+      205,
+      262
+    ]
+  },
+  {
+    "object_id": "PR-I-6a367c71eece__infantry-001",
+    "source_id": "PR-I-6a367c71eece",
+    "revision": "r002",
+    "source_sha256": "3ca46e1e535d18c65a491eba2dc0656919a5b2149d69d4f94d8eea1465949796",
+    "bbox": [
+      5,
+      290,
+      291,
+      234
+    ]
+  },
+  {
+    "object_id": "PR-I-6a367c71eece__infantry-002",
+    "source_id": "PR-I-6a367c71eece",
+    "revision": "r002",
+    "source_sha256": "3ca46e1e535d18c65a491eba2dc0656919a5b2149d69d4f94d8eea1465949796",
+    "bbox": [
+      962,
+      291,
+      314,
+      240
+    ]
+  },
+  {
+    "object_id": "PR-I-6a367c71eece__infantry-003",
+    "source_id": "PR-I-6a367c71eece",
+    "revision": "r002",
+    "source_sha256": "3ca46e1e535d18c65a491eba2dc0656919a5b2149d69d4f94d8eea1465949796",
+    "bbox": [
+      38,
+      574,
+      220,
+      244
+    ]
+  },
+  {
+    "object_id": "PR-I-6a367c71eece__infantry-004",
+    "source_id": "PR-I-6a367c71eece",
+    "revision": "r002",
+    "source_sha256": "3ca46e1e535d18c65a491eba2dc0656919a5b2149d69d4f94d8eea1465949796",
+    "bbox": [
+      979,
+      561,
+      282,
+      275
+    ]
+  },
+  {
+    "object_id": "PR-I-6a367c71eece__infantry-005",
+    "source_id": "PR-I-6a367c71eece",
+    "revision": "r002",
+    "source_sha256": "3ca46e1e535d18c65a491eba2dc0656919a5b2149d69d4f94d8eea1465949796",
+    "bbox": [
+      0,
+      873,
+      207,
+      251
+    ]
+  },
+  {
+    "object_id": "PR-I-6a367c71eece__infantry-006",
+    "source_id": "PR-I-6a367c71eece",
+    "revision": "r002",
+    "source_sha256": "3ca46e1e535d18c65a491eba2dc0656919a5b2149d69d4f94d8eea1465949796",
+    "bbox": [
+      982,
+      888,
+      252,
+      249
+    ]
+  },
+  {
+    "object_id": "PR-I-4daa937368c9__infantry-001",
+    "source_id": "PR-I-4daa937368c9",
+    "revision": "r002",
+    "source_sha256": "b27677f2cc2f06671a2e747b485a12a6f7b6ca0550c53862d08a642f25b2ac42",
+    "bbox": [
+      35,
+      219,
+      133,
+      187
+    ]
+  },
+  {
+    "object_id": "PR-I-4daa937368c9__infantry-002",
+    "source_id": "PR-I-4daa937368c9",
+    "revision": "r002",
+    "source_sha256": "b27677f2cc2f06671a2e747b485a12a6f7b6ca0550c53862d08a642f25b2ac42",
+    "bbox": [
+      818,
+      228,
+      137,
+      182
+    ]
+  },
+  {
+    "object_id": "PR-I-4daa937368c9__infantry-003",
+    "source_id": "PR-I-4daa937368c9",
+    "revision": "r002",
+    "source_sha256": "b27677f2cc2f06671a2e747b485a12a6f7b6ca0550c53862d08a642f25b2ac42",
+    "bbox": [
+      44,
+      445,
+      115,
+      193
+    ]
+  },
+  {
+    "object_id": "PR-I-4daa937368c9__infantry-004",
+    "source_id": "PR-I-4daa937368c9",
+    "revision": "r002",
+    "source_sha256": "b27677f2cc2f06671a2e747b485a12a6f7b6ca0550c53862d08a642f25b2ac42",
+    "bbox": [
+      835,
+      461,
+      120,
+      189
+    ]
+  },
+  {
+    "object_id": "PR-I-4daa937368c9__infantry-005",
+    "source_id": "PR-I-4daa937368c9",
+    "revision": "r002",
+    "source_sha256": "b27677f2cc2f06671a2e747b485a12a6f7b6ca0550c53862d08a642f25b2ac42",
+    "bbox": [
+      35,
+      680,
+      140,
+      186
+    ]
+  },
+  {
+    "object_id": "PR-I-4daa937368c9__infantry-006",
+    "source_id": "PR-I-4daa937368c9",
+    "revision": "r002",
+    "source_sha256": "b27677f2cc2f06671a2e747b485a12a6f7b6ca0550c53862d08a642f25b2ac42",
+    "bbox": [
+      828,
+      693,
+      133,
+      184
+    ]
+  },
+  {
+    "object_id": "PR-I-14ec711b7df7__infantry-001",
+    "source_id": "PR-I-14ec711b7df7",
+    "revision": "r002",
+    "source_sha256": "0f098a4321f77f65985bcba9f2ee5ed88f75a30e44e0de4ce531abdfd941a360",
+    "bbox": [
+      29,
+      204,
+      141,
+      204
+    ]
+  },
+  {
+    "object_id": "PR-I-14ec711b7df7__infantry-002",
+    "source_id": "PR-I-14ec711b7df7",
+    "revision": "r002",
+    "source_sha256": "0f098a4321f77f65985bcba9f2ee5ed88f75a30e44e0de4ce531abdfd941a360",
+    "bbox": [
+      835,
+      224,
+      106,
+      187
+    ]
+  },
+  {
+    "object_id": "PR-I-14ec711b7df7__infantry-003",
+    "source_id": "PR-I-14ec711b7df7",
+    "revision": "r002",
+    "source_sha256": "0f098a4321f77f65985bcba9f2ee5ed88f75a30e44e0de4ce531abdfd941a360",
+    "bbox": [
+      34,
+      447,
+      144,
+      186
+    ]
+  },
+  {
+    "object_id": "PR-I-14ec711b7df7__infantry-004",
+    "source_id": "PR-I-14ec711b7df7",
+    "revision": "r002",
+    "source_sha256": "0f098a4321f77f65985bcba9f2ee5ed88f75a30e44e0de4ce531abdfd941a360",
+    "bbox": [
+      832,
+      460,
+      130,
+      190
+    ]
+  },
+  {
+    "object_id": "PR-I-14ec711b7df7__infantry-005",
+    "source_id": "PR-I-14ec711b7df7",
+    "revision": "r002",
+    "source_sha256": "0f098a4321f77f65985bcba9f2ee5ed88f75a30e44e0de4ce531abdfd941a360",
+    "bbox": [
+      39,
+      676,
+      127,
+      191
+    ]
+  },
+  {
+    "object_id": "PR-I-14ec711b7df7__infantry-006",
+    "source_id": "PR-I-14ec711b7df7",
+    "revision": "r002",
+    "source_sha256": "0f098a4321f77f65985bcba9f2ee5ed88f75a30e44e0de4ce531abdfd941a360",
+    "bbox": [
+      829,
+      685,
+      127,
+      187
+    ]
+  },
+  {
+    "object_id": "PR-I-62fd699e4809__infantry-001",
+    "source_id": "PR-I-62fd699e4809",
+    "revision": "r002",
+    "source_sha256": "fa51d43df87b9a78762e0c940714278cc1167e17693598f7e5bb6c3b5c0b7263",
+    "bbox": [
+      28,
+      225,
+      304,
+      291
+    ]
+  },
+  {
+    "object_id": "PR-I-62fd699e4809__infantry-002",
+    "source_id": "PR-I-62fd699e4809",
+    "revision": "r002",
+    "source_sha256": "fa51d43df87b9a78762e0c940714278cc1167e17693598f7e5bb6c3b5c0b7263",
+    "bbox": [
+      1057,
+      298,
+      183,
+      234
+    ]
+  },
+  {
+    "object_id": "PR-I-62fd699e4809__infantry-003",
+    "source_id": "PR-I-62fd699e4809",
+    "revision": "r002",
+    "source_sha256": "fa51d43df87b9a78762e0c940714278cc1167e17693598f7e5bb6c3b5c0b7263",
+    "bbox": [
+      30,
+      572,
+      216,
+      245
+    ]
+  },
+  {
+    "object_id": "PR-I-62fd699e4809__infantry-004",
+    "source_id": "PR-I-62fd699e4809",
+    "revision": "r002",
+    "source_sha256": "fa51d43df87b9a78762e0c940714278cc1167e17693598f7e5bb6c3b5c0b7263",
+    "bbox": [
+      1031,
+      574,
+      213,
+      252
+    ]
+  },
+  {
+    "object_id": "PR-I-62fd699e4809__infantry-005",
+    "source_id": "PR-I-62fd699e4809",
+    "revision": "r002",
+    "source_sha256": "fa51d43df87b9a78762e0c940714278cc1167e17693598f7e5bb6c3b5c0b7263",
+    "bbox": [
+      22,
+      890,
+      233,
+      219
+    ]
+  },
+  {
+    "object_id": "PR-I-62fd699e4809__infantry-006",
+    "source_id": "PR-I-62fd699e4809",
+    "revision": "r002",
+    "source_sha256": "fa51d43df87b9a78762e0c940714278cc1167e17693598f7e5bb6c3b5c0b7263",
+    "bbox": [
+      1064,
+      877,
+      167,
+      246
+    ]
+  },
+  {
+    "object_id": "PR-I-e55c816adbf3__infantry-001",
+    "source_id": "PR-I-e55c816adbf3",
+    "revision": "r002",
+    "source_sha256": "e30b3662d68fbc98baad59331680fa24ae680cb7275ce374b5eaeaa42071a891",
+    "bbox": [
+      41,
+      277,
+      174,
+      247
+    ]
+  },
+  {
+    "object_id": "PR-I-e55c816adbf3__infantry-002",
+    "source_id": "PR-I-e55c816adbf3",
+    "revision": "r002",
+    "source_sha256": "e30b3662d68fbc98baad59331680fa24ae680cb7275ce374b5eaeaa42071a891",
+    "bbox": [
+      1056,
+      289,
+      175,
+      249
+    ]
+  },
+  {
+    "object_id": "PR-I-e55c816adbf3__infantry-003",
+    "source_id": "PR-I-e55c816adbf3",
+    "revision": "r002",
+    "source_sha256": "e30b3662d68fbc98baad59331680fa24ae680cb7275ce374b5eaeaa42071a891",
+    "bbox": [
+      43,
+      520,
+      156,
+      308
+    ]
+  },
+  {
+    "object_id": "PR-I-e55c816adbf3__infantry-004",
+    "source_id": "PR-I-e55c816adbf3",
+    "revision": "r002",
+    "source_sha256": "e30b3662d68fbc98baad59331680fa24ae680cb7275ce374b5eaeaa42071a891",
+    "bbox": [
+      1013,
+      589,
+      218,
+      248
+    ]
+  },
+  {
+    "object_id": "PR-I-e55c816adbf3__infantry-005",
+    "source_id": "PR-I-e55c816adbf3",
+    "revision": "r002",
+    "source_sha256": "e30b3662d68fbc98baad59331680fa24ae680cb7275ce374b5eaeaa42071a891",
+    "bbox": [
+      33,
+      869,
+      254,
+      250
+    ]
+  },
+  {
+    "object_id": "PR-I-e55c816adbf3__infantry-006",
+    "source_id": "PR-I-e55c816adbf3",
+    "revision": "r002",
+    "source_sha256": "e30b3662d68fbc98baad59331680fa24ae680cb7275ce374b5eaeaa42071a891",
+    "bbox": [
+      1042,
+      847,
+      232,
+      280
+    ]
+  },
+  {
+    "object_id": "PR-I-c44fa91ab2a5__infantry-001",
+    "source_id": "PR-I-c44fa91ab2a5",
+    "revision": "r002",
+    "source_sha256": "0078542cbf64240468af7ac19b6d49d6a5f38badae9e020d9d8d039296af3f11",
+    "bbox": [
+      38,
+      224,
+      126,
+      189
+    ]
+  },
+  {
+    "object_id": "PR-I-c44fa91ab2a5__infantry-002",
+    "source_id": "PR-I-c44fa91ab2a5",
+    "revision": "r002",
+    "source_sha256": "0078542cbf64240468af7ac19b6d49d6a5f38badae9e020d9d8d039296af3f11",
+    "bbox": [
+      831,
+      227,
+      140,
+      188
+    ]
+  },
+  {
+    "object_id": "PR-I-c44fa91ab2a5__infantry-003",
+    "source_id": "PR-I-c44fa91ab2a5",
+    "revision": "r002",
+    "source_sha256": "0078542cbf64240468af7ac19b6d49d6a5f38badae9e020d9d8d039296af3f11",
+    "bbox": [
+      37,
+      445,
+      121,
+      187
+    ]
+  },
+  {
+    "object_id": "PR-I-c44fa91ab2a5__infantry-004",
+    "source_id": "PR-I-c44fa91ab2a5",
+    "revision": "r002",
+    "source_sha256": "0078542cbf64240468af7ac19b6d49d6a5f38badae9e020d9d8d039296af3f11",
+    "bbox": [
+      848,
+      458,
+      102,
+      188
+    ]
+  },
+  {
+    "object_id": "PR-I-c44fa91ab2a5__infantry-005",
+    "source_id": "PR-I-c44fa91ab2a5",
+    "revision": "r002",
+    "source_sha256": "0078542cbf64240468af7ac19b6d49d6a5f38badae9e020d9d8d039296af3f11",
+    "bbox": [
+      26,
+      674,
+      171,
+      192
+    ]
+  },
+  {
+    "object_id": "PR-I-c44fa91ab2a5__infantry-006",
+    "source_id": "PR-I-c44fa91ab2a5",
+    "revision": "r002",
+    "source_sha256": "0078542cbf64240468af7ac19b6d49d6a5f38badae9e020d9d8d039296af3f11",
+    "bbox": [
+      828,
+      677,
+      119,
+      198
+    ]
+  },
+  {
+    "object_id": "PR-I-3db929c1e555__infantry-001",
+    "source_id": "PR-I-3db929c1e555",
+    "revision": "r002",
+    "source_sha256": "786185d3e9e3055cdef3c0ccb91836de17e7068534dddb2a44ec33645b11a1b3",
+    "bbox": [
+      5,
+      278,
+      269,
+      242
+    ]
+  },
+  {
+    "object_id": "PR-I-3db929c1e555__infantry-002",
+    "source_id": "PR-I-3db929c1e555",
+    "revision": "r002",
+    "source_sha256": "786185d3e9e3055cdef3c0ccb91836de17e7068534dddb2a44ec33645b11a1b3",
+    "bbox": [
+      1059,
+      295,
+      169,
+      236
+    ]
+  },
+  {
+    "object_id": "PR-I-3db929c1e555__infantry-003",
+    "source_id": "PR-I-3db929c1e555",
+    "revision": "r002",
+    "source_sha256": "786185d3e9e3055cdef3c0ccb91836de17e7068534dddb2a44ec33645b11a1b3",
+    "bbox": [
+      40,
+      585,
+      274,
+      241
+    ]
+  },
+  {
+    "object_id": "PR-I-3db929c1e555__infantry-004",
+    "source_id": "PR-I-3db929c1e555",
+    "revision": "r002",
+    "source_sha256": "786185d3e9e3055cdef3c0ccb91836de17e7068534dddb2a44ec33645b11a1b3",
+    "bbox": [
+      1063,
+      570,
+      175,
+      257
+    ]
+  },
+  {
+    "object_id": "PR-I-3db929c1e555__infantry-005",
+    "source_id": "PR-I-3db929c1e555",
+    "revision": "r002",
+    "source_sha256": "786185d3e9e3055cdef3c0ccb91836de17e7068534dddb2a44ec33645b11a1b3",
+    "bbox": [
+      39,
+      879,
+      172,
+      229
+    ]
+  },
+  {
+    "object_id": "PR-I-3db929c1e555__infantry-006",
+    "source_id": "PR-I-3db929c1e555",
+    "revision": "r002",
+    "source_sha256": "786185d3e9e3055cdef3c0ccb91836de17e7068534dddb2a44ec33645b11a1b3",
+    "bbox": [
+      1030,
+      900,
+      244,
+      221
+    ]
+  },
+  {
+    "object_id": "PR-I-35900455131a__infantry-001",
+    "source_id": "PR-I-35900455131a",
+    "revision": "r002",
+    "source_sha256": "7088a5183058726ae2a07d0c92185ae3cc029cf851d0a51fafcf1a3e0b60782f",
+    "bbox": [
+      45,
+      223,
+      129,
+      184
+    ]
+  },
+  {
+    "object_id": "PR-I-35900455131a__infantry-002",
+    "source_id": "PR-I-35900455131a",
+    "revision": "r002",
+    "source_sha256": "7088a5183058726ae2a07d0c92185ae3cc029cf851d0a51fafcf1a3e0b60782f",
+    "bbox": [
+      829,
+      229,
+      104,
+      184
+    ]
+  },
+  {
+    "object_id": "PR-I-35900455131a__infantry-003",
+    "source_id": "PR-I-35900455131a",
+    "revision": "r002",
+    "source_sha256": "7088a5183058726ae2a07d0c92185ae3cc029cf851d0a51fafcf1a3e0b60782f",
+    "bbox": [
+      41,
+      462,
+      134,
+      176
+    ]
+  },
+  {
+    "object_id": "PR-I-35900455131a__infantry-004",
+    "source_id": "PR-I-35900455131a",
+    "revision": "r002",
+    "source_sha256": "7088a5183058726ae2a07d0c92185ae3cc029cf851d0a51fafcf1a3e0b60782f",
+    "bbox": [
+      837,
+      461,
+      110,
+      185
+    ]
+  },
+  {
+    "object_id": "PR-I-35900455131a__infantry-005",
+    "source_id": "PR-I-35900455131a",
+    "revision": "r002",
+    "source_sha256": "7088a5183058726ae2a07d0c92185ae3cc029cf851d0a51fafcf1a3e0b60782f",
+    "bbox": [
+      40,
+      689,
+      112,
+      178
+    ]
+  },
+  {
+    "object_id": "PR-I-35900455131a__infantry-006",
+    "source_id": "PR-I-35900455131a",
+    "revision": "r002",
+    "source_sha256": "7088a5183058726ae2a07d0c92185ae3cc029cf851d0a51fafcf1a3e0b60782f",
+    "bbox": [
+      831,
+      690,
+      135,
+      182
+    ]
+  },
+  {
+    "object_id": "PR-I-e9658a524a8c__infantry-001",
+    "source_id": "PR-I-e9658a524a8c",
+    "revision": "r002",
+    "source_sha256": "c70df27eb8bcaaafb30bcbe286dbbea58fb00f35f1c053a1d93b49b986fe39c7",
+    "bbox": [
+      25,
+      206,
+      177,
+      326
+    ]
+  },
+  {
+    "object_id": "PR-I-e9658a524a8c__infantry-002",
+    "source_id": "PR-I-e9658a524a8c",
+    "revision": "r002",
+    "source_sha256": "c70df27eb8bcaaafb30bcbe286dbbea58fb00f35f1c053a1d93b49b986fe39c7",
+    "bbox": [
+      1089,
+      254,
+      171,
+      284
+    ]
+  },
+  {
+    "object_id": "PR-I-e9658a524a8c__infantry-003",
+    "source_id": "PR-I-e9658a524a8c",
+    "revision": "r002",
+    "source_sha256": "c70df27eb8bcaaafb30bcbe286dbbea58fb00f35f1c053a1d93b49b986fe39c7",
+    "bbox": [
+      32,
+      560,
+      179,
+      268
+    ]
+  },
+  {
+    "object_id": "PR-I-e9658a524a8c__infantry-004",
+    "source_id": "PR-I-e9658a524a8c",
+    "revision": "r002",
+    "source_sha256": "c70df27eb8bcaaafb30bcbe286dbbea58fb00f35f1c053a1d93b49b986fe39c7",
+    "bbox": [
+      1064,
+      566,
+      169,
+      268
+    ]
+  },
+  {
+    "object_id": "PR-I-e9658a524a8c__infantry-005",
+    "source_id": "PR-I-e9658a524a8c",
+    "revision": "r002",
+    "source_sha256": "c70df27eb8bcaaafb30bcbe286dbbea58fb00f35f1c053a1d93b49b986fe39c7",
+    "bbox": [
+      49,
+      867,
+      184,
+      255
+    ]
+  },
+  {
+    "object_id": "PR-I-e9658a524a8c__infantry-006",
+    "source_id": "PR-I-e9658a524a8c",
+    "revision": "r002",
+    "source_sha256": "c70df27eb8bcaaafb30bcbe286dbbea58fb00f35f1c053a1d93b49b986fe39c7",
+    "bbox": [
+      1030,
+      845,
+      225,
+      291
+    ]
+  },
+  {
+    "object_id": "PR-I-6bce5244e4af__infantry-001",
+    "source_id": "PR-I-6bce5244e4af",
+    "revision": "r004",
+    "source_sha256": "b82c6d0b7aefe134c9c18c9c8cc3fc05e78d50e0da71b4caf8389b45e6f415f0",
+    "bbox": [
+      30,
+      261,
+      213,
+      269
+    ]
+  },
+  {
+    "object_id": "PR-I-6bce5244e4af__infantry-002",
+    "source_id": "PR-I-6bce5244e4af",
+    "revision": "r004",
+    "source_sha256": "b82c6d0b7aefe134c9c18c9c8cc3fc05e78d50e0da71b4caf8389b45e6f415f0",
+    "bbox": [
+      1029,
+      297,
+      245,
+      235
+    ]
+  },
+  {
+    "object_id": "PR-I-6bce5244e4af__infantry-003",
+    "source_id": "PR-I-6bce5244e4af",
+    "revision": "r004",
+    "source_sha256": "b82c6d0b7aefe134c9c18c9c8cc3fc05e78d50e0da71b4caf8389b45e6f415f0",
+    "bbox": [
+      32,
+      581,
+      221,
+      244
+    ]
+  },
+  {
+    "object_id": "PR-I-6bce5244e4af__infantry-004",
+    "source_id": "PR-I-6bce5244e4af",
+    "revision": "r004",
+    "source_sha256": "b82c6d0b7aefe134c9c18c9c8cc3fc05e78d50e0da71b4caf8389b45e6f415f0",
+    "bbox": [
+      974,
+      582,
+      300,
+      242
+    ]
+  },
+  {
+    "object_id": "PR-I-6bce5244e4af__infantry-005",
+    "source_id": "PR-I-6bce5244e4af",
+    "revision": "r004",
+    "source_sha256": "b82c6d0b7aefe134c9c18c9c8cc3fc05e78d50e0da71b4caf8389b45e6f415f0",
+    "bbox": [
+      25,
+      875,
+      215,
+      241
+    ]
+  },
+  {
+    "object_id": "PR-I-6bce5244e4af__infantry-006",
+    "source_id": "PR-I-6bce5244e4af",
+    "revision": "r004",
+    "source_sha256": "b82c6d0b7aefe134c9c18c9c8cc3fc05e78d50e0da71b4caf8389b45e6f415f0",
+    "bbox": [
+      999,
+      895,
+      255,
+      241
+    ]
+  },
+  {
+    "object_id": "PR-I-20914b153c0c__infantry-001",
+    "source_id": "PR-I-20914b153c0c",
+    "revision": "r002",
+    "source_sha256": "7f228c77f11bc5fce4ac1cdb657628583d985d60d0b932876a77bcc5564b2c1a",
+    "bbox": [
+      11,
+      296,
+      225,
+      231
+    ]
+  },
+  {
+    "object_id": "PR-I-20914b153c0c__infantry-002",
+    "source_id": "PR-I-20914b153c0c",
+    "revision": "r002",
+    "source_sha256": "7f228c77f11bc5fce4ac1cdb657628583d985d60d0b932876a77bcc5564b2c1a",
+    "bbox": [
+      987,
+      307,
+      263,
+      229
+    ]
+  },
+  {
+    "object_id": "PR-I-20914b153c0c__infantry-003",
+    "source_id": "PR-I-20914b153c0c",
+    "revision": "r002",
+    "source_sha256": "7f228c77f11bc5fce4ac1cdb657628583d985d60d0b932876a77bcc5564b2c1a",
+    "bbox": [
+      11,
+      590,
+      231,
+      225
+    ]
+  },
+  {
+    "object_id": "PR-I-20914b153c0c__infantry-004",
+    "source_id": "PR-I-20914b153c0c",
+    "revision": "r002",
+    "source_sha256": "7f228c77f11bc5fce4ac1cdb657628583d985d60d0b932876a77bcc5564b2c1a",
+    "bbox": [
+      1011,
+      600,
+      236,
+      223
+    ]
+  },
+  {
+    "object_id": "PR-I-01c38e81dfa8__infantry-001",
+    "source_id": "PR-I-01c38e81dfa8",
+    "revision": "r002",
+    "source_sha256": "33b30b0d34a1f93e0aa2d50fbe7b747c030393dbf784c3b1184cbee7e4fe6fae",
+    "bbox": [
+      31,
+      276,
+      269,
+      248
+    ]
+  },
+  {
+    "object_id": "PR-I-01c38e81dfa8__infantry-002",
+    "source_id": "PR-I-01c38e81dfa8",
+    "revision": "r002",
+    "source_sha256": "33b30b0d34a1f93e0aa2d50fbe7b747c030393dbf784c3b1184cbee7e4fe6fae",
+    "bbox": [
+      967,
+      256,
+      264,
+      275
+    ]
+  },
+  {
+    "object_id": "PR-I-01c38e81dfa8__infantry-003",
+    "source_id": "PR-I-01c38e81dfa8",
+    "revision": "r002",
+    "source_sha256": "33b30b0d34a1f93e0aa2d50fbe7b747c030393dbf784c3b1184cbee7e4fe6fae",
+    "bbox": [
+      60,
+      598,
+      150,
+      221
+    ]
+  },
+  {
+    "object_id": "PR-I-01c38e81dfa8__infantry-004",
+    "source_id": "PR-I-01c38e81dfa8",
+    "revision": "r002",
+    "source_sha256": "33b30b0d34a1f93e0aa2d50fbe7b747c030393dbf784c3b1184cbee7e4fe6fae",
+    "bbox": [
+      949,
+      599,
+      286,
+      237
+    ]
+  },
+  {
+    "object_id": "PR-I-01c38e81dfa8__infantry-005",
+    "source_id": "PR-I-01c38e81dfa8",
+    "revision": "r002",
+    "source_sha256": "33b30b0d34a1f93e0aa2d50fbe7b747c030393dbf784c3b1184cbee7e4fe6fae",
+    "bbox": [
+      54,
+      835,
+      157,
+      281
+    ]
+  },
+  {
+    "object_id": "PR-I-01c38e81dfa8__infantry-006",
+    "source_id": "PR-I-01c38e81dfa8",
+    "revision": "r002",
+    "source_sha256": "33b30b0d34a1f93e0aa2d50fbe7b747c030393dbf784c3b1184cbee7e4fe6fae",
+    "bbox": [
+      1044,
+      899,
+      195,
+      219
+    ]
+  },
+  {
+    "object_id": "PR-I-ca38cf67e173__infantry-001",
+    "source_id": "PR-I-ca38cf67e173",
+    "revision": "r004",
+    "source_sha256": "3039f53e2af0ec3368764d6260eb21db3f621ffa32883bd36a63023ce95c0f14",
+    "bbox": [
+      20,
+      224,
+      242,
+      304
+    ]
+  },
+  {
+    "object_id": "PR-I-ca38cf67e173__infantry-002",
+    "source_id": "PR-I-ca38cf67e173",
+    "revision": "r004",
+    "source_sha256": "3039f53e2af0ec3368764d6260eb21db3f621ffa32883bd36a63023ce95c0f14",
+    "bbox": [
+      1079,
+      289,
+      160,
+      251
+    ]
+  },
+  {
+    "object_id": "PR-I-ca38cf67e173__infantry-003",
+    "source_id": "PR-I-ca38cf67e173",
+    "revision": "r004",
+    "source_sha256": "3039f53e2af0ec3368764d6260eb21db3f621ffa32883bd36a63023ce95c0f14",
+    "bbox": [
+      52,
+      568,
+      212,
+      252
+    ]
+  },
+  {
+    "object_id": "PR-I-ca38cf67e173__infantry-004",
+    "source_id": "PR-I-ca38cf67e173",
+    "revision": "r004",
+    "source_sha256": "3039f53e2af0ec3368764d6260eb21db3f621ffa32883bd36a63023ce95c0f14",
+    "bbox": [
+      1066,
+      582,
+      213,
+      253
+    ]
+  },
+  {
+    "object_id": "PR-I-ca38cf67e173__infantry-005",
+    "source_id": "PR-I-ca38cf67e173",
+    "revision": "r004",
+    "source_sha256": "3039f53e2af0ec3368764d6260eb21db3f621ffa32883bd36a63023ce95c0f14",
+    "bbox": [
+      43,
+      839,
+      172,
+      282
+    ]
+  },
+  {
+    "object_id": "PR-I-ca38cf67e173__infantry-006",
+    "source_id": "PR-I-ca38cf67e173",
+    "revision": "r004",
+    "source_sha256": "3039f53e2af0ec3368764d6260eb21db3f621ffa32883bd36a63023ce95c0f14",
+    "bbox": [
+      1046,
+      877,
+      178,
+      257
+    ]
+  },
+  {
+    "object_id": "PR-I-dca2f49eb3a6__infantry-001",
+    "source_id": "PR-I-dca2f49eb3a6",
+    "revision": "r002",
+    "source_sha256": "0710f69a7c53a3773e60e7fa3bb38c4df02d62a96f6a6fece1b8a791b7c5a190",
+    "bbox": [
+      35,
+      218,
+      151,
+      184
+    ]
+  },
+  {
+    "object_id": "PR-I-dca2f49eb3a6__infantry-002",
+    "source_id": "PR-I-dca2f49eb3a6",
+    "revision": "r002",
+    "source_sha256": "0710f69a7c53a3773e60e7fa3bb38c4df02d62a96f6a6fece1b8a791b7c5a190",
+    "bbox": [
+      811,
+      213,
+      176,
+      205
+    ]
+  },
+  {
+    "object_id": "PR-I-dca2f49eb3a6__infantry-003",
+    "source_id": "PR-I-dca2f49eb3a6",
+    "revision": "r002",
+    "source_sha256": "0710f69a7c53a3773e60e7fa3bb38c4df02d62a96f6a6fece1b8a791b7c5a190",
+    "bbox": [
+      26,
+      441,
+      156,
+      196
+    ]
+  },
+  {
+    "object_id": "PR-I-dca2f49eb3a6__infantry-004",
+    "source_id": "PR-I-dca2f49eb3a6",
+    "revision": "r002",
+    "source_sha256": "0710f69a7c53a3773e60e7fa3bb38c4df02d62a96f6a6fece1b8a791b7c5a190",
+    "bbox": [
+      792,
+      440,
+      185,
+      209
+    ]
+  },
+  {
+    "object_id": "PR-I-dca2f49eb3a6__infantry-005",
+    "source_id": "PR-I-dca2f49eb3a6",
+    "revision": "r002",
+    "source_sha256": "0710f69a7c53a3773e60e7fa3bb38c4df02d62a96f6a6fece1b8a791b7c5a190",
+    "bbox": [
+      43,
+      635,
+      149,
+      251
+    ]
+  },
+  {
+    "object_id": "PR-I-dca2f49eb3a6__infantry-006",
+    "source_id": "PR-I-dca2f49eb3a6",
+    "revision": "r002",
+    "source_sha256": "0710f69a7c53a3773e60e7fa3bb38c4df02d62a96f6a6fece1b8a791b7c5a190",
+    "bbox": [
+      794,
+      660,
+      178,
+      218
+    ]
+  },
+  {
+    "object_id": "PR-I-513931f9796e__infantry-001",
+    "source_id": "PR-I-513931f9796e",
+    "revision": "r002",
+    "source_sha256": "dec2fb11c50653d55702e11a0fc12e102a0faa6b1006e101f94cac0c45f7a42e",
+    "bbox": [
+      26,
+      223,
+      160,
+      180
+    ]
+  },
+  {
+    "object_id": "PR-I-513931f9796e__infantry-002",
+    "source_id": "PR-I-513931f9796e",
+    "revision": "r002",
+    "source_sha256": "dec2fb11c50653d55702e11a0fc12e102a0faa6b1006e101f94cac0c45f7a42e",
+    "bbox": [
+      810,
+      225,
+      171,
+      192
+    ]
+  },
+  {
+    "object_id": "PR-I-513931f9796e__infantry-003",
+    "source_id": "PR-I-513931f9796e",
+    "revision": "r002",
+    "source_sha256": "dec2fb11c50653d55702e11a0fc12e102a0faa6b1006e101f94cac0c45f7a42e",
+    "bbox": [
+      32,
+      451,
+      142,
+      190
+    ]
+  },
+  {
+    "object_id": "PR-I-513931f9796e__infantry-004",
+    "source_id": "PR-I-513931f9796e",
+    "revision": "r002",
+    "source_sha256": "dec2fb11c50653d55702e11a0fc12e102a0faa6b1006e101f94cac0c45f7a42e",
+    "bbox": [
+      808,
+      463,
+      156,
+      179
+    ]
+  },
+  {
+    "object_id": "PR-I-513931f9796e__infantry-005",
+    "source_id": "PR-I-513931f9796e",
+    "revision": "r002",
+    "source_sha256": "dec2fb11c50653d55702e11a0fc12e102a0faa6b1006e101f94cac0c45f7a42e",
+    "bbox": [
+      29,
+      651,
+      161,
+      224
+    ]
+  },
+  {
+    "object_id": "PR-I-513931f9796e__infantry-006",
+    "source_id": "PR-I-513931f9796e",
+    "revision": "r002",
+    "source_sha256": "dec2fb11c50653d55702e11a0fc12e102a0faa6b1006e101f94cac0c45f7a42e",
+    "bbox": [
+      815,
+      690,
+      155,
+      186
+    ]
+  },
+  {
+    "object_id": "PR-I-0368e313c45e__infantry-001",
+    "source_id": "PR-I-0368e313c45e",
+    "revision": "r002",
+    "source_sha256": "06a962c9cb47fa3fd1cf05e5f1d775992551ca0e1bfd615a3b10aa428f53a94b",
+    "bbox": [
+      29,
+      274,
+      247,
+      261
+    ]
+  },
+  {
+    "object_id": "PR-I-0368e313c45e__infantry-002",
+    "source_id": "PR-I-0368e313c45e",
+    "revision": "r002",
+    "source_sha256": "06a962c9cb47fa3fd1cf05e5f1d775992551ca0e1bfd615a3b10aa428f53a94b",
+    "bbox": [
+      998,
+      284,
+      281,
+      252
+    ]
+  },
+  {
+    "object_id": "PR-I-0368e313c45e__infantry-003",
+    "source_id": "PR-I-0368e313c45e",
+    "revision": "r002",
+    "source_sha256": "06a962c9cb47fa3fd1cf05e5f1d775992551ca0e1bfd615a3b10aa428f53a94b",
+    "bbox": [
+      14,
+      580,
+      233,
+      250
+    ]
+  },
+  {
+    "object_id": "PR-I-0368e313c45e__infantry-004",
+    "source_id": "PR-I-0368e313c45e",
+    "revision": "r002",
+    "source_sha256": "06a962c9cb47fa3fd1cf05e5f1d775992551ca0e1bfd615a3b10aa428f53a94b",
+    "bbox": [
+      1056,
+      582,
+      191,
+      259
+    ]
+  },
+  {
+    "object_id": "PR-I-0368e313c45e__infantry-005",
+    "source_id": "PR-I-0368e313c45e",
+    "revision": "r002",
+    "source_sha256": "06a962c9cb47fa3fd1cf05e5f1d775992551ca0e1bfd615a3b10aa428f53a94b",
+    "bbox": [
+      49,
+      870,
+      225,
+      257
+    ]
+  },
+  {
+    "object_id": "PR-I-0368e313c45e__infantry-006",
+    "source_id": "PR-I-0368e313c45e",
+    "revision": "r002",
+    "source_sha256": "06a962c9cb47fa3fd1cf05e5f1d775992551ca0e1bfd615a3b10aa428f53a94b",
+    "bbox": [
+      1056,
+      869,
+      220,
+      270
+    ]
+  },
+  {
+    "object_id": "PR-I-d05da3d90925__infantry-001",
+    "source_id": "PR-I-d05da3d90925",
+    "revision": "r002",
+    "source_sha256": "e38aca0b84c63bb6a491bdc945ba7b767de85aa7bce1411ac4d8969654633670",
+    "bbox": [
+      52,
+      283,
+      151,
+      234
+    ]
+  },
+  {
+    "object_id": "PR-I-d05da3d90925__infantry-002",
+    "source_id": "PR-I-d05da3d90925",
+    "revision": "r002",
+    "source_sha256": "e38aca0b84c63bb6a491bdc945ba7b767de85aa7bce1411ac4d8969654633670",
+    "bbox": [
+      1074,
+      301,
+      155,
+      223
+    ]
+  },
+  {
+    "object_id": "PR-I-d05da3d90925__infantry-003",
+    "source_id": "PR-I-d05da3d90925",
+    "revision": "r002",
+    "source_sha256": "e38aca0b84c63bb6a491bdc945ba7b767de85aa7bce1411ac4d8969654633670",
+    "bbox": [
+      3,
+      580,
+      200,
+      239
+    ]
+  },
+  {
+    "object_id": "PR-I-d05da3d90925__infantry-004",
+    "source_id": "PR-I-d05da3d90925",
+    "revision": "r002",
+    "source_sha256": "e38aca0b84c63bb6a491bdc945ba7b767de85aa7bce1411ac4d8969654633670",
+    "bbox": [
+      1060,
+      547,
+      178,
+      292
+    ]
+  },
+  {
+    "object_id": "PR-I-d05da3d90925__infantry-005",
+    "source_id": "PR-I-d05da3d90925",
+    "revision": "r002",
+    "source_sha256": "e38aca0b84c63bb6a491bdc945ba7b767de85aa7bce1411ac4d8969654633670",
+    "bbox": [
+      31,
+      877,
+      215,
+      241
+    ]
+  },
+  {
+    "object_id": "PR-I-d05da3d90925__infantry-006",
+    "source_id": "PR-I-d05da3d90925",
+    "revision": "r002",
+    "source_sha256": "e38aca0b84c63bb6a491bdc945ba7b767de85aa7bce1411ac4d8969654633670",
+    "bbox": [
+      1052,
+      807,
+      157,
+      325
+    ]
+  },
+  {
+    "object_id": "PR-I-0f22f07db4f8__infantry-001",
+    "source_id": "PR-I-0f22f07db4f8",
+    "revision": "r002",
+    "source_sha256": "a8dcc96e6cd0338f0fd3a8ca48dbc63b35a821d8818205e0065eb8efa898b10e",
+    "bbox": [
+      28,
+      244,
+      202,
+      282
+    ]
+  },
+  {
+    "object_id": "PR-I-0f22f07db4f8__infantry-002",
+    "source_id": "PR-I-0f22f07db4f8",
+    "revision": "r002",
+    "source_sha256": "a8dcc96e6cd0338f0fd3a8ca48dbc63b35a821d8818205e0065eb8efa898b10e",
+    "bbox": [
+      1046,
+      287,
+      230,
+      251
+    ]
+  },
+  {
+    "object_id": "PR-I-0f22f07db4f8__infantry-003",
+    "source_id": "PR-I-0f22f07db4f8",
+    "revision": "r002",
+    "source_sha256": "a8dcc96e6cd0338f0fd3a8ca48dbc63b35a821d8818205e0065eb8efa898b10e",
+    "bbox": [
+      51,
+      570,
+      160,
+      248
+    ]
+  },
+  {
+    "object_id": "PR-I-0f22f07db4f8__infantry-004",
+    "source_id": "PR-I-0f22f07db4f8",
+    "revision": "r002",
+    "source_sha256": "a8dcc96e6cd0338f0fd3a8ca48dbc63b35a821d8818205e0065eb8efa898b10e",
+    "bbox": [
+      1077,
+      582,
+      194,
+      249
+    ]
+  },
+  {
+    "object_id": "PR-I-0f22f07db4f8__infantry-005",
+    "source_id": "PR-I-0f22f07db4f8",
+    "revision": "r002",
+    "source_sha256": "a8dcc96e6cd0338f0fd3a8ca48dbc63b35a821d8818205e0065eb8efa898b10e",
+    "bbox": [
+      46,
+      913,
+      187,
+      208
+    ]
+  },
+  {
+    "object_id": "PR-I-0f22f07db4f8__infantry-006",
+    "source_id": "PR-I-0f22f07db4f8",
+    "revision": "r002",
+    "source_sha256": "a8dcc96e6cd0338f0fd3a8ca48dbc63b35a821d8818205e0065eb8efa898b10e",
+    "bbox": [
+      1054,
+      886,
+      175,
+      246
+    ]
+  },
+  {
+    "object_id": "PR-V-16433beb3fe7__vehicle-001",
+    "source_id": "PR-V-16433beb3fe7",
+    "revision": "r002",
+    "source_sha256": "263344235dfd54d30b5c85db8c6675f29af8b94bc4aca334329ac3437ddba003",
+    "bbox": [
+      82,
+      109,
+      192,
+      155
+    ]
+  },
+  {
+    "object_id": "PR-V-16433beb3fe7__weapon-001",
+    "source_id": "PR-V-16433beb3fe7",
+    "revision": "r002",
+    "source_sha256": "263344235dfd54d30b5c85db8c6675f29af8b94bc4aca334329ac3437ddba003",
+    "bbox": [
+      131,
+      343,
+      136,
+      59
+    ]
+  },
+  {
+    "object_id": "PR-V-16433beb3fe7__weapon-002",
+    "source_id": "PR-V-16433beb3fe7",
+    "revision": "r002",
+    "source_sha256": "263344235dfd54d30b5c85db8c6675f29af8b94bc4aca334329ac3437ddba003",
+    "bbox": [
+      451,
+      343,
+      136,
+      59
+    ]
+  },
+  {
+    "object_id": "PR-V-f098add3f862__vehicle-001",
+    "source_id": "PR-V-f098add3f862",
+    "revision": "r002",
+    "source_sha256": "bbd3f51f03db24a6a7923f516ce3792eaa33865a341230f68a4e56e86134c222",
+    "bbox": [
+      84,
+      66,
+      91,
+      156
+    ]
+  },
+  {
+    "object_id": "PR-V-f098add3f862__weapon-001",
+    "source_id": "PR-V-f098add3f862",
+    "revision": "r002",
+    "source_sha256": "bbd3f51f03db24a6a7923f516ce3792eaa33865a341230f68a4e56e86134c222",
+    "bbox": [
+      105,
+      281,
+      84,
+      37
+    ]
+  },
+  {
+    "object_id": "PR-V-f098add3f862__weapon-002",
+    "source_id": "PR-V-f098add3f862",
+    "revision": "r002",
+    "source_sha256": "bbd3f51f03db24a6a7923f516ce3792eaa33865a341230f68a4e56e86134c222",
+    "bbox": [
+      333,
+      281,
+      83,
+      37
+    ]
+  },
+  {
+    "object_id": "PR-V-f098add3f862__weapon-003",
+    "source_id": "PR-V-f098add3f862",
+    "revision": "r002",
+    "source_sha256": "bbd3f51f03db24a6a7923f516ce3792eaa33865a341230f68a4e56e86134c222",
+    "bbox": [
+      54,
+      397,
+      184,
+      77
+    ]
+  },
+  {
+    "object_id": "PR-V-f098add3f862__weapon-004",
+    "source_id": "PR-V-f098add3f862",
+    "revision": "r002",
+    "source_sha256": "bbd3f51f03db24a6a7923f516ce3792eaa33865a341230f68a4e56e86134c222",
+    "bbox": [
+      277,
+      408,
+      189,
+      57
+    ]
+  },
+  {
+    "object_id": "PR-V-f098add3f862__weapon-005",
+    "source_id": "PR-V-f098add3f862",
+    "revision": "r002",
+    "source_sha256": "bbd3f51f03db24a6a7923f516ce3792eaa33865a341230f68a4e56e86134c222",
+    "bbox": [
+      209,
+      549,
+      94,
+      49
+    ]
+  },
+  {
+    "object_id": "PR-V-936195d7edc5__vehicle-001",
+    "source_id": "PR-V-936195d7edc5",
+    "revision": "r002",
+    "source_sha256": "8cd7e3bf72f155c53ba9605604a3f1e9ac5f8c0bdc1e5f21979cda8c40561ab5",
+    "bbox": [
+      63,
+      86,
+      139,
+      192
+    ]
+  },
+  {
+    "object_id": "PR-V-936195d7edc5__weapon-001",
+    "source_id": "PR-V-936195d7edc5",
+    "revision": "r002",
+    "source_sha256": "8cd7e3bf72f155c53ba9605604a3f1e9ac5f8c0bdc1e5f21979cda8c40561ab5",
+    "bbox": [
+      94,
+      357,
+      106,
+      47
+    ]
+  },
+  {
+    "object_id": "PR-V-936195d7edc5__weapon-002",
+    "source_id": "PR-V-936195d7edc5",
+    "revision": "r002",
+    "source_sha256": "8cd7e3bf72f155c53ba9605604a3f1e9ac5f8c0bdc1e5f21979cda8c40561ab5",
+    "bbox": [
+      323,
+      357,
+      104,
+      47
+    ]
+  },
+  {
+    "object_id": "PR-V-936195d7edc5__weapon-003",
+    "source_id": "PR-V-936195d7edc5",
+    "revision": "r002",
+    "source_sha256": "8cd7e3bf72f155c53ba9605604a3f1e9ac5f8c0bdc1e5f21979cda8c40561ab5",
+    "bbox": [
+      55,
+      509,
+      184,
+      76
+    ]
+  },
+  {
+    "object_id": "PR-V-936195d7edc5__weapon-004",
+    "source_id": "PR-V-936195d7edc5",
+    "revision": "r002",
+    "source_sha256": "8cd7e3bf72f155c53ba9605604a3f1e9ac5f8c0bdc1e5f21979cda8c40561ab5",
+    "bbox": [
+      282,
+      531,
+      185,
+      39
+    ]
+  },
+  {
+    "object_id": "PR-V-814bf361a8cc__vehicle-001",
+    "source_id": "PR-V-814bf361a8cc",
+    "revision": "r002",
+    "source_sha256": "680dd62ded211c45b31764d37018025e3fec7b652b858a738ba0cd3f881a4dc9",
+    "bbox": [
+      44,
+      101,
+      188,
+      162
+    ]
+  },
+  {
+    "object_id": "PR-V-814bf361a8cc__weapon-001",
+    "source_id": "PR-V-814bf361a8cc",
+    "revision": "r002",
+    "source_sha256": "680dd62ded211c45b31764d37018025e3fec7b652b858a738ba0cd3f881a4dc9",
+    "bbox": [
+      70,
+      363,
+      165,
+      82
+    ]
+  },
+  {
+    "object_id": "PR-V-814bf361a8cc__weapon-002",
+    "source_id": "PR-V-814bf361a8cc",
+    "revision": "r002",
+    "source_sha256": "680dd62ded211c45b31764d37018025e3fec7b652b858a738ba0cd3f881a4dc9",
+    "bbox": [
+      301,
+      364,
+      163,
+      80
+    ]
+  },
+  {
+    "object_id": "PR-V-814bf361a8cc__weapon-003",
+    "source_id": "PR-V-814bf361a8cc",
+    "revision": "r002",
+    "source_sha256": "680dd62ded211c45b31764d37018025e3fec7b652b858a738ba0cd3f881a4dc9",
+    "bbox": [
+      58,
+      546,
+      159,
+      61
+    ]
+  },
+  {
+    "object_id": "PR-V-814bf361a8cc__weapon-004",
+    "source_id": "PR-V-814bf361a8cc",
+    "revision": "r002",
+    "source_sha256": "680dd62ded211c45b31764d37018025e3fec7b652b858a738ba0cd3f881a4dc9",
+    "bbox": [
+      340,
+      540,
+      108,
+      62
+    ]
+  },
+  {
+    "object_id": "RU-I-1c57358d5f6a__infantry-001",
+    "source_id": "RU-I-1c57358d5f6a",
+    "revision": "r003",
+    "source_sha256": "583054740b8c51ba0ac0a789a0c63d3d37275752f332e0496a19a1e48586f326",
+    "bbox": [
+      37,
+      197,
+      189,
+      337
+    ]
+  },
+  {
+    "object_id": "RU-I-1c57358d5f6a__infantry-002",
+    "source_id": "RU-I-1c57358d5f6a",
+    "revision": "r003",
+    "source_sha256": "583054740b8c51ba0ac0a789a0c63d3d37275752f332e0496a19a1e48586f326",
+    "bbox": [
+      1070,
+      241,
+      155,
+      293
+    ]
+  },
+  {
+    "object_id": "RU-I-1c57358d5f6a__infantry-003",
+    "source_id": "RU-I-1c57358d5f6a",
+    "revision": "r003",
+    "source_sha256": "583054740b8c51ba0ac0a789a0c63d3d37275752f332e0496a19a1e48586f326",
+    "bbox": [
+      37,
+      558,
+      188,
+      270
+    ]
+  },
+  {
+    "object_id": "RU-I-1c57358d5f6a__infantry-004",
+    "source_id": "RU-I-1c57358d5f6a",
+    "revision": "r003",
+    "source_sha256": "583054740b8c51ba0ac0a789a0c63d3d37275752f332e0496a19a1e48586f326",
+    "bbox": [
+      1081,
+      566,
+      152,
+      262
+    ]
+  },
+  {
+    "object_id": "RU-I-1c57358d5f6a__infantry-005",
+    "source_id": "RU-I-1c57358d5f6a",
+    "revision": "r003",
+    "source_sha256": "583054740b8c51ba0ac0a789a0c63d3d37275752f332e0496a19a1e48586f326",
+    "bbox": [
+      34,
+      864,
+      239,
+      251
+    ]
+  },
+  {
+    "object_id": "RU-I-1c57358d5f6a__infantry-006",
+    "source_id": "RU-I-1c57358d5f6a",
+    "revision": "r003",
+    "source_sha256": "583054740b8c51ba0ac0a789a0c63d3d37275752f332e0496a19a1e48586f326",
+    "bbox": [
+      1079,
+      879,
+      156,
+      250
+    ]
+  },
+  {
+    "object_id": "RU-I-b6dd4f66e29b__infantry-001",
+    "source_id": "RU-I-b6dd4f66e29b",
+    "revision": "r002",
+    "source_sha256": "fe9fbc7ba866ad43e913ea0d5d5fa6e5f42009b9148c753d7318b5cce94d4cc2",
+    "bbox": [
+      5,
+      249,
+      223,
+      278
+    ]
+  },
+  {
+    "object_id": "RU-I-b6dd4f66e29b__infantry-002",
+    "source_id": "RU-I-b6dd4f66e29b",
+    "revision": "r002",
+    "source_sha256": "fe9fbc7ba866ad43e913ea0d5d5fa6e5f42009b9148c753d7318b5cce94d4cc2",
+    "bbox": [
+      1009,
+      279,
+      215,
+      242
+    ]
+  },
+  {
+    "object_id": "RU-I-b6dd4f66e29b__infantry-003",
+    "source_id": "RU-I-b6dd4f66e29b",
+    "revision": "r002",
+    "source_sha256": "fe9fbc7ba866ad43e913ea0d5d5fa6e5f42009b9148c753d7318b5cce94d4cc2",
+    "bbox": [
+      7,
+      524,
+      243,
+      285
+    ]
+  },
+  {
+    "object_id": "RU-I-b6dd4f66e29b__infantry-004",
+    "source_id": "RU-I-b6dd4f66e29b",
+    "revision": "r002",
+    "source_sha256": "fe9fbc7ba866ad43e913ea0d5d5fa6e5f42009b9148c753d7318b5cce94d4cc2",
+    "bbox": [
+      1063,
+      582,
+      161,
+      238
+    ]
+  },
+  {
+    "object_id": "RU-I-b6dd4f66e29b__infantry-005",
+    "source_id": "RU-I-b6dd4f66e29b",
+    "revision": "r002",
+    "source_sha256": "fe9fbc7ba866ad43e913ea0d5d5fa6e5f42009b9148c753d7318b5cce94d4cc2",
+    "bbox": [
+      16,
+      824,
+      314,
+      284
+    ]
+  },
+  {
+    "object_id": "RU-I-b6dd4f66e29b__infantry-006",
+    "source_id": "RU-I-b6dd4f66e29b",
+    "revision": "r002",
+    "source_sha256": "fe9fbc7ba866ad43e913ea0d5d5fa6e5f42009b9148c753d7318b5cce94d4cc2",
+    "bbox": [
+      1066,
+      877,
+      164,
+      245
+    ]
+  },
+  {
+    "object_id": "RU-I-9f1aacd5ed5c__infantry-001",
+    "source_id": "RU-I-9f1aacd5ed5c",
+    "revision": "r004",
+    "source_sha256": "913800af370b84f6c5400f0b9549ec013f9f00a3e16f4750fb67557c66548f8f",
+    "bbox": [
+      64,
+      271,
+      138,
+      251
+    ]
+  },
+  {
+    "object_id": "RU-I-9f1aacd5ed5c__infantry-002",
+    "source_id": "RU-I-9f1aacd5ed5c",
+    "revision": "r004",
+    "source_sha256": "913800af370b84f6c5400f0b9549ec013f9f00a3e16f4750fb67557c66548f8f",
+    "bbox": [
+      1039,
+      42,
+      230,
+      491
+    ]
+  },
+  {
+    "object_id": "RU-I-9f1aacd5ed5c__infantry-003",
+    "source_id": "RU-I-9f1aacd5ed5c",
+    "revision": "r004",
+    "source_sha256": "913800af370b84f6c5400f0b9549ec013f9f00a3e16f4750fb67557c66548f8f",
+    "bbox": [
+      63,
+      571,
+      139,
+      246
+    ]
+  },
+  {
+    "object_id": "RU-I-9f1aacd5ed5c__infantry-004",
+    "source_id": "RU-I-9f1aacd5ed5c",
+    "revision": "r004",
+    "source_sha256": "913800af370b84f6c5400f0b9549ec013f9f00a3e16f4750fb67557c66548f8f",
+    "bbox": [
+      1077,
+      583,
+      191,
+      245
+    ]
+  },
+  {
+    "object_id": "RU-I-9f1aacd5ed5c__infantry-005",
+    "source_id": "RU-I-9f1aacd5ed5c",
+    "revision": "r004",
+    "source_sha256": "913800af370b84f6c5400f0b9549ec013f9f00a3e16f4750fb67557c66548f8f",
+    "bbox": [
+      50,
+      869,
+      185,
+      248
+    ]
+  },
+  {
+    "object_id": "RU-I-9f1aacd5ed5c__infantry-006",
+    "source_id": "RU-I-9f1aacd5ed5c",
+    "revision": "r004",
+    "source_sha256": "913800af370b84f6c5400f0b9549ec013f9f00a3e16f4750fb67557c66548f8f",
+    "bbox": [
+      1077,
+      879,
+      149,
+      246
+    ]
+  },
+  {
+    "object_id": "RU-I-d0ff0ea0c0fc__infantry-001",
+    "source_id": "RU-I-d0ff0ea0c0fc",
+    "revision": "r002",
+    "source_sha256": "ec00ec459190912f4dc0e66ad5d8790375698bbd86f59779b7f8abbef9341b1a",
+    "bbox": [
+      29,
+      205,
+      148,
+      181
+    ]
+  },
+  {
+    "object_id": "RU-I-d0ff0ea0c0fc__infantry-002",
+    "source_id": "RU-I-d0ff0ea0c0fc",
+    "revision": "r002",
+    "source_sha256": "ec00ec459190912f4dc0e66ad5d8790375698bbd86f59779b7f8abbef9341b1a",
+    "bbox": [
+      782,
+      208,
+      161,
+      189
+    ]
+  },
+  {
+    "object_id": "RU-I-d0ff0ea0c0fc__infantry-003",
+    "source_id": "RU-I-d0ff0ea0c0fc",
+    "revision": "r002",
+    "source_sha256": "ec00ec459190912f4dc0e66ad5d8790375698bbd86f59779b7f8abbef9341b1a",
+    "bbox": [
+      33,
+      429,
+      144,
+      175
+    ]
+  },
+  {
+    "object_id": "RU-I-d0ff0ea0c0fc__infantry-004",
+    "source_id": "RU-I-d0ff0ea0c0fc",
+    "revision": "r002",
+    "source_sha256": "ec00ec459190912f4dc0e66ad5d8790375698bbd86f59779b7f8abbef9341b1a",
+    "bbox": [
+      794,
+      433,
+      123,
+      179
+    ]
+  },
+  {
+    "object_id": "RU-I-d0ff0ea0c0fc__infantry-005",
+    "source_id": "RU-I-d0ff0ea0c0fc",
+    "revision": "r002",
+    "source_sha256": "ec00ec459190912f4dc0e66ad5d8790375698bbd86f59779b7f8abbef9341b1a",
+    "bbox": [
+      36,
+      639,
+      151,
+      185
+    ]
+  },
+  {
+    "object_id": "RU-I-d0ff0ea0c0fc__infantry-006",
+    "source_id": "RU-I-d0ff0ea0c0fc",
+    "revision": "r002",
+    "source_sha256": "ec00ec459190912f4dc0e66ad5d8790375698bbd86f59779b7f8abbef9341b1a",
+    "bbox": [
+      791,
+      652,
+      136,
+      183
+    ]
+  },
+  {
+    "object_id": "RU-I-62385a61ded6__infantry-001",
+    "source_id": "RU-I-62385a61ded6",
+    "revision": "r002",
+    "source_sha256": "e64d9b51950a3951cd3944f3ce27bf44d12b10e4831391325d3b0d8626ad2cde",
+    "bbox": [
+      13,
+      214,
+      164,
+      178
+    ]
+  },
+  {
+    "object_id": "RU-I-62385a61ded6__infantry-002",
+    "source_id": "RU-I-62385a61ded6",
+    "revision": "r002",
+    "source_sha256": "e64d9b51950a3951cd3944f3ce27bf44d12b10e4831391325d3b0d8626ad2cde",
+    "bbox": [
+      812,
+      222,
+      131,
+      177
+    ]
+  },
+  {
+    "object_id": "RU-I-62385a61ded6__infantry-003",
+    "source_id": "RU-I-62385a61ded6",
+    "revision": "r002",
+    "source_sha256": "e64d9b51950a3951cd3944f3ce27bf44d12b10e4831391325d3b0d8626ad2cde",
+    "bbox": [
+      29,
+      436,
+      117,
+      178
+    ]
+  },
+  {
+    "object_id": "RU-I-62385a61ded6__infantry-004",
+    "source_id": "RU-I-62385a61ded6",
+    "revision": "r002",
+    "source_sha256": "e64d9b51950a3951cd3944f3ce27bf44d12b10e4831391325d3b0d8626ad2cde",
+    "bbox": [
+      809,
+      445,
+      131,
+      180
+    ]
+  },
+  {
+    "object_id": "RU-I-62385a61ded6__infantry-005",
+    "source_id": "RU-I-62385a61ded6",
+    "revision": "r002",
+    "source_sha256": "e64d9b51950a3951cd3944f3ce27bf44d12b10e4831391325d3b0d8626ad2cde",
+    "bbox": [
+      35,
+      664,
+      146,
+      178
+    ]
+  },
+  {
+    "object_id": "RU-I-62385a61ded6__infantry-006",
+    "source_id": "RU-I-62385a61ded6",
+    "revision": "r002",
+    "source_sha256": "e64d9b51950a3951cd3944f3ce27bf44d12b10e4831391325d3b0d8626ad2cde",
+    "bbox": [
+      797,
+      676,
+      173,
+      181
+    ]
+  },
+  {
+    "object_id": "RU-I-d6b94baaf7cf__infantry-001",
+    "source_id": "RU-I-d6b94baaf7cf",
+    "revision": "r003",
+    "source_sha256": "ae932a441af32da47f88812846c9c73258e4e4fb921c1ad81816d22b6aed0393",
+    "bbox": [
+      36,
+      151,
+      119,
+      239
+    ]
+  },
+  {
+    "object_id": "RU-I-d6b94baaf7cf__infantry-002",
+    "source_id": "RU-I-d6b94baaf7cf",
+    "revision": "r003",
+    "source_sha256": "ae932a441af32da47f88812846c9c73258e4e4fb921c1ad81816d22b6aed0393",
+    "bbox": [
+      749,
+      189,
+      156,
+      206
+    ]
+  },
+  {
+    "object_id": "RU-I-d6b94baaf7cf__infantry-003",
+    "source_id": "RU-I-d6b94baaf7cf",
+    "revision": "r003",
+    "source_sha256": "ae932a441af32da47f88812846c9c73258e4e4fb921c1ad81816d22b6aed0393",
+    "bbox": [
+      40,
+      414,
+      135,
+      186
+    ]
+  },
+  {
+    "object_id": "RU-I-d6b94baaf7cf__infantry-004",
+    "source_id": "RU-I-d6b94baaf7cf",
+    "revision": "r003",
+    "source_sha256": "ae932a441af32da47f88812846c9c73258e4e4fb921c1ad81816d22b6aed0393",
+    "bbox": [
+      792,
+      423,
+      111,
+      186
+    ]
+  },
+  {
+    "object_id": "RU-I-d6b94baaf7cf__infantry-005",
+    "source_id": "RU-I-d6b94baaf7cf",
+    "revision": "r003",
+    "source_sha256": "ae932a441af32da47f88812846c9c73258e4e4fb921c1ad81816d22b6aed0393",
+    "bbox": [
+      30,
+      629,
+      142,
+      192
+    ]
+  },
+  {
+    "object_id": "RU-I-d6b94baaf7cf__infantry-006",
+    "source_id": "RU-I-d6b94baaf7cf",
+    "revision": "r003",
+    "source_sha256": "ae932a441af32da47f88812846c9c73258e4e4fb921c1ad81816d22b6aed0393",
+    "bbox": [
+      793,
+      635,
+      110,
+      191
+    ]
+  },
+  {
+    "object_id": "RU-I-ea38095efe44__infantry-001",
+    "source_id": "RU-I-ea38095efe44",
+    "revision": "r002",
+    "source_sha256": "f08945aa087409a89733335597f88ca4393728028629cb15415c527f043959b4",
+    "bbox": [
+      37,
+      210,
+      116,
+      175
+    ]
+  },
+  {
+    "object_id": "RU-I-ea38095efe44__infantry-002",
+    "source_id": "RU-I-ea38095efe44",
+    "revision": "r002",
+    "source_sha256": "f08945aa087409a89733335597f88ca4393728028629cb15415c527f043959b4",
+    "bbox": [
+      798,
+      215,
+      115,
+      179
+    ]
+  },
+  {
+    "object_id": "RU-I-ea38095efe44__infantry-003",
+    "source_id": "RU-I-ea38095efe44",
+    "revision": "r002",
+    "source_sha256": "f08945aa087409a89733335597f88ca4393728028629cb15415c527f043959b4",
+    "bbox": [
+      47,
+      430,
+      100,
+      181
+    ]
+  },
+  {
+    "object_id": "RU-I-ea38095efe44__infantry-004",
+    "source_id": "RU-I-ea38095efe44",
+    "revision": "r002",
+    "source_sha256": "f08945aa087409a89733335597f88ca4393728028629cb15415c527f043959b4",
+    "bbox": [
+      806,
+      443,
+      122,
+      177
+    ]
+  },
+  {
+    "object_id": "RU-I-ea38095efe44__infantry-005",
+    "source_id": "RU-I-ea38095efe44",
+    "revision": "r002",
+    "source_sha256": "f08945aa087409a89733335597f88ca4393728028629cb15415c527f043959b4",
+    "bbox": [
+      39,
+      654,
+      106,
+      173
+    ]
+  },
+  {
+    "object_id": "RU-I-ea38095efe44__infantry-006",
+    "source_id": "RU-I-ea38095efe44",
+    "revision": "r002",
+    "source_sha256": "f08945aa087409a89733335597f88ca4393728028629cb15415c527f043959b4",
+    "bbox": [
+      812,
+      665,
+      110,
+      173
+    ]
+  },
+  {
+    "object_id": "RU-I-ff2d3d35ec8f__infantry-001",
+    "source_id": "RU-I-ff2d3d35ec8f",
+    "revision": "r002",
+    "source_sha256": "6038d0af5eae4e1b20212de14de36aad4e31d2f6fbbe4d4df06dd8a01c1b921d",
+    "bbox": [
+      45,
+      274,
+      197,
+      242
+    ]
+  },
+  {
+    "object_id": "RU-I-ff2d3d35ec8f__infantry-002",
+    "source_id": "RU-I-ff2d3d35ec8f",
+    "revision": "r002",
+    "source_sha256": "6038d0af5eae4e1b20212de14de36aad4e31d2f6fbbe4d4df06dd8a01c1b921d",
+    "bbox": [
+      1002,
+      281,
+      247,
+      249
+    ]
+  },
+  {
+    "object_id": "RU-I-ff2d3d35ec8f__infantry-003",
+    "source_id": "RU-I-ff2d3d35ec8f",
+    "revision": "r002",
+    "source_sha256": "6038d0af5eae4e1b20212de14de36aad4e31d2f6fbbe4d4df06dd8a01c1b921d",
+    "bbox": [
+      45,
+      573,
+      255,
+      235
+    ]
+  },
+  {
+    "object_id": "RU-I-ff2d3d35ec8f__infantry-004",
+    "source_id": "RU-I-ff2d3d35ec8f",
+    "revision": "r002",
+    "source_sha256": "6038d0af5eae4e1b20212de14de36aad4e31d2f6fbbe4d4df06dd8a01c1b921d",
+    "bbox": [
+      1026,
+      610,
+      212,
+      216
+    ]
+  },
+  {
+    "object_id": "RU-I-ff2d3d35ec8f__infantry-005",
+    "source_id": "RU-I-ff2d3d35ec8f",
+    "revision": "r002",
+    "source_sha256": "6038d0af5eae4e1b20212de14de36aad4e31d2f6fbbe4d4df06dd8a01c1b921d",
+    "bbox": [
+      37,
+      888,
+      224,
+      234
+    ]
+  },
+  {
+    "object_id": "RU-I-ff2d3d35ec8f__infantry-006",
+    "source_id": "RU-I-ff2d3d35ec8f",
+    "revision": "r002",
+    "source_sha256": "6038d0af5eae4e1b20212de14de36aad4e31d2f6fbbe4d4df06dd8a01c1b921d",
+    "bbox": [
+      1070,
+      878,
+      193,
+      249
+    ]
+  },
+  {
+    "object_id": "RU-I-cff49167631a__infantry-001",
+    "source_id": "RU-I-cff49167631a",
+    "revision": "r002",
+    "source_sha256": "64f3881f125668df0a80425d18c11e3183969e72afbf0cd0a544ebed1f42f2f5",
+    "bbox": [
+      8,
+      257,
+      266,
+      254
+    ]
+  },
+  {
+    "object_id": "RU-I-cff49167631a__infantry-002",
+    "source_id": "RU-I-cff49167631a",
+    "revision": "r002",
+    "source_sha256": "64f3881f125668df0a80425d18c11e3183969e72afbf0cd0a544ebed1f42f2f5",
+    "bbox": [
+      1073,
+      212,
+      189,
+      334
+    ]
+  },
+  {
+    "object_id": "RU-I-cff49167631a__infantry-003",
+    "source_id": "RU-I-cff49167631a",
+    "revision": "r002",
+    "source_sha256": "64f3881f125668df0a80425d18c11e3183969e72afbf0cd0a544ebed1f42f2f5",
+    "bbox": [
+      45,
+      582,
+      189,
+      218
+    ]
+  },
+  {
+    "object_id": "RU-I-cff49167631a__infantry-004",
+    "source_id": "RU-I-cff49167631a",
+    "revision": "r002",
+    "source_sha256": "64f3881f125668df0a80425d18c11e3183969e72afbf0cd0a544ebed1f42f2f5",
+    "bbox": [
+      1068,
+      582,
+      194,
+      242
+    ]
+  },
+  {
+    "object_id": "RU-I-cff49167631a__infantry-005",
+    "source_id": "RU-I-cff49167631a",
+    "revision": "r002",
+    "source_sha256": "64f3881f125668df0a80425d18c11e3183969e72afbf0cd0a544ebed1f42f2f5",
+    "bbox": [
+      29,
+      872,
+      186,
+      238
+    ]
+  },
+  {
+    "object_id": "RU-I-cff49167631a__infantry-006",
+    "source_id": "RU-I-cff49167631a",
+    "revision": "r002",
+    "source_sha256": "64f3881f125668df0a80425d18c11e3183969e72afbf0cd0a544ebed1f42f2f5",
+    "bbox": [
+      1069,
+      915,
+      164,
+      196
+    ]
+  },
+  {
+    "object_id": "SW-V-86a46f16b453__vehicle-001",
+    "source_id": "SW-V-86a46f16b453",
+    "revision": "r002",
+    "source_sha256": "85babf8be3e297ceee3e8f31dbd32ae57c4484d2ab93552435e2bb952f16ab80",
+    "bbox": [
+      98,
+      82,
+      176,
+      295
+    ]
+  },
+  {
+    "object_id": "SW-V-86a46f16b453__weapon-001",
+    "source_id": "SW-V-86a46f16b453",
+    "revision": "r002",
+    "source_sha256": "85babf8be3e297ceee3e8f31dbd32ae57c4484d2ab93552435e2bb952f16ab80",
+    "bbox": [
+      94,
+      509,
+      219,
+      64
+    ]
+  },
+  {
+    "object_id": "SW-V-86a46f16b453__weapon-002",
+    "source_id": "SW-V-86a46f16b453",
+    "revision": "r002",
+    "source_sha256": "85babf8be3e297ceee3e8f31dbd32ae57c4484d2ab93552435e2bb952f16ab80",
+    "bbox": [
+      418,
+      509,
+      220,
+      63
+    ]
+  },
+  {
+    "object_id": "IM-I-6be4ab30261a__infantry-001",
+    "source_id": "IM-I-6be4ab30261a",
+    "revision": "r004",
+    "source_sha256": "30e246f1872faada695a83bbdf8615d16c29abd4c3dc9b923598013bc7c7880e",
+    "bbox": [
+      49,
+      301,
+      162,
+      216
+    ]
+  },
+  {
+    "object_id": "IM-I-6be4ab30261a__infantry-002",
+    "source_id": "IM-I-6be4ab30261a",
+    "revision": "r004",
+    "source_sha256": "30e246f1872faada695a83bbdf8615d16c29abd4c3dc9b923598013bc7c7880e",
+    "bbox": [
+      990,
+      201,
+      264,
+      325
+    ]
+  },
+  {
+    "object_id": "IM-I-6be4ab30261a__infantry-003",
+    "source_id": "IM-I-6be4ab30261a",
+    "revision": "r004",
+    "source_sha256": "30e246f1872faada695a83bbdf8615d16c29abd4c3dc9b923598013bc7c7880e",
+    "bbox": [
+      54,
+      589,
+      252,
+      227
+    ]
+  },
+  {
+    "object_id": "IM-I-6be4ab30261a__infantry-004",
+    "source_id": "IM-I-6be4ab30261a",
+    "revision": "r004",
+    "source_sha256": "30e246f1872faada695a83bbdf8615d16c29abd4c3dc9b923598013bc7c7880e",
+    "bbox": [
+      1071,
+      492,
+      200,
+      332
+    ]
+  },
+  {
+    "object_id": "IM-I-6be4ab30261a__infantry-005",
+    "source_id": "IM-I-6be4ab30261a",
+    "revision": "r004",
+    "source_sha256": "30e246f1872faada695a83bbdf8615d16c29abd4c3dc9b923598013bc7c7880e",
+    "bbox": [
+      5,
+      823,
+      229,
+      286
+    ]
+  },
+  {
+    "object_id": "IM-I-6be4ab30261a__infantry-006",
+    "source_id": "IM-I-6be4ab30261a",
+    "revision": "r004",
+    "source_sha256": "30e246f1872faada695a83bbdf8615d16c29abd4c3dc9b923598013bc7c7880e",
+    "bbox": [
+      991,
+      888,
+      244,
+      237
+    ]
+  },
+  {
+    "object_id": "IM-I-b3b0001db788__infantry-001",
+    "source_id": "IM-I-b3b0001db788",
+    "revision": "r003",
+    "source_sha256": "ecf9c244962d745be5f5b7fb6abc05b2b8a8fef52a3b95369bf6f0e5ff93bf11",
+    "bbox": [
+      7,
+      280,
+      244,
+      242
+    ]
+  },
+  {
+    "object_id": "IM-I-b3b0001db788__infantry-002",
+    "source_id": "IM-I-b3b0001db788",
+    "revision": "r003",
+    "source_sha256": "ecf9c244962d745be5f5b7fb6abc05b2b8a8fef52a3b95369bf6f0e5ff93bf11",
+    "bbox": [
+      1043,
+      271,
+      190,
+      265
+    ]
+  },
+  {
+    "object_id": "IM-I-b3b0001db788__infantry-003",
+    "source_id": "IM-I-b3b0001db788",
+    "revision": "r003",
+    "source_sha256": "ecf9c244962d745be5f5b7fb6abc05b2b8a8fef52a3b95369bf6f0e5ff93bf11",
+    "bbox": [
+      15,
+      547,
+      242,
+      278
+    ]
+  },
+  {
+    "object_id": "IM-I-b3b0001db788__infantry-004",
+    "source_id": "IM-I-b3b0001db788",
+    "revision": "r003",
+    "source_sha256": "ecf9c244962d745be5f5b7fb6abc05b2b8a8fef52a3b95369bf6f0e5ff93bf11",
+    "bbox": [
+      1064,
+      589,
+      192,
+      245
+    ]
+  },
+  {
+    "object_id": "IM-I-b3b0001db788__infantry-005",
+    "source_id": "IM-I-b3b0001db788",
+    "revision": "r003",
+    "source_sha256": "ecf9c244962d745be5f5b7fb6abc05b2b8a8fef52a3b95369bf6f0e5ff93bf11",
+    "bbox": [
+      7,
+      880,
+      205,
+      239
+    ]
+  },
+  {
+    "object_id": "IM-I-b3b0001db788__infantry-006",
+    "source_id": "IM-I-b3b0001db788",
+    "revision": "r003",
+    "source_sha256": "ecf9c244962d745be5f5b7fb6abc05b2b8a8fef52a3b95369bf6f0e5ff93bf11",
+    "bbox": [
+      1020,
+      854,
+      213,
+      277
+    ]
+  },
+  {
+    "object_id": "PR-V-1f426c816899__vehicle-001",
+    "source_id": "PR-V-1f426c816899",
+    "revision": "r002",
+    "source_sha256": "32529c9bc4aa80c3ac406efdd7ff5da0a869dcc77a88ee8c0e20f0b246d04fbb",
+    "bbox": [
+      74,
+      95,
+      184,
+      151
+    ]
+  },
+  {
+    "object_id": "PR-V-1f426c816899__weapon-001",
+    "source_id": "PR-V-1f426c816899",
+    "revision": "r002",
+    "source_sha256": "32529c9bc4aa80c3ac406efdd7ff5da0a869dcc77a88ee8c0e20f0b246d04fbb",
+    "bbox": [
+      101,
+      332,
+      160,
+      78
+    ]
+  },
+  {
+    "object_id": "PR-V-1f426c816899__weapon-002",
+    "source_id": "PR-V-1f426c816899",
+    "revision": "r002",
+    "source_sha256": "32529c9bc4aa80c3ac406efdd7ff5da0a869dcc77a88ee8c0e20f0b246d04fbb",
+    "bbox": [
+      380,
+      348,
+      176,
+      37
+    ]
+  },
+  {
+    "object_id": "PR-V-bed72e41dee1__vehicle-001",
+    "source_id": "PR-V-bed72e41dee1",
+    "revision": "r004",
+    "source_sha256": "d6f4cac2890531e442508a5400079c007ff6835f78802adcba99def7a6eae75c",
+    "bbox": [
+      43,
+      93,
+      193,
+      173
+    ]
+  },
+  {
+    "object_id": "PR-V-bed72e41dee1__weapon-001",
+    "source_id": "PR-V-bed72e41dee1",
+    "revision": "r004",
+    "source_sha256": "d6f4cac2890531e442508a5400079c007ff6835f78802adcba99def7a6eae75c",
+    "bbox": [
+      70,
+      365,
+      166,
+      82
+    ]
+  },
+  {
+    "object_id": "PR-V-bed72e41dee1__weapon-002",
+    "source_id": "PR-V-bed72e41dee1",
+    "revision": "r004",
+    "source_sha256": "d6f4cac2890531e442508a5400079c007ff6835f78802adcba99def7a6eae75c",
+    "bbox": [
+      301,
+      366,
+      164,
+      80
+    ]
+  },
+  {
+    "object_id": "PR-V-bed72e41dee1__weapon-003",
+    "source_id": "PR-V-bed72e41dee1",
+    "revision": "r004",
+    "source_sha256": "d6f4cac2890531e442508a5400079c007ff6835f78802adcba99def7a6eae75c",
+    "bbox": [
+      71,
+      549,
+      159,
+      47
+    ]
+  },
+  {
+    "object_id": "PR-V-bed72e41dee1__weapon-004",
+    "source_id": "PR-V-bed72e41dee1",
+    "revision": "r004",
+    "source_sha256": "d6f4cac2890531e442508a5400079c007ff6835f78802adcba99def7a6eae75c",
+    "bbox": [
+      300,
+      544,
+      157,
+      81
+    ]
+  },
+  {
+    "object_id": "IM-I-389a314786dc__infantry-001",
+    "source_id": "IM-I-389a314786dc",
+    "revision": "r003",
+    "source_sha256": "7f4e5c8a6a9095cae35f1b4748aeaf1fc7fc4af99632c7433148b39684e89b7a",
+    "bbox": [
+      7,
+      267,
+      227,
+      273
+    ]
+  },
+  {
+    "object_id": "IM-I-389a314786dc__infantry-002",
+    "source_id": "IM-I-389a314786dc",
+    "revision": "r003",
+    "source_sha256": "7f4e5c8a6a9095cae35f1b4748aeaf1fc7fc4af99632c7433148b39684e89b7a",
+    "bbox": [
+      1021,
+      273,
+      238,
+      276
+    ]
+  },
+  {
+    "object_id": "IM-I-389a314786dc__infantry-003",
+    "source_id": "IM-I-389a314786dc",
+    "revision": "r003",
+    "source_sha256": "7f4e5c8a6a9095cae35f1b4748aeaf1fc7fc4af99632c7433148b39684e89b7a",
+    "bbox": [
+      41,
+      564,
+      176,
+      273
+    ]
+  },
+  {
+    "object_id": "IM-I-389a314786dc__infantry-004",
+    "source_id": "IM-I-389a314786dc",
+    "revision": "r003",
+    "source_sha256": "7f4e5c8a6a9095cae35f1b4748aeaf1fc7fc4af99632c7433148b39684e89b7a",
+    "bbox": [
+      1063,
+      560,
+      162,
+      282
+    ]
+  },
+  {
+    "object_id": "IM-I-389a314786dc__infantry-005",
+    "source_id": "IM-I-389a314786dc",
+    "revision": "r003",
+    "source_sha256": "7f4e5c8a6a9095cae35f1b4748aeaf1fc7fc4af99632c7433148b39684e89b7a",
+    "bbox": [
+      41,
+      861,
+      205,
+      279
+    ]
+  },
+  {
+    "object_id": "IM-I-389a314786dc__infantry-006",
+    "source_id": "IM-I-389a314786dc",
+    "revision": "r003",
+    "source_sha256": "7f4e5c8a6a9095cae35f1b4748aeaf1fc7fc4af99632c7433148b39684e89b7a",
+    "bbox": [
+      1024,
+      869,
+      249,
+      273
+    ]
+  }
+]
