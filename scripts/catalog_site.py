@@ -5,6 +5,12 @@ import json
 def esc(value):
     return html.escape(str(value), quote=True)
 
+def catalog_sort_key(unit):
+    name = unit['name'].casefold().replace('ё', 'е')
+    first_letter = next((char for char in name if char.isalpha()), '')
+    alphabet = 0 if '\u0400' <= first_letter <= '\u052f' else 1
+    return alphabet, name, unit['variant'], unit['id']
+
 def icon(name):
     return f'<span class="icon" style="--icon:url(icons/{name}.svg)" aria-hidden="true"></span>'
 
@@ -145,11 +151,12 @@ def detail(unit, units):
 
 def build_catalog(root, dist, frame):
     units = json.loads((root/'content/catalog/catalog.json').read_text(encoding='utf-8'))['units']
-    (dist/'catalog.html').write_text(frame('Каталог подразделений',listing(units),'catalog'),encoding='utf-8')
+    listed_units = sorted(units, key=catalog_sort_key)
+    (dist/'catalog.html').write_text(frame('Каталог подразделений',listing(listed_units),'catalog'),encoding='utf-8')
     for unit in units:
         (dist/unit['url']).write_text(frame(unit['name'] + (' · '+unit['variant'] if unit['variant'] else ''),detail(unit,units),'catalog'),encoding='utf-8')
     fields = ('id','name','variant','faction','cost','type','type_label','ranks','test','aliases','search_text','url')
-    (dist/'assets/catalog-index.json').write_text(json.dumps([{k:u[k] for k in fields} for u in units],ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+    (dist/'assets/catalog-index.json').write_text(json.dumps([{k:u[k] for k in fields} for u in listed_units],ensure_ascii=False,separators=(',',':')),encoding='utf-8')
     optional = {}
     for unit in units:
         images = unit['figures']+[i for w in unit.get('weapons',[]) for i in w['images']]
