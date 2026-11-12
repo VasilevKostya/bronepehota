@@ -1,6 +1,7 @@
 """Static catalogue surfaces. Data and image provenance live in content/catalog."""
 import html
 import json
+from catalog_scale import attach_body_metrics, stage_metrics
 
 def esc(value):
     return html.escape(str(value), quote=True)
@@ -39,11 +40,18 @@ def image_tag(image, alt, large=False):
     attrs = f' data-large="{esc(image["large"])}"' if large else ''
     return f'<img src="{esc(image["small"])}"{attrs} alt="{esc(alt)}" width="{image["width"]}" height="{image["height"]}" loading="lazy" decoding="async">'
 
+def body_image(image, alt, stage, large=False):
+    body = image['_body']
+    style = (f'--image-height:{body["height"]:.8f};--image-width:{body["width"]:.8f};'
+             f'--image-bottom:{max(0, stage["below"] - body["below"]):.8f}')
+    return f'<span class="fighter-portrait" style="{style}">{image_tag(image, alt, large)}</span>'
+
 def group(unit):
-    images = ''.join(image_tag(img, unit['name'] + (f' · боец {i + 1}' if unit['type'] == 'infantry' else '')) for i, img in enumerate(unit['figures']))
     if unit['type'] == 'infantry':
-        ratio = sum(img['width'] / img['height'] for img in unit['figures'])
-        return f'<span class="unit-group unit-group-infantry" style="--group-ratio:{ratio:.6f};--group-gaps:{len(unit["figures"])-1}">{images}</span>'
+        stage = stage_metrics(unit['figures'])
+        images = ''.join(body_image(im, unit['name'] + f' · боец {i + 1}', stage) for i, im in enumerate(unit['figures']))
+        return f'<span class="unit-group unit-group-infantry" style="--group-ratio:{stage["total_width"]:.8f};--stage-ratio:{stage["ratio"]:.8f};--group-gaps:{len(unit["figures"])-1}">{images}</span>'
+    images = ''.join(image_tag(img, unit['name']) for img in unit['figures'])
     return f'<span class="unit-group unit-group-single">{images}</span>'
 
 def tags(unit):
@@ -79,9 +87,8 @@ def listing(units):
 <noscript><p>Все карточки доступны. Для поиска и фильтров включите JavaScript.</p></noscript>'''
 
 def profile_table(unit):
-    # Reserve enough width for the widest full-height figure, including its weapon.
-    ratio = max(p['image']['width'] / p['image']['height'] for p in unit['profiles'])
-    heads = ''.join(f'<th scope="col" id="fighter-{i+1}"><span>{esc(p["label"])}</span>{image_tag(p["image"],unit["name"]+" · "+p["label"],True)}</th>' for i, p in enumerate(unit['profiles']))
+    stage = stage_metrics([p['image'] for p in unit['profiles']])
+    heads = ''.join(f'<th scope="col" id="fighter-{i+1}"><span class="fighter-label">{esc(p["label"])}</span>{body_image(p["image"],unit["name"]+" · "+p["label"],stage,True)}</th>' for i, p in enumerate(unit['profiles']))
     rows = []
     for key in ('rank','speed','range','power','melee','properties','armor'):
         cells = []
@@ -91,7 +98,7 @@ def profile_table(unit):
             cells.append(f'<td headers="stat-{key} fighter-{i+1}">{rendered}</td>')
         rows.append(f'<tr><th scope="row" id="stat-{key}">{term(key)}</th>{"".join(cells)}</tr>')
     return f'''<section aria-labelledby="profiles-title"><div class="unit-section-heading"><h2 id="profiles-title">Состав и характеристики</h2><a href="#glossary" data-term>Обозначения{icon('arrow-right')}</a></div>
-<div class="fighter-table-wrap" tabindex="0" role="region" aria-label="Бойцы и их характеристики; таблица прокручивается по горизонтали" data-scroll-table><table class="fighter-table" style="--fighters:{len(unit['profiles'])};--figure-ratio:{ratio:.6f}"><caption class="sr-only">{esc(unit['name'])} — индивидуальные параметры</caption><thead><tr><th scope="col"><span class="sr-only">Характеристика</span><span class="table-scroll-hint" data-scroll-hint hidden>Листайте{icon('arrow-right')}</span></th>{heads}</tr></thead><tbody>{''.join(rows)}</tbody></table></div></section>'''
+<div class="fighter-table-wrap" tabindex="0" role="region" aria-label="Бойцы и их характеристики; таблица прокручивается по горизонтали" data-scroll-table><table class="fighter-table" style="--fighters:{len(unit['profiles'])};--figure-ratio:{stage['widest']:.8f};--stage-ratio:{stage['ratio']:.8f}"><caption class="sr-only">{esc(unit['name'])} — индивидуальные параметры</caption><thead><tr><th scope="col"><span class="sr-only">Характеристика</span><span class="table-scroll-hint" data-scroll-hint hidden>Листайте{icon('arrow-right')}</span></th>{heads}</tr></thead><tbody>{''.join(rows)}</tbody></table></div></section>'''
 
 def scale(values, label):
     return '<span class="value-scale" aria-label="' + esc(label) + '">' + ''.join('<span>'+str(v)+'</span>' for v in values) + '</span>'
@@ -151,6 +158,7 @@ def detail(unit, units):
 
 def build_catalog(root, dist, frame):
     units = json.loads((root/'content/catalog/catalog.json').read_text(encoding='utf-8'))['units']
+    attach_body_metrics(units, root/'content/catalog/body-anchors.json')
     listed_units = sorted(units, key=catalog_sort_key)
     (dist/'catalog.html').write_text(frame('Каталог подразделений',listing(listed_units),'catalog'),encoding='utf-8')
     for unit in units:
