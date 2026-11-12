@@ -1,5 +1,5 @@
 import{prepareIndex,search,queryTerms,hit,excerpt}from'./search.js';
-import{checkOfflineUpdate}from'./offline-update.js';
+import{checkOfflineUpdate,activateOfflineUpdate,offlineProgressText}from'./offline-update.js';
 const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
 const escapeHtml=s=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function marked(text,terms){return text.split(/([А-Яа-яЁёA-Za-z0-9]+)/g).map(t=>hit(t,terms)?'<mark>'+escapeHtml(t)+'</mark>':escapeHtml(t)).join('');}
@@ -41,7 +41,8 @@ let registration,hadController=!!navigator.serviceWorker?.controller,reloading=f
 const watchedRegistrations=new WeakSet();
 function offlineText(text){$$('[data-offline]').forEach(el=>el.textContent=text);}
 function offlineFeedback(text){$$('[data-offline-feedback]').forEach(el=>el.textContent=text);}
-function offlineBusy(busy){$$('[data-refresh-offline]').forEach(b=>{b.disabled=busy;b.setAttribute('aria-busy',String(busy));});}
+function offlineBusy(busy){$$('[data-refresh-offline], [data-update]').forEach(b=>{b.disabled=busy;b.setAttribute('aria-busy',String(busy));});}
+function showProgress(data){offlineFeedback(offlineProgressText(data,!!navigator.serviceWorker.controller));}
 function failure(){offlineText('Офлайн-версия пока не сохранена');$$('[data-retry]').forEach(b=>b.hidden=false);}
 async function setupOffline(){
   if(!('serviceWorker'in navigator)){offlineText('Для чтения без сети скачайте PDF');$$('[data-refresh-offline]').forEach(b=>{b.disabled=true;b.title='Офлайн-режим недоступен в этом браузере';});return;}
@@ -54,37 +55,41 @@ async function setupOffline(){
     waiting();
     if(!watchedRegistrations.has(registration)){
       watchedRegistrations.add(registration);
-      registration.addEventListener('updatefound',()=>{const worker=registration.installing;worker?.addEventListener('statechange',()=>{if(worker.state==='installed'){waiting();if(!navigator.serviceWorker.controller)navigator.serviceWorker.ready.then(r=>r.active?.postMessage({type:'STATUS'}));}if(worker.state==='redundant'&&!navigator.serviceWorker.controller)failure();});});
+      function watchInstall(){const worker=registration.installing;if(!worker)return;worker.postMessage({type:'STATUS'});worker.addEventListener('statechange',()=>{if(worker.state==='installed'){waiting();if(!navigator.serviceWorker.controller)navigator.serviceWorker.ready.then(r=>r.active?.postMessage({type:'STATUS'}));}if(worker.state==='redundant'){if(!navigator.serviceWorker.controller)failure();if(!refreshing)showProgress({phase:'failed'});}});}
+      registration.addEventListener('updatefound',watchInstall);watchInstall();
     }
     navigator.serviceWorker.ready.then(ready=>ready.active?.postMessage({type:'STATUS'}));
-    registration.update().catch(()=>{});
+    // register() already checks the worker. Do not launch a duplicate update.
     return registration;
   }catch{if(!navigator.serviceWorker.controller)failure();if(!refreshing)offlineBusy(false);}
 }
-navigator.serviceWorker?.addEventListener('message',e=>{if(e.data?.type==='OFFLINE_STATUS'&&e.data.ready){offlineText('Доступно без интернета · '+e.data.version);$$('[data-retry]').forEach(b=>b.hidden=true);}});
+navigator.serviceWorker?.addEventListener('message',e=>{
+  if(e.source===navigator.serviceWorker.controller&&e.data?.type==='OFFLINE_STATUS'&&e.data.ready){offlineText('Доступно без интернета · '+e.data.version);$$('[data-retry]').forEach(b=>b.hidden=true);}
+  if(!refreshing&&e.data?.type==='OFFLINE_PROGRESS'&&[registration?.installing,registration?.waiting].includes(e.source))showProgress(e.data);
+});
 navigator.serviceWorker?.addEventListener('controllerchange',()=>{if(hadController&&!reloading){reloading=true;location.reload();}else{hadController=true;navigator.serviceWorker.controller?.postMessage({type:'STATUS'});}});
 $$('[data-retry]').forEach(b=>b.addEventListener('click',()=>{offlineText('Сохранение для чтения без интернета…');b.hidden=true;setupOffline();}));
-$$('[data-refresh-offline]').forEach(b=>b.addEventListener('click',async()=>{
+async function refreshOffline(){
   if(refreshing)return;
   refreshing=true;offlineBusy(true);offlineFeedback('Проверяем и загружаем обновления…');
   try{
-    const current=registration||await setupOffline();
+    const current=(registration&&(registration.active||registration.waiting||registration.installing)?registration:null)||await setupOffline();
     if(!current)throw new Error('Offline registration unavailable');
-    const next=await checkOfflineUpdate(current);
+    const next=await checkOfflineUpdate(current,{onProgress:showProgress});
     if(next){
       offlineFeedback('Обновление загружено. Переключаемся…');
-      next.postMessage({type:'ACTIVATE'});
+      await activateOfflineUpdate(next,navigator.serviceWorker);
     }else{
       navigator.serviceWorker.controller?.postMessage({type:'STATUS'});
       offlineFeedback('Установлена актуальная версия.');
     }
-  }catch{
-    offlineFeedback(navigator.serviceWorker.controller?'Не удалось обновить. Сохранённая копия доступна.':'Не удалось сохранить. Проверьте соединение и повторите.');
+  }catch(error){
+    offlineFeedback(error.code==='storage'?offlineProgressText({phase:'failed',reason:'storage'},!!navigator.serviceWorker.controller):registration?.installing?'Загрузка ещё идёт. Можно продолжать пользоваться сайтом.':navigator.serviceWorker.controller?'Не удалось обновить. Сохранённая копия доступна. Нажмите, чтобы повторить.':'Не удалось сохранить. Проверьте соединение и повторите.');
   }finally{refreshing=false;offlineBusy(false);}
-}));
-$('[data-update]')?.addEventListener('click',()=>{if(registration?.waiting){$('[data-update]').disabled=true;registration.waiting.postMessage({type:'ACTIVATE'});}});
+}
+$$('[data-refresh-offline], [data-update]').forEach(b=>b.addEventListener('click',refreshOffline));
 $('[data-dismiss]')?.addEventListener('click',()=>$('.update-banner').hidden=true);
-window.addEventListener('online',()=>registration?.update().catch(()=>{}));
+window.addEventListener('online',()=>{if(registration&&!registration.installing&&!registration.waiting)registration.update().catch(()=>{});});
 setupOffline();
 // Account for wrapped feedback and the device safe area above the fixed mobile bar.
 const mobileBar=$('.mobile-bar');

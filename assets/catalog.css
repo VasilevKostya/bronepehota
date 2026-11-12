@@ -2,7 +2,7 @@
 .catalog-page .shell{display:block}
 .catalog-page .main{max-width:1440px;margin:auto;padding:32px 48px 48px;min-width:0}
 .catalog-header-status{margin-left:auto;max-width:300px}
-.catalog-header-status .offline-label,.catalog-header-status .offline-feedback{color:var(--paper)}
+.catalog-header-status .offline-label,.catalog-header-status .offline-feedback{color:var(--paper)}.catalog-header-status .offline-label:hover:not(:disabled){color:var(--paper)}
 .catalog-page h1{font-size:42px;line-height:1.1;margin:0;text-wrap:balance}
 .catalog-page h2{font:700 28px/1.2 'PT Sans Narrow',sans-serif;margin:0}
 .catalog-heading{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin:8px 0 28px}
