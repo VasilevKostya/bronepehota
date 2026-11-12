@@ -71,7 +71,15 @@ share?.addEventListener('click',async event=>{
   catch{const fallback=$('.copy-link-fallback');fallback.hidden=false;const input=fallback.querySelector('input');input.value=url;input.focus();input.select();$('[data-copy-status]').textContent='Выделите и скопируйте ссылку.';}
 });
 const table=$('[data-scroll-table]');
-if(table){const hint=$('[data-scroll-hint]'),update=()=>{hint.hidden=table.scrollWidth<=table.clientWidth+1;};new ResizeObserver(update).observe(table);update();}
+if(table){
+  const hint=$('[data-scroll-hint]'),update=()=>{
+    const scrollable=table.scrollWidth>table.clientWidth+1;
+    hint.hidden=!scrollable;
+    table.setAttribute('aria-label','Бойцы и их характеристики'+(scrollable?'; таблица прокручивается по горизонтали':''));
+    if(scrollable)table.setAttribute('tabindex','0');else table.removeAttribute('tabindex');
+  };
+  new ResizeObserver(update).observe(table);update();
+}
 // Keep the native cutout on small screens; request x4 only when visible on desktop.
 if(matchMedia('(min-width:901px)').matches){
   const observer=new IntersectionObserver(entries=>{for(const entry of entries)if(entry.isIntersecting){const img=entry.target,small=img.src;observer.unobserve(img);img.addEventListener('error',()=>{img.src=small;},{once:true});img.src=img.dataset.large;}},{rootMargin:'160px'});
