@@ -9,7 +9,8 @@ const hash=x=>createHash('sha256').update(x).digest('hex');
 const blob=x=>scope+'__offline__/sha256/'+hash(x);
 const key=r=>typeof r==='string'?r:r.url||r.href;
 
-function world(){
+function world(scope='https://example.org/bronepehota/'){
+  const prefix='bronepehota:'+new URL(scope).pathname+':';
   const stores=new Map(),requests=[],messages=[],faults=new Map();
   let offline=false,quota=null,releaseBuild='one',large='large';
   const assets={'index.html':'home','search.html':'search','assets/site.css':'css','assets/search-index.json':'index','book.pdf':'pdf','404.html':'missing','assets/units/small/example.webp':'small'};
@@ -68,6 +69,30 @@ test('complete release works offline, including query URLs, PDF and saved status
   for(const [path,body]of [['','home'],['search.html?q=броня','search'],['assets/search-index.json','index'],['book.pdf','pdf']])assert.equal(await(await worker.read(path)).text(),body);
   let status;await worker.event('message',{data:{type:'STATUS'},source:{postMessage:m=>{if(m.type==='OFFLINE_STATUS')status=m;}}});
   assert.equal(status.ready,true);assert.equal(status.version,'0.3');
+});
+
+test('the genuine error document served with HTTP 404 installs at root and subpath',async()=>{
+  for(const scope of ['https://example.org/','https://example.org/bronepehota/']){
+    const w=world(scope);
+    w.faults.set('404.html',()=>new Response(w.assets['404.html'],{status:404}));
+    const worker=w.worker();await worker.event('install');await worker.event('activate');w.goOffline();
+    const response=await worker.read('404.html');
+    assert.equal(response.status,200);assert.equal(await response.text(),'missing');
+    assert.equal(await(await worker.read('')).text(),'home');
+    assert.equal(await(await worker.read('book.pdf')).text(),'pdf');
+    let status;await worker.event('message',{data:{type:'STATUS'},source:{postMessage:m=>{if(m.type==='OFFLINE_STATUS')status=m;}}});
+    assert.equal(status.ready,true);
+    assert.equal(w.requests.filter(path=>path==='404.html').length,1);
+  }
+});
+
+test('404 exceptions never accept a wrong error document, a server error or another missing file',async()=>{
+  for(const [path,body,status] of [['404.html','wrong error page',404],['404.html','missing',500],['book.pdf','pdf',404]]){
+    const w=world();w.faults.set(path,()=>new Response(body,{status}));
+    const worker=w.worker();await assert.rejects(worker.event('install'));
+    await worker.event('message',{data:{type:'ACTIVATE'}});assert.equal(worker.activated(),false);
+    assert.equal(w.requests.filter(request=>request===path).length,3);
+  }
 });
 
 test('a CSS-only release downloads only CSS, with no copies of unchanged files',async()=>{

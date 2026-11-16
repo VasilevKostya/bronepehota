@@ -6,11 +6,20 @@ import json
 import time
 from urllib.parse import urljoin, urlsplit
 from urllib.request import Request, urlopen
+from urllib.error import HTTPError
 
 
-def read(url):
-    with urlopen(Request(url, headers={"Cache-Control": "no-cache"}), timeout=20) as response:
-        return response.read()
+def read(url, *, allow_not_found=False):
+    try:
+        with urlopen(Request(url, headers={"Cache-Control": "no-cache"}), timeout=20) as response:
+            return response.read()
+    except HTTPError as error:
+        # The error document itself can carry HTTP 404. Its bytes are still
+        # checked against the release hash by check(), just like every asset.
+        if error.code != 404 or not allow_not_found:
+            raise
+        with error:
+            return error.read()
 
 
 def verify(base, expected):
@@ -38,7 +47,7 @@ def verify(base, expected):
         if parsed.scheme or parsed.netloc or path.startswith("/") or ".." in parsed.path.split("/"):
             raise ValueError("Unexpected asset path: " + path)
         try:
-            data = read(urljoin(base, path))
+            data = read(urljoin(base, path), allow_not_found=path == '404.html')
         except Exception as error:
             raise ValueError(f'Published asset unavailable: {path}: {error}') from error
         if hashlib.sha256(data).hexdigest() != hashes[path]:

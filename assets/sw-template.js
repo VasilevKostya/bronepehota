@@ -27,7 +27,10 @@ async function download(path,hash){
     alive();
     try{
       const response=await fetch(url(path),{cache:'no-store',signal:controller.signal});
-      if(!response.ok)throw new Error('Resource unavailable: '+path);
+      // Some hosts serve the real error document with HTTP 404 even at its own URL.
+      // Only this manifest-verified document may use a non-success status.
+      const errorDocument=path==='404.html'&&response.status===404&&!!hash;
+      if(!response.ok&&!errorDocument)throw new Error('Resource unavailable: '+path);
       // The deadline measures inactivity, not total time: slow PDF downloads can finish.
       reader=response.clone().body?.getReader();const chunks=[];let length=0;
       if(reader)while(true){
@@ -38,7 +41,7 @@ async function download(path,hash){
       const bytes=new Uint8Array(length);let offset=0;
       for(const chunk of chunks){bytes.set(chunk,offset);offset+=chunk.length;}
       if(hash&&!await matchesHash(bytes,hash))throw new Error('Release asset changed: '+path);
-      return response;
+      return errorDocument?new Response(bytes,{headers:{'Content-Type':'text/html; charset=utf-8'}}):response;
     }catch(error){if(attempt===2)throw error;}
     finally{clearTimeout(timer);reader?.releaseLock();if(track)progress.receivingBytes-=receiving;}
     await pause(300*(attempt+1));
