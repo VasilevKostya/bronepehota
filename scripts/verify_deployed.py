@@ -22,10 +22,12 @@ def read(url, *, allow_not_found=False):
             return error.read()
 
 
-def verify(base, expected):
+def verify(base, expected, expected_source=None):
     build = json.loads(read(urljoin(base, "build.json")))
     if build["build"] != expected:
         raise ValueError("The CDN has not served the expected build yet")
+    if expected_source is not None and build.get('source_commit') != expected_source:
+        raise ValueError('Published source commit differs')
     manifest = json.loads(read(urljoin(base, "precache.json")))
     if manifest["build"] != expected or manifest["version"] != build["version"]:
         raise ValueError("Release metadata differs")
@@ -70,6 +72,7 @@ def main():
     parser.add_argument("url")
     parser.add_argument("build")
     parser.add_argument("--attempts", type=int, default=6)
+    parser.add_argument('--source')
     args = parser.parse_args()
     if args.attempts < 1:
         parser.error("--attempts must be positive")
@@ -79,7 +82,7 @@ def main():
         parser.error("Use HTTPS for the public site")
     for attempt in range(args.attempts):
         try:
-            verify(base, args.build)
+            verify(base, args.build, args.source)
             return
         except Exception as error:
             if attempt + 1 == args.attempts:

@@ -64,7 +64,9 @@ def blocks_html(blocks):
 def plain(b):
     if b['type']=='table':return b['title']+' '+ ' '.join(b['headers'])+' '+ ' '.join(' '.join(row) for row in b['rows'])
     return b.get('text',b.get('caption',''))
-def build(skip_pdf=False):
+def build(skip_pdf=False,source_commit=None):
+    if source_commit is not None and not re.fullmatch(r'[a-f0-9]{40}',source_commit):
+        raise ValueError('Expected a full source commit SHA')
     DIST.mkdir(exist_ok=True)
     # Generated PDFs from earlier editions must not enter the new offline release.
     for previous_pdf in DIST.glob('bronepehota-ural-*.pdf'):
@@ -110,7 +112,7 @@ def build(skip_pdf=False):
         from make_pdf import make_pdf
         make_pdf(CHAPTERS,RELEASE,DIST/PDF)
     # Every release is an atomic, complete offline set, including the PDF.
-    files=sorted(p for p in DIST.rglob('*') if p.is_file() and p.name not in ('sw.js','build.json','precache.json')
+    files=sorted(p for p in DIST.rglob('*') if p.is_file() and p.name not in ('sw.js','build.json','precache.json','deployment-status.json','deployment-status.json.tmp','deployment-prepared.json','deployment-prepared.json.tmp')
                  and not any(part.startswith('.') for part in p.relative_to(DIST).parts))
     digest=hashlib.sha256()
     for p in files:digest.update(p.relative_to(DIST).as_posix().encode());digest.update(p.read_bytes())
@@ -121,7 +123,9 @@ def build(skip_pdf=False):
     (DIST/'precache.json').write_text(json.dumps(config,ensure_ascii=False),encoding='utf-8')
     sw=(ROOT/'assets/sw-template.js').read_text(encoding='utf-8').replace('__BUILD__',build_id).replace('__VERSION__',RELEASE['version'])
     (DIST/'sw.js').write_text(sw,encoding='utf-8')
-    (DIST/'build.json').write_text(json.dumps({'version':RELEASE['version'],'build':build_id,'chapters':len(CHAPTERS),'sections':len(index),'files':len(manifest)}),encoding='utf-8')
+    metadata={'version':RELEASE['version'],'build':build_id,'chapters':len(CHAPTERS),'sections':len(index),'files':len(manifest)}
+    if source_commit is not None:metadata['source_commit']=source_commit
+    (DIST/'build.json').write_text(json.dumps(metadata),encoding='utf-8')
     print(f'Built {len(CHAPTERS)} chapters, {len(index)} searchable sections, {len(manifest)} offline assets. Build {build_id}')
 if __name__=='__main__':
-    parser=argparse.ArgumentParser();parser.add_argument('--skip-pdf',action='store_true');args=parser.parse_args();build(args.skip_pdf)
+    parser=argparse.ArgumentParser();parser.add_argument('--skip-pdf',action='store_true');parser.add_argument('--source-commit');args=parser.parse_args();build(args.skip_pdf,args.source_commit)

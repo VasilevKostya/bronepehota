@@ -1,59 +1,87 @@
-name: Publish rules to GitHub Pages
+name: Publish approved build
 on:
-  push:
-    branches: [main]
-    paths-ignore:
-      - '**/*.md'
-      - 'docs/**'
-      - '.impeccable/**'
   workflow_dispatch:
+    inputs:
+      candidate_run:
+        description: Successful main run of Prepare site candidate
+        required: false
+        type: string
+      published_release:
+        description: Only for rollback - previous common site release tag
+        required: false
+        type: string
+      source_commit:
+        description: Full source SHA shown in the candidate summary
+        required: true
+        type: string
+      bundle_sha256:
+        description: Bundle SHA-256 shown in the candidate summary
+        required: true
+        type: string
+      confirm:
+        description: I approve publishing this exact candidate to both sites
+        required: true
+        type: boolean
+        default: false
 permissions:
   contents: read
-  pages: write
-  id-token: write
 concurrency:
-  group: pages
+  group: common-site-publication
   cancel-in-progress: false
 jobs:
-  build:
+  publish:
+    if: inputs.confirm && github.ref == 'refs/heads/main' && github.actor == github.repository_owner
     runs-on: ubuntu-latest
-    outputs:
-      build_id: ${{ steps.package.outputs.build_id }}
+    timeout-minutes: 30
+    permissions:
+      actions: read
+      contents: write
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      SOURCE_COMMIT: ${{ inputs.source_commit }}
+      BUNDLE_SHA256: ${{ inputs.bundle_sha256 }}
+      CANDIDATE_RUN: ${{ inputs.candidate_run }}
+      PUBLISHED_RELEASE: ${{ inputs.published_release }}
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
-          cache: pip
-      - uses: actions/setup-node@v6
+      - name: Check that the selected main CI run passed
+        if: inputs.published_release == ''
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/release_workflow.py validate-run --run-id "$CANDIDATE_RUN" --source "$SOURCE_COMMIT"
+      - uses: actions/download-artifact@v8
+        if: inputs.published_release == ''
         with:
-          node-version: '24'
-      - run: python -m pip install -r requirements.txt
-      - name: Build the site and rulebook
-        id: package
-        run: |
-          python scripts/build.py
-          python -c "import json; print('build_id=' + json.load(open('dist/build.json'))['build'])" >> "$GITHUB_OUTPUT"
-      - run: node --test tests/*.test.mjs
-      - run: python -m unittest discover -s tests -p 'test_*.py'
-      - run: python scripts/verify.py
+          name: site-candidate
+          path: candidate
+          run-id: ${{ inputs.candidate_run }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Reuse a previously approved common release for rollback
+        if: inputs.published_release != ''
+        run: python scripts/release_workflow.py restore-download --tag "$PUBLISHED_RELEASE" --source "$SOURCE_COMMIT" --sha256 "$BUNDLE_SHA256"
+      - name: Verify the approved bytes and extract without rebuilding
+        run: python scripts/release_bundle.py check candidate --source "$SOURCE_COMMIT" --sha256 "$BUNDLE_SHA256" --extract published-site
+      - name: Confirm that the main server is waiting for this exact candidate
+        run: python scripts/release_workflow.py require-server-ready --folder candidate --source "$SOURCE_COMMIT" --sha256 "$BUNDLE_SHA256"
+      - name: Make the approved bundle available to the one-shot server process
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/release_workflow.py publish --folder candidate --source "$SOURCE_COMMIT" --sha256 "$BUNDLE_SHA256" --run-id "$CANDIDATE_RUN"
+      - name: Wait for the verified server backup and prepared candidate
+        run: python scripts/release_workflow.py wait-server-prepared --folder candidate --source "$SOURCE_COMMIT" --sha256 "$BUNDLE_SHA256"
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
-          path: dist
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy
+          path: published-site
+      - name: Publish the same files to Pages
         id: deployment
         uses: actions/deploy-pages@v4
-      - uses: actions/checkout@v6
-      - name: Verify the public release
-        env:
-          SITE_URL: ${{ steps.deployment.outputs.page_url }}
-          EXPECTED_BUILD: ${{ needs.build.outputs.build_id }}
-        run: python scripts/verify_deployed.py "$SITE_URL" "$EXPECTED_BUILD"
+      - name: Verify both sites and their source commit
+        run: python scripts/release_workflow.py wait --folder candidate --source "$SOURCE_COMMIT" --sha256 "$BUNDLE_SHA256"

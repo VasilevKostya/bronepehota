@@ -17,6 +17,12 @@ spec.loader.exec_module(deployed)
 
 
 class VerifyErrorDocumentTests(unittest.TestCase):
+    def test_matching_build_id_cannot_hide_a_wrong_source_commit(self):
+        metadata = {"build": "test", "source_commit": "1" * 40}
+        with patch.object(deployed, 'read', return_value=json.dumps(metadata).encode()):
+            with self.assertRaisesRegex(ValueError, 'source commit differs'):
+                deployed.verify('https://example.org/', 'test', '2' * 40)
+
     def verify(self, *, error_body=b"missing", missing_pdf=False):
         base = "https://example.org/"
         assets = {"404.html": b"missing", "book.pdf": b"pdf"}
