@@ -17,7 +17,6 @@ from release_bundle import check, require, validate_metadata
 from verify_deployed import verify, read
 
 REPOSITORY = 'VasilevKostya/bronepehota'
-API = 'https://api.github.com/repos/' + REPOSITORY
 PAGES = 'https://vasilevkostya.github.io/bronepehota/'
 MAIN = 'https://bronepehota.leonet.site/'
 
@@ -36,21 +35,18 @@ def release_tag(source, build):
 
 def approved_release(source, build, sha256):
     tag = release_tag(source, build)
-    release = get_json(API + '/releases/tags/' + tag)
-    require(not release['draft'] and not release['prerelease']
-            and release['target_commitish'] == source, 'Release is not approved for this source')
-    assets = {asset['name']: asset for asset in release['assets']}
-    require({'site.zip', 'release.json', 'approval.json'} <= assets.keys(), 'Incomplete release')
     prefix = 'https://github.com/' + REPOSITORY + '/releases/download/' + tag + '/'
-    for name in ['site.zip', 'release.json', 'approval.json']:
-        require(assets[name]['browser_download_url'] == prefix + name, 'Unexpected release asset URL')
+    # Public release assets return 404 until the complete draft is published.
+    # These URLs avoid the shared unauthenticated REST API rate limit.
+    assets = {name: {'browser_download_url': prefix + name}
+              for name in ['site.zip', 'release.json', 'approval.json']}
     metadata = get_json(assets['release.json']['browser_download_url'])
     validate_metadata(metadata, source, sha256, build)
     approval = get_json(assets['approval.json']['browser_download_url'])
     require(approval.get('source_commit') == source and approval.get('sha256') == sha256
             and approval.get('build') == build and approval.get('actor', '').lower() == 'vasilevkostya',
             'Approval does not match the candidate or owner')
-    return release, assets, metadata
+    return {'tag_name': tag, 'public_assets': True}, assets, metadata
 
 
 def download(assets, metadata, folder):

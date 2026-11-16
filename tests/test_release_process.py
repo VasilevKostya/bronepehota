@@ -138,14 +138,20 @@ class ApprovalTests(unittest.TestCase):
     def test_release_by_another_actor_is_not_accepted(self):
         meta = {'schema': 1, 'source_commit': SOURCE, 'build': NEW_BUILD, 'sha256': '0' * 64,
                 'archive': 'site.zip', 'bytes': 1, 'files': {'index.html': '0' * 64}}
-        prefix = 'https://github.com/' + release_main.REPOSITORY + '/releases/download/' + release_main.release_tag(SOURCE, NEW_BUILD) + '/'
-        release = {'draft': False, 'prerelease': False, 'target_commitish': SOURCE,
-                   'assets': [{'name': name, 'browser_download_url': prefix + name}
-                              for name in ['site.zip', 'release.json', 'approval.json']]}
         approval = {'source_commit': SOURCE, 'build': NEW_BUILD, 'sha256': '0' * 64, 'actor': 'someone-else'}
-        with patch.object(release_main, 'get_json', side_effect=[release, meta, approval]):
+        with patch.object(release_main, 'get_json', side_effect=[meta, approval]):
             with self.assertRaisesRegex(ValueError, 'Approval does not match'):
                 release_main.approved_release(SOURCE, NEW_BUILD, '0' * 64)
+
+    def test_server_reads_only_public_asset_urls_without_rest_api_polling(self):
+        meta = {'schema': 1, 'source_commit': SOURCE, 'build': NEW_BUILD, 'sha256': '0' * 64,
+                'archive': 'site.zip', 'bytes': 1, 'files': {'index.html': '0' * 64}}
+        approval = {'source_commit': SOURCE, 'build': NEW_BUILD, 'sha256': '0' * 64, 'actor': 'VasilevKostya'}
+        with patch.object(release_main, 'get_json', side_effect=[meta, approval]) as network:
+            _, assets, _ = release_main.approved_release(SOURCE, NEW_BUILD, '0' * 64)
+        self.assertTrue(all(call.args[0].startswith('https://github.com/' + release_main.REPOSITORY + '/releases/download/')
+                            for call in network.call_args_list))
+        self.assertNotIn('api.github.com', assets['site.zip']['browser_download_url'])
 
 
 class ControllerRollbackTests(TemporaryCase):
