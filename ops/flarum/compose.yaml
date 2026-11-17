@@ -1,0 +1,82 @@
+name: bronepehota-forum-prep
+
+x-logging: &logging
+  driver: json-file
+  options:
+    max-size: 10m
+    max-file: '3'
+
+services:
+  bootstrap:
+    profiles: [setup]
+    image: bronepehota-flarum:2.0.2-php8.4.27
+    build: .
+    entrypoint: [/usr/local/bin/forum-bootstrap]
+    restart: 'no'
+    volumes:
+      - type: bind
+        source: ${FORUM_DATA_ROOT:?Run forumctl.py prepare first}/app
+        target: /var/www/html
+        bind:
+          create_host_path: false
+      - type: bind
+        source: ${FORUM_DATA_ROOT}/composer-cache
+        target: /composer-cache
+        bind:
+          create_host_path: false
+    logging: *logging
+
+  app:
+    profiles: [runtime]
+    image: bronepehota-flarum:2.0.2-php8.4.27
+    restart: 'no'
+    ports:
+      - 127.0.0.1:8086:80
+    volumes:
+      - type: bind
+        source: ${FORUM_DATA_ROOT}/app
+        target: /var/www/html
+        bind:
+          create_host_path: false
+    depends_on:
+      db:
+        condition: service_healthy
+    networks: [default, database]
+    logging: *logging
+
+  db:
+    profiles: [runtime]
+    image: mariadb:11.8.9@sha256:d36f18d65a0459510b8b0f643b226a6d299e3206486e2b64ff20754a6d291707
+    restart: 'no'
+    environment:
+      MARIADB_DATABASE: forum
+      MARIADB_USER: forum
+      MARIADB_PASSWORD_FILE: /run/secrets/db_password
+      MARIADB_ROOT_PASSWORD_FILE: /run/secrets/db_root_password
+    secrets: [db_password, db_root_password, db_root_client]
+    volumes:
+      - type: bind
+        source: ${FORUM_DATA_ROOT}/db
+        target: /var/lib/mysql
+        bind:
+          create_host_path: false
+    healthcheck:
+      test: [CMD, healthcheck.sh, --connect, --innodb_initialized]
+      interval: 5s
+      timeout: 5s
+      retries: 24
+      start_period: 30s
+    networks: [database]
+    logging: *logging
+
+networks:
+  database:
+    internal: true
+
+secrets:
+  db_password:
+    file: ${FORUM_DATA_ROOT}/secrets/db_password
+  db_root_password:
+    file: ${FORUM_DATA_ROOT}/secrets/db_root_password
+  db_root_client:
+    file: ${FORUM_DATA_ROOT}/secrets/db_root_client.cnf

@@ -1,0 +1,10 @@
+[Unit]
+Description=Weekly backup of Bronepehota forum on Sunday at 03:15 Yekaterinburg
+
+[Timer]
+OnCalendar=Sun *-*-* 03:15:00 Asia/Yekaterinburg
+Persistent=true
+Unit=bronepehota-forum-backup.service
+
+[Install]
+WantedBy=timers.target

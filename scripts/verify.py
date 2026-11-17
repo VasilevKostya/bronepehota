@@ -20,6 +20,13 @@ for name,doc in docs.items():
         if u.fragment and path in docs and u.fragment not in docs[path].xpath('//@id'):errors.append(f'Missing anchor: {name} -> {attr}')
     for img in doc.xpath('//img'):
         if not img.get('alt'):errors.append(f'Missing alternative text: {name}')
+    forum_links=doc.xpath('//nav[@class="global-nav" or @class="mobile-actions"]//a[normalize-space(.)="Форум"]')
+    if name!='armies.html' and (len(forum_links)!=2 or any(a.get('href')!='https://bronepehota.leonet.site/forum/' for a in forum_links)):
+        errors.append(f'Forum navigation must use the public Flarum URL: {name}')
+    github_links=[a for a in doc.xpath('//a[@href]') if urlsplit(a.get('href')).hostname=='github.com']
+    if github_links and name!='changes.html':errors.append(f'GitHub link outside changes page: {name}')
+    if name=='changes.html' and not any(a.get('href')=='https://github.com/VasilevKostya/bronepehota/discussions' for a in github_links):
+        errors.append('Changes page must preserve the GitHub discussions archive.')
 manifest=json.loads((dist/'precache.json').read_text(encoding='utf-8'))
 for path in manifest['files']:
     if any(part.startswith('.') for part in Path(path).parts):errors.append(f'Non-public file in offline manifest: {path}')

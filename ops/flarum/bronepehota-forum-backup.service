@@ -1,0 +1,17 @@
+[Unit]
+Description=Weekly backup of Bronepehota forum
+Requires=bronepehota-forum.service
+After=bronepehota-forum.service
+RequiresMountsFor=/mnt/Share
+
+[Service]
+Type=oneshot
+User=kostya
+Group=kostya
+WorkingDirectory=/mnt/Share/kostya/bronepehota-forum/deployment
+ExecStart=/usr/bin/python3 /mnt/Share/kostya/bronepehota-forum/deployment/forumctl.py backup
+UMask=0077
+TimeoutStartSec=30min
+Nice=10
+IOSchedulingClass=best-effort
+IOSchedulingPriority=7

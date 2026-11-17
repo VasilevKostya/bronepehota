@@ -1,0 +1,8 @@
+.env
+secrets/
+app/
+db/
+backups/
+restore-tests/
+composer-cache/
+__pycache__/

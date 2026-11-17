@@ -151,3 +151,9 @@ python3 /mnt/Share/kostya/bronepehota/tools/verify_deployed.py https://bronepeho
 ## Единый выпуск — обязательный порядок
 
 Каждый новый выпуск связывает `source_commit`, build ID и SHA-256 архива. Использовать только готовый CI-кандидат для обеих площадок; сервер не пересобирает опубликованный пакет. После подтверждения выполнять разовую SSH-команду из Summary CI и ручной `Publish approved build`; не запускать их по одному без контроля общего результата. Прямые `git pull` и пересборка в рабочем `dist/` не заменяют этот процесс. Общий успех требует `deployment-status.json` со статусом `verified` и проверки обеих площадок. `deployment-prepared.json` и `deployment-status.json` — служебные данные: не включать в архив/офлайн-манифест и не считать пользовательским контентом. Команды, откат и ограничения первого общего выпуска — в `docs/release-process.md`. Постоянный фоновый сервис не настроен; команды применяют только явно подтверждённый конкретный выпуск.
+
+## Автозапуск, недельные копии и ссылки — 2026-11-17
+
+По прямому поручению пользователя подготовлены ops/flarum/runtime.py, install_services.py и три bronepehota-forum*.service/.timer. Установка: sudo python3 /mnt/Share/kostya/bronepehota-forum/deployment/install_services.py install; она ожидает владельца сервера. Compose restart остаётся no: запуском управляет системная служба после Docker и mnt-Share.mount, с проверкой канонических путей. Недельные копии — воскресенье 03:15 Asia/Yekaterinburg, Persistent=true, без автоматического удаления. Не обходить sudo через Docker. Статус, проверка и отключение — docs/forum-runtime.md.
+
+В исходниках сайта кнопки форума направлены на https://bronepehota.leonet.site/forum/, GitHub оставлен только архивной ссылкой на changes.html. Публиковать конкретный проверенный CI-кандидат на обе площадки по docs/release-process.md; ручная замена dist запрещена. Не включать в коммит чужие незавершённые правки.

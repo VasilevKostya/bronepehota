@@ -8,8 +8,9 @@ RELEASE=json.loads((ROOT/'content/release.json').read_text(encoding='utf-8'))
 CHAPTERS=[json.loads(p.read_text(encoding='utf-8')) for p in sorted((ROOT/'content/rules').glob('*.json'))]
 EDITION=f"{RELEASE['edition']} {RELEASE['version']}"
 PDF='bronepehota-ural-'+RELEASE['version']+'.pdf'
-FORUM='https://github.com/VasilevKostya/bronepehota/discussions'
-FORUM_ATTRS=f'href="{FORUM}" target="_blank" rel="noopener noreferrer" aria-label="Форум на GitHub — нужна сеть, откроется в новой вкладке" title="Форум на GitHub · нужен интернет · новая вкладка"'
+FORUM='https://bronepehota.leonet.site/forum/'
+FORUM_ARCHIVE='https://github.com/VasilevKostya/bronepehota/discussions'
+FORUM_ATTRS=f'href="{FORUM}" target="_blank" rel="noopener noreferrer" aria-label="Форум «Бронепехоты» — нужен интернет, откроется в новой вкладке" title="Форум · нужен интернет · новая вкладка"'
 def esc(x): return html.escape(str(x),quote=True)
 def icon(name):return f'<span class="icon" style="--icon:url(icons/{name}.svg)" aria-hidden="true"></span>'
 def url(ch):return 'pravila-'+ch['id']+'.html'
@@ -31,7 +32,7 @@ def frame(title,content,current=None,toc=''):
     if not catalog: mobile_actions += f'<a href="{PDF}" download>{icon("download-simple")}PDF</a>'
     body=f'''<a class="skip" href="#main">Перейти к содержанию</a>
 <header class="topbar"><a class="brand" href="index.html" aria-label="Бронепехота — главная"><strong>БРОНЕПЕХОТА</strong><span>{EDITION}</span></a>
-<nav class="global-nav" aria-label="Основная навигация"><a href="index.html" class="{'active' if not catalog else ''}">Правила</a><a href="catalog.html" class="{'active' if catalog else ''}">Каталог</a><a {FORUM_ATTRS}>Форум<small>GitHub</small></a></nav>
+<nav class="global-nav" aria-label="Основная навигация"><a href="index.html" class="{'active' if not catalog else ''}">Правила</a><a href="catalog.html" class="{'active' if catalog else ''}">Каталог</a><a {FORUM_ATTRS}>Форум</a></nav>
 <button class="menu-button" data-open-chapters aria-label="Открыть оглавление" aria-haspopup="dialog">{icon('list')}</button>
 {header_tools}</header>
 <div class="shell">{sidebar}
@@ -104,7 +105,7 @@ def build(skip_pdf=False,source_commit=None):
     (DIST/'search.html').write_text(frame('Поиск',search),encoding='utf-8')
     history=''.join('<h2>'+esc(RELEASE['edition']+' '+r['version'])+'</h2><p>'+esc(r['date'])+'</p><ul>'+''.join('<li>'+esc(x)+'</li>' for x in r['changes'])+'</ul>' for r in RELEASE.get('history',[]))
     changes='<div class="home"><div class="breadcrumbs"><a href="index.html">Правила</a><span>/</span>Редакция</div><h1>Редакция и изменения</h1><h2>'+EDITION+'</h2><p>'+RELEASE['date']+'</p><ul>'+''.join('<li>'+esc(x)+'</li>' for x in RELEASE['changes'])+'</ul><p>Основа правил — предоставленная фанатская редакция. Согласованные изменения механики перечислены в истории выпусков. Нерешённые вопросы выделены примечаниями «Требует уточнения».</p>'+history+'<h2>Редакционные исправления</h2><p>При первоначальном переносе восстановлены пробелы в склеенных словах, объединены разорванные переносом страницы предложения и исправлены очевидные опечатки. Изменения игровой механики фиксируются отдельно для каждой редакции.</p><h2>Чтение без интернета</h2><p>При первом открытии сайт сохраняет все главы, 105 карточек каталога, небольшие изображения, поиск и PDF. Увеличенные изображения сохраняются по мере просмотра. Дождитесь статуса «Доступно без интернета». Сохранение относится к этому браузеру и устройству. Если очистить данные сайта, материалы потребуется загрузить заново.</p><p>При появлении новой сборки сайт загружает только изменённые файлы и предлагает обновление. До его принятия доступна сохранённая редакция. Для ручной проверки нажмите «Доступно без интернета»: появится прогресс, после подготовки сайт переключится на новую сборку. При обрыве можно повторить загрузку; уже сохранённые файлы не потребуется скачивать заново.</p></div>'
-    changes=changes.replace('<h2>Чтение без интернета</h2>',f'<h2>Обсуждение правил</h2><p><a {FORUM_ATTRS}>Форум на GitHub</a> — вопросы по правилам, предложения по изменениям и объявления о новых редакциях. Читать можно без регистрации; чтобы участвовать, войдите в GitHub. Форум открывается в новой вкладке и требует интернета.</p><p>Обсуждение и отмеченный ответ сами по себе не меняют правила. Изменения утверждает владелец проекта и включает в следующую редакцию сайта и PDF.</p><h2>Чтение без интернета</h2>')
+    changes=changes.replace('<h2>Чтение без интернета</h2>',f'<h2>Обсуждение правил</h2><p><a {FORUM_ATTRS}>Форум «Бронепехоты»</a> — вопросы по правилам, предложения по изменениям и объявления о новых редакциях. Читать можно без регистрации; для участия нужна учётная запись форума, которую пока создаёт администратор. Форум открывается в новой вкладке и требует интернета.</p><p>Обсуждение само по себе не меняет правила. Изменения утверждает владелец проекта и включает в следующую редакцию сайта и PDF.</p><p><a href="{FORUM_ARCHIVE}" target="_blank" rel="noopener noreferrer" aria-label="Архив обсуждений на GitHub — откроется в новой вкладке">Архив обсуждений на GitHub</a> — прежние темы проекта. Старые обсуждения пока не перенесены на новый форум.</p><h2>Чтение без интернета</h2>')
     (DIST/'changes.html').write_text(frame('Редакция и изменения',changes),encoding='utf-8')
     (DIST/'404.html').write_text(frame('Страница не найдена','<div class="empty-page"><h1>Страница не найдена</h1><p>Возможно, ссылка изменилась. Откройте оглавление или воспользуйтесь поиском.</p><a class="button" href="index.html">К правилам</a></div>'),encoding='utf-8')
     (DIST/'.nojekyll').write_text('',encoding='utf-8')

@@ -1,0 +1,25 @@
+[Unit]
+Description=Bronepehota forum on Share storage
+Requires=docker.service
+After=docker.service network-online.target
+Wants=network-online.target
+PartOf=docker.service
+RequiresMountsFor=/mnt/Share
+BindsTo=mnt-Share.mount
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+User=kostya
+Group=kostya
+WorkingDirectory=/mnt/Share/kostya/bronepehota-forum/deployment
+ExecStart=/usr/bin/python3 /mnt/Share/kostya/bronepehota-forum/deployment/runtime.py start
+ExecStop=/usr/bin/python3 /mnt/Share/kostya/bronepehota-forum/deployment/runtime.py stop
+Restart=on-failure
+RestartSec=15s
+TimeoutStartSec=240s
+TimeoutStopSec=180s
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target
